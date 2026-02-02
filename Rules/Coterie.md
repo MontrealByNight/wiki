@@ -1,9 +1,11 @@
 # What is a Coterie
 > A small group of people with shared interests or tastes, especially one that is exclusive of other people. *"a coterie of friends and advisers"*
+
 -- [Google definition]
 
-- Coterie is a term used in Vampire: The Masquerade to denote a group of vampires who have banded together for a common purpose. Typically, they choose to band together on their own, under the belief that safety lies in numbers. On occasion, the prince has been known to assign neonates together as a "coterie" for a specific task.
-  [WhiteWolf Wiki](https://whitewolf.fandom.com/wiki/Coterie)
+> Coterie is a term used in Vampire: The Masquerade to denote a group of vampires who have banded together for a common purpose. Typically, they choose to band together on their own, under the belief that safety lies in numbers. On occasion, the prince has been known to assign neonates together as a "coterie" for a specific task.
+
+-- [WhiteWolf Wiki](https://whitewolf.fandom.com/wiki/Coterie)
 
 A coterie is a group of kindred, between 3 and 6, that work together towards a common goal. May that goal obtain Princedom, become Warlords, have the Strongest family, ammass resources or knowledge... That is decided by it's members.
 In this game, while "temporary coteries" might form due to plots, quests, interaction... what we are about to give rules for is the permanent coteries. The one that stick together for a long time.
