@@ -1,10 +1,9 @@
 # What is a Coterie
-- A small group of people with shared interests or tastes, especially one that is exclusive of other people.
-*"a coterie of friends and advisers"*
- [Google definition]
+> A small group of people with shared interests or tastes, especially one that is exclusive of other people. *"a coterie of friends and advisers"*
+-- [Google definition]
 
 - Coterie is a term used in Vampire: The Masquerade to denote a group of vampires who have banded together for a common purpose. Typically, they choose to band together on their own, under the belief that safety lies in numbers. On occasion, the prince has been known to assign neonates together as a "coterie" for a specific task.
-  [VTM Wiki]
+  [WhiteWolf Wiki](https://whitewolf.fandom.com/wiki/Coterie)
 
 A coterie is a group of kindred, between 3 and 6, that work together towards a common goal. May that goal obtain Princedom, become Warlords, have the Strongest family, ammass resources or knowledge... That is decided by it's members.
 In this game, while "temporary coteries" might form due to plots, quests, interaction... what we are about to give rules for is the permanent coteries. The one that stick together for a long time.
@@ -12,7 +11,7 @@ In this game, while "temporary coteries" might form due to plots, quests, intera
 A coterie must be formed in game. No coterie can be created without interaction between their future members. They must share a common goal and have discussed it, in game, at least a few times.
 This prerequisite is really important. It does happen really often that players want their characters to interact and create a Coterie, but more often than not the characters share a different in game agenda and so the coteries fizzle at it's creation. After all, all kindred are selfish creature of the nights that rarely tolerates other possible causes of problems.
 
-To create a Coterie then, once the kindred have agreed in game to the possible terms of this agreement, one of the player will open a coterie ticket in <#1131321456496742484> and will state who are the other members, what are the goals of said coterie, what's their name [which will be more or less known in game, depending on the choices made] and what archetype they intend to fulfiil.
+To create a Coterie then, once the kindred have agreed in game to the possible terms of this agreement, one of the player will open a coterie ticket in [#🎫-ticket-machine](https://discord.com/channels/1131321454701580318/1131321456496742484) and will state who are the other members, what are the goals of said coterie, what's their name [which will be more or less known in game, depending on the choices made] and what archetype they intend to fulfiil.
 The archetypes are just a guideline, it does not mean that you will need the merits or the backrounds listed in the books, is more to give the storyteller an idea of what the coterie wants to do in the medium to long term.
 
 # Merits and Advantages
@@ -38,7 +37,7 @@ For example, Caine's player wants to buy 2 dots in haven, which would cost 6 exp
 ## Domain
 
 The domain rating is the size of your coterie's domain. A one dot might be a big building or a couple of smaller ones, a 5 dots is a big area, like the whole of Little Italy or the Gay Village.
-The domain rating is given by the average of the other 3 traits [Portillon, Chasse and Lien], rounded down. This trait does not exist in the corebook and it's just a way to gauge the approximate size of the Domain held by the coterie.
+The domain rating is given by the average of the other 3 traits [Portillon](Coterie.md#portillon), [Chasse](Coterie.md#chasse) and [Lien](Coterie.md#/lien), rounded down. This trait does not exist in the corebook and it's just a way to gauge the approximate size of the Domain held by the coterie.
 
 
 This domain might or might not be public knowledge. A coterie needs to be sure that they are able to defend their domain, in case other kindreds aim at it. A Camarilla coterie can have their domain in contested or even Anarch territory. But if this knowledge becomes public, other people might try to take it away from them and reclaim it for their sect or their own coterie. Even inside the same sect, a coterie might lose a status battle against another coterie, or the coterie can act against the sect and they might get shunned and so on... Some coterie prefer to keep themselvs on the down side ("Hey, we have a block Downtown, no one know we have a Haven there, dont bring anyone in") or might decide to go public ("The Coterie of Carna has opened the doors to their Domain, inviting all redworkers to come and share knowledge"). That is a personal choice that depends on each single coterie. It goes unsaid that, if a coterie's domain is unknown, they rarely will have a strong hold over it ("what do you mean i poached in your domain? This is no one's land.").
@@ -46,9 +45,12 @@ This domain might or might not be public knowledge. A coterie needs to be sure t
 A domain MUST be anchored to an existing named location (the ones in the pins of each channel). In extraordinary cases, if the staff sees it fit, a new location can be created and named for a coterie, on a case by case basis. Do not expect this to be the norm.
 
 The number of locations a Coterie can hold depends on their domain rating.
-> Domain 1-3: 1 location
-> Domain 4: 2 locations
-> Domain 5: 3 locations
+
+| Domain Dots | Locations |
+| ---- | ----- |
+| 1-3 dots | 1 location  |
+| 4 dots | 2 locations |
+| 5 dots | 3 locations |
 
 ## Portillon
 
@@ -74,6 +76,7 @@ Each dot of Lien gives a bonus to all the dice pools used to interact with the p
 
 Some Coteries might not have a domain (maybe they are inter sects, maybe they want to remain hidden, maybe they are not stationary.)
 In that case, they could swap the automatic dots in Chasse, Lien and Portillon for related Backgrounds instead.
+
 - Chasse becomes Haven, Haven merits, Herd or Retainers.
 - Lien becomes Contacts, Influence or Retainers.
 - Portillon becomes Allies, Mask, Mawla or Retainers.
@@ -82,51 +85,50 @@ In that case, they could swap the automatic dots in Chasse, Lien and Portillon f
 
 A Coterie sheet will look something like this: 
 
-Type: Commando
-Name: Example Coterie
-Symbol: <:Camarilla:1295442843472760956> 
+    Type: Commando
+    Name: Example Coterie
+    Symbol: <:Camarilla:1295442843472760956> 
 
-Domain Traits:
-Domain: ●
-Position: <#1131321457411100750> Devil's Hill
-Chasse: ● 
-Lien: ● 
-Portillon: ●(●●)
-↪Transit ●● (2 free dots)
+    Domain Traits:
+    Domain: ●
+    Position: Devil's Hill
+    Chasse: ● 
+    Lien: ● 
+    Portillon: ●(●●)
+    ↪Transit ●● (2 free dots)
 
-Location: Westmount Park <#1131321457411100744> 
+    Location: Westmount Park
 
-Haven: ●●●  (Cain, Westmount Park and it's staff buildings)
-↪Watchmen: ● (Cain)
-↪Security: ●●●  (Cain)
-↪Library: ●● (Cain, Occult, Blood Sorcery)
-↪Cell: ● (Cain)
-↪Laboratory: ● (Cain)
-↪Surgery: ● (Cain)
-↪Postern: ●● (from Transit merit) 
-↪Hidden armory: ● (Abel, 3 exp) 
+    Haven: ●●●  (Cain, Westmount Park and it's staff buildings)
+    ↪Watchmen: ● (Cain)
+    ↪Security: ●●●  (Cain)
+    ↪Library: ●● (Cain, Occult, Blood Sorcery)
+    ↪Cell: ● (Cain)
+    ↪Laboratory: ● (Cain)
+    ↪Surgery: ● (Cain)
+    ↪Postern: ●● (from Transit merit) 
+    ↪Hidden armory: ● (Abel, 3 exp) 
 
-Coterie advantages:
-Bolt holes ●● (2 free dots)
+    Coterie advantages:
+    Bolt holes ●● (2 free dots)
 
-Coterie clan merits:
-![](/assets/banu_haqim.png) Call to Purpose ●● (Ur Shulgi, 6 xp)
-![](/assets/lasombra.png) At Any Cost ●● (Montano, 6xp)
+    Coterie clan merits:
+    :Banu: Call to Purpose ●● (Ur Shulgi, 6 xp)
+    :lasombra: At Any Cost ●● (Montano, 6xp)
+
+    Pooled Backgrounds:
+    Contact ● Uber Driver (Cain)
+    Contact ●●● Criminal Arms Dealer (Ur Shulgi)
+    Contact ●●● Underworld (Montano)
+    Contact ● Police (Cain) 
+    Influence: Police ●● (Ur shulgi)
 
 
-Pooled Backgrounds:
-Contact ● Uber Driver (Cain)
-Contact ●●● Criminal Arms Dealer (Ur Shulgi)
-Contact ●●● Underworld (Montano)
-Contact ● Police (Cain) 
-Influence: Police ●● (Ur shulgi)
-
-
-Members: 
-Cain
-Montano
-Ur Shulgi
-Abel
+    Members: 
+    Cain
+    Montano
+    Ur Shulgi
+    Abel
 
 In this example, the domain rating is 1 (there are 5 dots total in the three traits, and the average rounded down is 1). The one marked (free dots) are the 4 free dots that any coterie has. The one without the exp expenditures are the backgrounds and the merit that one member adds to the coterie and they already have from before (Cain has a very good haven that they want to use for the coterie haven, so all his points transfers here). The contacts and the influence are pooled among the members, means they dont pay anything as they already have them, but the coterie can have access to them indipendently.
 
@@ -152,10 +154,10 @@ A coterie can also swap the rating of the traits for the merits, when they acqui
 
 ## Location bonuses
 
-
 Each location has some bonus that have to be discovered by the coterie that takes ownership, following a project. Those bonuses are hidden until a successfull project uncovers them. A coterie has access to the bonus of any location they have access to (this is why domains are linked to named locations and this is also why coterie hardly have the chance to hold multiple locations).
 
 Those projects are designed to be long and the bonus are going to be worth your effort. Please discuss in your coterie ticket how to conduct this kind of project.
 
 Known location bonuses: 
-- ** <#1131321457411100751> Our Lady of Grace Catholic Church**: The parish is trusted and respected in the neighborhood, and its clergy and volunteers turn a blind eye to small irregularities. Once per story, if the coterie spends 3 dot of Resources or succeeds on a DC 6 Charisma + Persuasion test, they may call on the parish network to cover up an “incident” (a disappearance, suspicious noise, or odd activity) in the area. This erases one night’s worth of Masquerade exposure in Notre-Dame-de-Grâce, though repeated use may draw suspicion from outside the parish.
+
+- ** Our Lady of Grace Catholic Church**: The parish is trusted and respected in the neighborhood, and its clergy and volunteers turn a blind eye to small irregularities. Once per story, if the coterie spends 3 dot of Resources or succeeds on a DC 6 Charisma + Persuasion test, they may call on the parish network to cover up an “incident” (a disappearance, suspicious noise, or odd activity) in the area. This erases one night’s worth of Masquerade exposure in Notre-Dame-de-Grâce, though repeated use may draw suspicion from outside the parish.
