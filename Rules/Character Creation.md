@@ -16,7 +16,7 @@ Pick one Skill distribution between Jack of all Trade, Balanced or Specialist
 
 [Specialist is advised for more experienced players that know what they are doing]
 
-Add free specialties to Academics, Craft, Performance, and Science Skills.
+Add free specialties to Academics, Craft, Performance, and Science Skills if there is one or more dot invested in them.
 Take one more free specialty.
 
 # Disciplines
@@ -29,9 +29,9 @@ Choose one of the Predator Types available.
 Human players that receive the embrace in game will be able to get a predator type over the course of one or more timeskip.
 Thin blood characters can take the discipline dot if they have a discipline affinity.
 
-The predator types that give Oblivion and Blood Sorcery only gives them if the character already has it in clan.
-For example, a Hecata can take bagger and obtain a dot in Oblivion, a Brujah cannot take oblivion.
-This is valid for all the PTs that include Oblivion and BS and valid for all the clan that have them as their normal spread (even bloodlines)
+The predator types that give Oblivion and Blood Sorcery only give them if the character already has the Discipline in clan.
+For example, a Hecata can take bagger and obtain a dot in Oblivion, a Brujah cannot take Oblivion.
+This is valid for all the PTs that include Oblivion and BS and valid for all the clans that have them as their normal spread (even bloodlines).
 
 # Conviction and touchstones
 Choose between 1-3 convictions and associated touchstones.
