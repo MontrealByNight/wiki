@@ -27,7 +27,7 @@ Looking for a specific resonance could be done in some particular way.
 - Each predator type has access to a specific resonance linked to the predator type. One can decide to hunt for one of those instead. Just add /temperament resonance instead of /resonance
 Predator Types:
 - **Alleycat**
-↪ ![](/assets/choleric.png) Choleric ![](/assets/Melancholic.png) Melancholic
+↪ :choleric: Choleric ![](/assets/Melancholic.png) Melancholic
 - **Bagger **
 ↪![](/assets/empty.png) Empty Fleeting only
 - ~~**Blood Leech**~~ 
@@ -35,20 +35,20 @@ Predator Types:
 - **Cleaver** ↪![](/assets/phlegmatic.png) Phlegmatic ![](/assets/Melancholic.png) Melancholic
 - **Consensualist **
 ↪![](/assets/sanguine.png) Sanguine ![](/assets/Melancholic.png) Melancholic
-- **Extortionist** ↪![](/assets/Melancholic.png) Melancholic ![](/assets/choleric.png) Choleric
+- **Extortionist** ↪![](/assets/Melancholic.png) Melancholic :choleric: Choleric
 - **Farmer **
 ↪Animal resonance only
 - **Graverobber**
 ↪ ![](/assets/empty.png) Empty ![](/assets/phlegmatic.png) Phlegmatic
 - **Grim Reaper**
 ↪ ![](/assets/empty.png) Empty ![](/assets/Melancholic.png) Melancholic
-- **Montero** ↪![](/assets/choleric.png) Choleric ![](/assets/Melancholic.png) Melancholic
+- **Montero** ↪:choleric: Choleric ![](/assets/Melancholic.png) Melancholic
 - **Osiris** ↪![](/assets/phlegmatic.png) Phlegmatic ![](/assets/sanguine.png) Sanguine
 - **Pursuer** ↪![](/assets/Melancholic.png) Melancholic ![](/assets/phlegmatic.png) Phlegmatic
-- **Roadside Killer** ↪![](/assets/sanguine.png) Sanguine ![](/assets/choleric.png) Choleric
+- **Roadside Killer** ↪![](/assets/sanguine.png) Sanguine :choleric: Choleric
 - **Sandman** ↪![](/assets/sanguine.png) Sanguine ![](/assets/phlegmatic.png) Phlegmatic
-- **Scene Queen** ↪![](/assets/sanguine.png) Sanguine ![](/assets/choleric.png) Choleric
-- **Siren** ↪![](/assets/sanguine.png) Sanguine ![](/assets/choleric.png) Choleric
+- **Scene Queen** ↪![](/assets/sanguine.png) Sanguine :choleric: Choleric
+- **Siren** ↪![](/assets/sanguine.png) Sanguine :choleric: Choleric
 - **Trapdoor** ↪![](/assets/sanguine.png) Sanguine ![](/assets/phlegmatic.png) Phlegmatic
 
 Dyscrasias can be achieved by either fully draining a human with an acute Resonance or by tapping the same person over three different nights. Ping the ST team if that's something you want to do. 
