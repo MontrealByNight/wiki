@@ -106,7 +106,7 @@ Locations:
   - DC 3  
 - :anarch: #Mercier Hocelaga Maisonneuve - Marché Maisonneuve A large public market housed in a beaux-arts building with brick columns and arched windows.
   - DC 2  
-- - :indie: #The old Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.  
+- :indie: #The old Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.  
   - DC 4  
 
 
