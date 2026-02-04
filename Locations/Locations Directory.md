@@ -159,6 +159,9 @@ This directory serves as the master reference for all territories in the chronic
     * **Coordinates**: `45.5048, -73.5560`
 * **The Clock Tower and Promenade**: Rising at the harbor’s edge, this massive white tower offers sweeping views of the river. At night, its light casts long shadows along the promenade.
 * **Bonsecours Market**: An elegant building with a curved, silver dome and neoclassical design. Stone halls echo with silence, and the air is heavy with a sense of history.
+* **The Velvet Speakeasy**: A true "speakeasy" style club located in the cavernous stone basement of the Auberge Saint-Gabriel. Accessible via a confusing, narrow tunnel lit by candles. The interior features stone walls, plush velvet furniture, and a dark, fashion-forward atmosphere.
+   * **Coordinates**: `45.5074, -73.5540`
+   * **Hunting: **Siren** DC 3.
 
 ### Mont Royal Plateau
 * **Rue Saint-Denis**: A lively avenue known for its historic facades and vibrant culture, transforming into a lively social scene at night.

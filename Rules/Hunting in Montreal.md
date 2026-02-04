@@ -1,71 +1,72 @@
 # Hunting
 
-Hunting is, if not specified, at a base difficulty of 6. In named locations, there will be listed predator types in which one can hunt with their associated difficulty. If your predator type matches the hunt you are doing, you have a -1 on the listed difficulty.
-For example: 
+Hunting is, if not specified, at a base difficulty of 6. In named locations, there will be listed predator types in which one can hunt with their associated difficulty. If your predator type matches the hunt you are doing, you have a -1 on the listed difficulty.  
+For example:  
+Hunting in Downtown would be an hunting difficulty of 6.  
+There is a named location, a night club called "Example" and Siren is listed at a DC 3.  
+John is a Bagger. He could hunt as a Bagger at DC 6, or as a Siren at DC 3.  
+Jack is a Siren, so he can hunt as a Siren at DC 2.  
 
-Hunting in Downtown would be an hunting difficulty of 6. 
-There is a named location, a night club called "Example" and Siren is listed at a DC 3. 
-John is a Bagger. He could hunt as a Bagger at DC 6, or as a Siren at DC 3.
-Jack is a Siren, so he can hunt as a Siren at DC 2.
+An hunting attempt takes a whole scene, even if it is just one roll. One cannot hunt in the middle of a scene and come back after a single round has passed. It takes time to find a prey, hunt, drink and leave no witness.  
 
-An hunting attempt takes a whole scene, even if it is just one roll. One cannot hunt in the middle of a scene and come back after a single round has passed. It takes time to find a prey, hunt, drink and leave no witness.
-
-A human can slake up to 2 hunger safetely. At 3 hunger slaked, an human may need to roll stamina DC 2 to see if they remain conscious. They will need some kind of assistance either way, or risk to die of bleeding out. At 4 hunger slaked, the human falls unconscious and needs urgent medical attentions. With 5, the human dies as they have no more blood left.
+A human can slake up to 2 hunger safetely. At 3 hunger slaked, an human may need to roll stamina DC 2 to see if they remain conscious. They will need some kind of assistance either way, or risk to die of bleeding out. At 4 hunger slaked, the human falls unconscious and needs urgent medical attentions. With 5, the human dies as they have no more blood left.  
 
 
-A successful hunt means you can not repeat the hunt in the same location. A failed hunt means you can try again at an increased difficulty.
-More than one successful hunting scene are possible during one night, but there has to be a scene with other players between each feeding. You can not spam hunting scenes without playing the game.
+A successful hunt means you can not repeat the hunt in the same location. A failed hunt means you can try again at an increased difficulty.  
+More than one successful hunting scene are possible during one night, but there has to be a scene with other players between each feeding. You can not spam hunting scenes without playing the game.  
 
-# Obtaining a resonance
+# Obtaining a resonance  
 
-Whenever an hunt is successful against a live mortal, one could roll for a random resonance with /resonance
+Whenever an hunt is successful against a live mortal, one could roll for a random resonance with `/resonance`  
 
-Looking for a specific resonance could be done in some particular way. 
-- Using the Bloodhound merit. Another character could roll for the merit and point the 'prey' at you. You still need to successfully hunt.
-- Once per night, and this can't be assisted, you can find the correct resonance with a successfull Resolve + Insight DC 5 roll
-- Bagged blood and blood from corpses has no resonance, same for ghoul's blood
-- Each predator type has access to a specific resonance linked to the predator type. One can decide to hunt for one of those instead. Just add /temperament resonance instead of /resonance
-Predator Types:
-- **Alleycat**
-↪ ![](/assets/choleric.png) Choleric ![](/assets/Melancholic.png) Melancholic
-- **Bagger **
-↪![](/assets/empty.png) Empty Fleeting only
-- ~~**Blood Leech**~~ 
-↪  No resonance
-- **Cleaver** ↪![](/assets/phlegmatic.png) Phlegmatic ![](/assets/Melancholic.png) Melancholic
-- **Consensualist **
-↪![](/assets/sanguine.png) Sanguine ![](/assets/Melancholic.png) Melancholic
-- **Extortionist** ↪![](/assets/Melancholic.png) Melancholic ![](/assets/choleric.png) Choleric
-- **Farmer **
-↪Animal resonance only
-- **Graverobber**
-↪ ![](/assets/empty.png) Empty ![](/assets/phlegmatic.png) Phlegmatic
-- **Grim Reaper**
-↪ ![](/assets/empty.png) Empty ![](/assets/Melancholic.png) Melancholic
-- **Montero** ↪![](/assets/choleric.png) Choleric ![](/assets/Melancholic.png) Melancholic
-- **Osiris** ↪![](/assets/phlegmatic.png) Phlegmatic ![](/assets/sanguine.png) Sanguine
-- **Pursuer** ↪![](/assets/Melancholic.png) Melancholic ![](/assets/phlegmatic.png) Phlegmatic
-- **Roadside Killer** ↪![](/assets/sanguine.png) Sanguine ![](/assets/choleric.png) Choleric
-- **Sandman** ↪![](/assets/sanguine.png) Sanguine ![](/assets/phlegmatic.png) Phlegmatic
-- **Scene Queen** ↪![](/assets/sanguine.png) Sanguine ![](/assets/choleric.png) Choleric
-- **Siren** ↪![](/assets/sanguine.png) Sanguine ![](/assets/choleric.png) Choleric
-- **Trapdoor** ↪![](/assets/sanguine.png) Sanguine ![](/assets/phlegmatic.png) Phlegmatic
+Looking for a specific resonance could be done in some particular way.  
+- Using the Bloodhound merit. Another character could roll for the merit and point the 'prey' at you. You still need to successfully hunt.  
+- Once per night, and this can't be assisted, you can find the correct resonance with a successfull Resolve + Insight DC 5 roll.  
+- Bagged blood and blood from corpses has no resonance, same for ghoul's blood.  
+- Each predator type has access to a specific resonance linked to the predator type. One can decide to hunt for one of those instead. Just add `/temperament resonance` instead of `/resonance`
 
-Dyscrasias can be achieved by either fully draining a human with an acute Resonance or by tapping the same person over three different nights. Ping the ST team if that's something you want to do. 
-The effects of the Dyscrasias are chosen by the staff, according to the situation.
+Predator Types:  
+- **Alleycat**  
+↪ :choleric: Choleric :melancholic: Melancholic  
+- **Bagger **  
+↪:empty: Empty Fleeting only  
+- ~~**Blood Leech**~~  
+↪  No resonance  
+- **Cleaver** ↪:phlegmatic: Phlegmatic :melancholic: Melancholic  
+- **Consensualist **  
+↪:sanguine: Sanguine :melancholic: Melancholic  
+- **Extortionist** ↪:melancholic: Melancholic :choleric: Choleric  
+- **Farmer **  
+↪Animal resonance only  
+- **Graverobber**  
+↪ :empty: Empty :phlegmatic: Phlegmatic  
+- **Grim Reaper**  
+↪ :empty: Empty :melancholic: Melancholic  
+- **Montero** ↪:choleric: Choleric :melancholic: Melancholic  
+- **Osiris** ↪:phlegmatic: Phlegmatic :sanguine: Sanguine  
+- **Pursuer** ↪:melancholic: Melancholic :phlegmatic: Phlegmatic  
+- **Roadside Killer** ↪:sanguine: Sanguine :choleric: Choleric  
+- **Sandman** ↪:sanguine: Sanguine :phlegmatic: Phlegmatic  
+- **Scene Queen** ↪:sanguine: Sanguine :choleric: Choleric  
+- **Siren** ↪:sanguine: Sanguine :choleric: Choleric  
+- **Trapdoor** ↪:sanguine: Sanguine :phlegmatic: Phlegmatic  
 
-Reaching Hunger 5 or drinking any other blood will remove the effect of the current resonance. A resonance can not be stored and loses it's properties in about 10 minutes.
+Dyscrasias can be achieved by either fully draining a human with an acute Resonance or by tapping the same person over three different nights. Ping the ST team if that's something you want to do. Please disregard the automatic selectionf od the Dyscrasia offered by the Inconnu bot.  
+The effects of the Dyscrasias are chosen by the staff, according to the situation.  
+Requesting to drink from the same person again will require talking with the staff about the modality. The roll is supposed to be hard and it's not only about finding the person again, but also making sure they maintain the same resonance in the same way.  
 
-There is no acute Animal resonance, only fleeting and intense.
+Reaching Hunger 5 or drinking any other blood will remove the effect of the current resonance. A resonance can not be stored and loses it's properties in about 10 minutes.  
 
-Bagged blood always give a fleeting Empty resonance.
+There is no acute Animal resonance, only fleeting and intense.  
 
-Resonances are needed to learn and level up new disciplines.
-Discipline levels 1-3 require fleeting
-4 require intense
-5 require acute
+Bagged blood always give a fleeting Empty resonance.  
 
-A temperament can be increased or a resonance can be changed with a scene assisted by the STs. As modifying someone's mood so heavily is a dangerous and ethically questionable thing, you may incur in stains if you do so.
+Resonances are needed to learn and level up new disciplines.  
+Discipline levels 1-3 require fleeting  
+4 require intense  
+5 require acute (the exceptions are Protean and Animalism - Intense animal resonance is enough to achieve the 5th of those disciplines)
+
+A temperament can be increased or a resonance can be changed with a scene assisted by the STs. As modifying someone's mood so heavily is a dangerous and ethically questionable thing, you may incur in stains if you do so.  
 
 ## Obtaining blood and Resonance from a Player Character
 
@@ -86,7 +87,7 @@ Addictions works in a similar way, to find a victim that has made use of the sus
 
 - +1 DC : Alchool, Weed
 - +2 DC: Cocaine, Meth, Speed, MDMA, Hallucinogens, lesser opiates, etc (most other street drugs)
-- +3 DC: Heroine 
+- +3 DC: Heroin
 
 And again, similarly to a prey exclusions, a character that hunts without the increased DC will not be able to satisfy the flaw and as such they will receive the effects of the flaw.
 A successfull hunt with the appropriate higher DC means that the kindred manages to feed on someone that has used the substance and so they receive the effects of said substance as written in the book.
@@ -101,30 +102,31 @@ An assault-feeder, this Kindred chooses to stalk, overpower, feed and escape fro
 
 Locations: 
 
-![](/assets/camarilla.png) - <#1131321457411100750>: Devil's hill - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
-- DC 3
-![](/assets/anarch.png) - <#1131321457734074461>: Hocelaga is well known for being the roughest Neighboorhood of Montreal.
-- DC 2
-![](/assets/independent.png) - <#1131321457033621523>: The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
-- DC 4
+:camarilla: # Montreal west - Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood.  - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.  
+  - DC 3  
+- :anarch: #Mercier Hocelaga Maisonneuve - Marché Maisonneuve A large public market housed in a beaux-arts building with brick columns and arched windows.
+  - DC 2  
+- :indie: #The old Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.  
+  - DC 4  
 
 
 # Bagger
-This Kindred prefers to drink procured cold blood to feeding from a live victim. 
-A successfull Bagger hunt provides 1 blood bag.§
-More succesess over margin will bear more blood bags at 1-2-4-7 successes above margin.
-For example, if the DC is 2, you will receive one blood bags with 2 successes, 2 blood bags with 3 successes, 3 blood bags with 6 successes and 4 blood bags with 9 successes.
-A crit can yeld one extra blood bag.
+This Kindred prefers to drink procured cold blood to feeding from a live victim.  
+A successfull Bagger hunt provides 1 blood bag.  
+More succesess over margin will bear more blood bags at 1-2-4-7 successes above margin.  
+For example, if the DC is 2, you will receive one blood bags with 2 successes, 2 blood bags with 3 successes, 3 blood bags with 6 successes and 4 blood bags with 9 successes.  
+A crit can yeld one extra blood bag.  
+Those bag cannot be stored if the character doesn't posses a relevant haven merit (Lab/surgery) and cannot be maintained for a long period of time (they expire over the next timeskip).  
 
 - Intelligence + Streetwise
 
 Locations:
-![](/assets/camarilla.png)  <#1131321457411100750> LaSalle hospital: a small hospital near the river.
-- DC 2
-![](/assets/anarch.png) <#1131321457734074463> Hôpital Vétérinaire de L’Est: a small veterinary clinic that offers back alley deal for the right price
-- DC 2
-![](/assets/independent.png) <#1131321457033621521> Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient
-- DC 3
+- :camarilla: #Montreal West Verdun Hospital a small hospital near the river.
+  - DC 2
+- :anarch: #Montreal East - Hôpital Vétérinaire de L’Est: a small veterinary clinic that offers back alley deal for the right price.
+  - DC 2
+- :indie: #Ahuntsic - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient.
+  - DC 3
 
 
 # Blood Leech
@@ -140,10 +142,10 @@ This Kindred feeds covertly from a mortal family and friends, often their own.
 - Manipulation + Subterfuge
 
 Locations: 
-![](/assets/camarilla.png) <#1138461713621061724> Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
-- DC 4
-![](/assets/anarch.png) <#1131321457734074460> Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
-- DC 4
+- :camarilla: #Beaconsfield - Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
+  - DC 4
+- :anarch: #Montreal Nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+  - DC 4
 
 # Consensualist
 This Kindred never feeds against their victim's will. This may or may not include breaking the Masquerade by disclosing to them that they are a vampire.
@@ -160,12 +162,12 @@ This Kindred acquires blood in exchange for services rendered.
 - Manipulation + Intimidation
 
 Locations: 
-![](/assets/camarilla.png) - <#1131321457411100750> : Devil's hill - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
-DC 3
-![](/assets/anarch.png)  - <#1131321457734074460>  Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
-DC 3
-![](/assets/independent.png) - <#1131321457033621523>  The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
-DC 4
+- :camarilla: #Montreal west - Monkland Avenue - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
+  - DC 3
+- :anarch: #Montreal-nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+  - DC 3
+- :indie: The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions. - Place Jacques-Cartier contains a lot of dark spots, few alleys away from the more turistic attactions.
+  - DC 4
 
 # Farmer
 
@@ -174,12 +176,12 @@ This Kindred only feeds from animals.
 - Composure + Animal Ken
 
 Locations
-![](/assets/camarilla.png) - <#1131321457411100749> Parc-nature du Bois-de-L'Île-Bizard Medium: An estensive natural park and reserve.
-DC 3
-![](/assets/anarch.png) - <#1131321457734074462> Bois-d'Anjou Nature Park: Another major park inside the city of Montreal
-DC 3
-![](/assets/independent.png) - <#1131321458119946463> Outisde the island, there are parks and woods. It might be danjerous to wander those lands alone at night...
-DC 4
+- :camarilla: #Ile-bizard - Bois-de-l'Île-Bizard: An estensive natural park and reserve.
+  - DC 3
+- :anarch: #Roviere-des-Prairies - Bois-d'Anjou Nature Park: Another major park inside the city of Montreal
+  - DC 3
+- :indie: #wilderness - Outisde the island, there are parks and woods. It might be danjerous to wander those lands alone at night...
+  - DC 4
 
 # Graverobber
 
@@ -189,12 +191,12 @@ Graverobbers often feed from fresh corpses, though they actually prefer feeding 
 - Manipulation + Insight (for feeding on the vulnerable)
 
 Locations: 
-![](/assets/camarilla.png)   <#1131321457411100750> LaSalle hospital: a small hospital near the river.
-DC 3
-![](/assets/anarch.png) <#1131321457734074461> Le Repos Saint-François d'Assise: A major graveyard located just slight north of citè Jardin
-DC 3
-![](/assets/independent.png) <#1131321457033621522> Mount Royal Cemetery: The biggest graveyard at the heart of the city. Mostly old burials, but some parts are still actively being used
-DC 2
+- :camarilla: #Montreal-west: Verdun hospital: a small hospital near the river.
+  - DC 3
+- :anarch: #Mercier-Hocelaga-Maissonneuve Le Repos Saint-François d'Assise: A major graveyard located just slight north of citè Jardin
+  - DC 3
+- :indie: #Mont-Royal-Plateau - Mount Royal Cemetery: The biggest graveyard at the heart of the city. Mostly old burials, but some parts are still actively being used
+  - DC 2
 
 # Grim Reaper
 
@@ -204,10 +206,10 @@ Known as plague-rats, these Kindred feed exclusively on the dying. They find the
 - Intelligence + Medicine
 
 Locations:
-![](/assets/camarilla.png)  <#1131321457411100750>  LaSalle hospital: a small hospital near the river.
-DC 2
-![](/assets/independent.png) ⁠ <#1131321457033621521>  Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient
-DC 2
+- :camarilla: #Montreal-west: Verdun hospital: a small hospital near the river.
+  - DC 2
+- :indie: #Ahuntsic - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient
+  - DC 2
 
 # Montero
 A Spanish loanword, the montería were mounted deer hunts where a set of beater drive the prey unto the weapons of the huntsman (The Montero). These Kindred carry on this tradition, using their retainers to herd prey into their awaiting maw for the kill. This can be in the form of flash mobs, an endless bureaucratic shuffle, a criminal pursuit or a long con.
@@ -216,12 +218,12 @@ A Spanish loanword, the montería were mounted deer hunts where a set of beater 
 - Resolve + Stealth
 
 Locations: 
-![](/assets/camarilla.png) - <#1131321457411100750> : Devil's hill - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
-DC 3
-![](/assets/anarch.png)  - <#1131321457734074460>  Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
-DC 3
-![](/assets/independent.png) - <#1131321457033621523>  The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
-DC 4
+- :camarilla: #Montreal west - Monkland Avenue - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
+  - DC 3
+- :anarch: #Montreal-nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+  - DC 3
+- :indie: #the-old-port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
+  - DC 4
 
 # Osiris
 This Kindred is a celebrity among mortals, or a cult figure of some type, feeding from fans or worshippers.
@@ -240,12 +242,12 @@ The pursuer hunts targets that will never be missed. Studying their victims, lea
 - Stamina + Stealth
 
 Locations: 
-![](/assets/camarilla.png) - <#1131321457411100750> : Devil's hill - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
-DC 3
-![](/assets/anarch.png)  - <#1131321457734074460>  Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
-DC 3
-![](/assets/independent.png) - <#1131321457033621523>  The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
-DC 4
+- :camarilla: - #montreal-west : Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood.  - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
+  - DC 3
+- :anarch:  - #Montreal-nord: Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+  - DC 3
+- :indie: #the-old-port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
+  - DC 4
 
 # Roadside Killer
 This Kindred feeds exclusively from the transient population. From the Truckers, Tourists and Travelers of the world.
@@ -254,12 +256,12 @@ This Kindred feeds exclusively from the transient population. From the Truckers,
 - Charisma + Drive
 
 Locations: 
-![](/assets/camarilla.png) <#1131321457411100748>: The main international airport and the surrounding area are always full of people in transit
-DC 3
-![](/assets/anarch.png) <#1131321457734074461> Charron Island: A small pier on the island is the host of many turistic tracts and some commercial boats might stop there as well
-DC 3
-![](/assets/independent.png) <#1131321457033621522> The Mount Royal, the main attraction of the city, is a place ripe of tourists of all kind.
-DC 3
+- :camarilla: #Elliot-Trudeau-International-airport: The main international airport and the surrounding area are always full of people in transit
+  - DC 3
+- :anarch: #mercier-hochelaga-maisonneuve Charron Island: A small pier on the island is the host of many turistic tracts and some commercial boats might stop there as well
+  - DC 3
+- :indie: #Mont-Royal-Plateau The Mount Royal, the main attraction of the city, is a place ripe of tourists of all kind.
+  - DC 3
 
 # Sandman
 
@@ -268,10 +270,10 @@ This Kindred prefers to feed from sleeping victims using stealth or Disciplines.
 - Dexterity + Stealth
 
 Locations:
-![](/assets/camarilla.png)  <#1138461713621061724> Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
-DC 4
-![](/assets/anarch.png)  <#1131321457734074460>  Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
-DC 4
+- :camarilla: #beaconsville Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
+  - DC 4
+- :anarch:  #Montreal-nord  Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+  - DC 4
 
 # Siren
 
@@ -280,22 +282,21 @@ The Kindred feeds almost exclusively during (or while feigning) sex, relying on 
 - Charisma + Subterfuge
 
 Locations:
-![](/assets/camarilla.png)  <#1131321457411100748> La Source du Sexe: near the airport there is a night and strip club
-DC 3
-![](/assets/anarch.png) <#1146576306495049839>: The BDSM nighclub owned by the Reeves is available - just dont mess up 😉
-DC 3
-![](/assets/independent.png) <#1131321457033621523> Velvet Speakeasy: Accessed by going through catacombs, this stylish club offers cocktails, DJs & late-night dancing.
-DC 3
+- :camarilla:  #Elliot-Trudeau-International-airport - La Source du Sexe: near the airport there is a night and strip club
+  - DC 3
+- :anarch: #gay-village - The Heart: The BDSM nighclub owned by the Reeves is available - just dont mess up 😉
+  - DC 3
+- :indie: #the-old-port - Velvet Speakeasy: Accessed by going through catacombs, this stylish club offers cocktails, DJs & late-night dancing.
+  - DC 3
 
 # Scene queen
 The Kindred is an active member of a subculture, maintaining status and respect that assists them in finding willing victims.
-
 
 - Manipulation + Persuasion
 
 Locations: 
 - Considering the variety of subcultures, hunting spots are pretty generic, it just have to makes sense with the scene.
-DC 4
+  - DC 4
 
 # Trapdoor
 
@@ -305,9 +306,9 @@ The Kindred builds a trap, in the form of their haven, and lures their prey into
 - Dexterity + Stealth (if you feed on trespassers, urban explorers, or other passersby.)
 
 Locations (for the second type of hunt):
-![](/assets/camarilla.png) - <#1131321457411100750> : Devil's hill - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
-DC 3
-![](/assets/anarch.png)  - <#1131321457734074460>  Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
-DC 3
-![](/assets/independent.png) - <#1131321457033621523>  The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
-DC 4
+- :camarilla: - #montreal-west : Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood.
+  - DC 3
+- :anarch:  - #Montreal-nord  Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+  - DC 3
+- :indie: #the-old-port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
+  - DC 4
