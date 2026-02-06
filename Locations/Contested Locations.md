@@ -28,7 +28,8 @@
 * Domain: ●
 * Chasse: ●
 * Lien: ● 
-* Portillon: ●```
+* Portillon: ●
+```
       
 * **Notre-Dame Basilica**: A Gothic Revival masterpiece with imposing bell towers and an interior of blue and gold vaulted ceilings.
 * **The Clock Tower and Promenade**: A massive white tower at the harbor's edge that casts long shadows along the shore at night.
