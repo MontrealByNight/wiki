@@ -23,5 +23,6 @@
   * [🐺 The Wolfhounds](coteries/the-wolfhounds.md)
   * [⚜️Maison Des Lys Violets](coteries/maison-des-lys-violets.md)
   * [🎤The Wildlings](coteries/the-wildlings.md)
+  * [test](coteries/test.md)
 * [assets](assets/README.md)
   * [-](assets/-.md)
