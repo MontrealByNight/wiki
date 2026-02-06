@@ -44,7 +44,7 @@ When rolling for actions, clearly indicate the intent of the roll, as well as th
 
 Example:
 
-````[rouse
+```[Rouse Check: Successful, Unseen Passage Activated]
 [Siren Hunt: Charisma + Manipulation + Specialty - Seduction, DC 3 = 6 successes]
 ```
 
