@@ -1,0 +1,73 @@
+name: Update GitBook Summary
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.md'
+      - '!SUMMARY.md' # Don't run if only SUMMARY changed, prevents loops
+
+permissions:
+  contents: write
+
+jobs:
+  build-summary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate SUMMARY.md
+        run: |
+          echo "# Table of Contents" > SUMMARY.md
+          echo "" >> SUMMARY.md
+          echo "* [Introduction](README.md)" >> SUMMARY.md
+          echo "" >> SUMMARY.md
+
+          # Function to list files in a directory
+          list_files() {
+            local dir="$1"
+            local title="$2"
+            local emoji="$3"
+            
+            if [ -d "$dir" ]; then
+              echo "## $emoji $title" >> SUMMARY.md
+              
+              # Add the Section Overview (README) if it exists
+              if [ -f "$dir/README.md" ]; then
+                echo "* [$title Overview]($dir/README.md)" >> SUMMARY.md
+              fi
+
+              # List all other .md files, sorted, excluding README
+              find "$dir" -maxdepth 1 -name "*.md" | sort | while read filepath; do
+                filename=$(basename "$filepath")
+                if [ "$filename" != "README.md" ]; then
+                  # Remove extension for title and replace %20/underscores with spaces
+                  clean_title=$(echo "$filename" | sed 's/.md//' | sed 's/_/ /g')
+                  # Encode spaces for the link
+                  encoded_path=$(echo "$filepath" | sed 's/ /%20/g')
+                  echo "* [$clean_title]($encoded_path)" >> SUMMARY.md
+                fi
+              done
+              echo "" >> SUMMARY.md
+            fi
+          }
+
+          # --- DEFINE YOUR SECTIONS HERE ---
+          # The script will look for these folders and build the list
+          
+          list_files "Rules" "Rules" "📜"
+          list_files "Locations" "Locations" "🗺️"
+          list_files "Coteries" "Coteries" "👥"
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add SUMMARY.md
+          # Only commit if SUMMARY.md has actually changed
+          if git diff --staged --quiet; then
+            echo "No changes to SUMMARY.md"
+          else
+            git commit -m "🤖 Auto-update SUMMARY.md"
+            git push
+          fi
