@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Montreal Map Editor (ST ONLY)</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+    
+    <style>
+        body { margin: 0; padding: 0; background: #1a1a1a; color: white; font-family: sans-serif; display: flex; flex-direction: column; height: 100vh; }
+        #map { flex-grow: 1; width: 100%; }
+        #output-panel { height: 250px; background: #2b2b2b; padding: 15px; overflow-y: auto; border-top: 2px solid #444; }
+        pre { background: #000; padding: 10px; border-radius: 4px; color: #00ff00; font-size: 12px; white-space: pre-wrap; word-break: break-all; }
+        .instructions { font-size: 0.9em; color: #ccc; margin-bottom: 10px; }
+        h3 { margin-top: 0; color: #e67e22; }
+    </style>
+</head>
+<body>
+
+    <div id="map"></div>
+
+    <div id="output-panel">
+        <h3>Code Generator</h3>
+        <p class="instructions">Draw a shape or place a marker. The code will appear below. Copy and paste it into your .js data files.</p>
+        <pre id="output">// Your coordinates will appear here...</pre>
+    </div>
+
+    <script>
+        // 1. Initialize Map
+        var map = L.map('map').setView([45.53, -73.60], 12);
+
+        // 2. Add Tiles
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; CARTO',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }).addTo(map);
+
+        // 3. Setup Drawing Layers
+        var drawnItems = new L.FeatureGroup();
+        map.addLayer(drawnItems);
+
+        var drawControl = new L.Control.Draw({
+            edit: { featureGroup: drawnItems },
+            draw: {
+                polyline: false,
+                circle: false,
+                rectangle: true,
+                circlemarker: false,
+                marker: true,
+                polygon: {
+                    allowIntersection: false,
+                    showArea: true
+                }
+            }
+        });
+        map.addControl(drawControl);
+
+        // 4. Capture Drawing Events
+        map.on(L.Draw.Event.CREATED, function (event) {
+            var layer = event.layer;
+            drawnItems.addLayer(layer);
+            generateCode(layer, event.layerType);
+        });
+
+        // 5. Code Generator Logic
+        function generateCode(layer, type) {
+            var output = document.getElementById('output');
+            var result = "";
+
+            if (type === 'marker') {
+                var latlng = layer.getLatLng();
+                result = `// FOR MARKER FILES (camarilla.js, etc.)\n{\n  "name": "NEW LOCATION",\n  "lat": ${latlng.lat.toFixed(6)},\n  "lng": ${latlng.lng.toFixed(6)},\n  "type": "Camarilla",\n  "desc": "Description here"\n},`;
+            } 
+            else if (type === 'polygon' || type === 'rectangle') {
+                var latlngs = layer.getLatLngs()[0];
+                var coordsString = latlngs.map(ll => `[${ll.lat.toFixed(6)}, ${ll.lng.toFixed(6)}]`).join(", ");
+                
+                result = `// FOR polygons.js\n{\n  "name": "NEW ZONE",\n  "type": "Contested",\n  "coords": [ ${coordsString} ]\n},`;
+            }
+
+            output.innerHTML = result;
+        }
+    </script>
+</body>
+</html>
