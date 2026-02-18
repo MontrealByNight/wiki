@@ -2,7 +2,8 @@
 
 Below is the live interactive map of the city.
 
-{% embed url="https://montrealbynight.github.io/wikitest/" fullWidth="false" %}
+[](https://montrealbynight.github.io/wikitest/ "width=100%,height=800")
+
 
 ### Legend
 
