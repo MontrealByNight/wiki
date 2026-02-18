@@ -13,12 +13,13 @@
     
     <style>
         body { margin: 0; padding: 0; background: #1a1a1a; color: white; font-family: sans-serif; display: flex; flex-direction: column; height: 100vh; }
-        #map { flex-grow: 1; width: 100%; }
-        #output-panel { height: 250px; background: #2b2b2b; padding: 15px; overflow-y: auto; border-top: 2px solid #444; }
-        pre { background: #000; padding: 10px; border-radius: 4px; color: #00ff00; font-size: 12px; white-space: pre-wrap; word-break: break-all; border: 1px solid #444; }
-        .instructions { font-size: 0.9em; color: #ccc; margin-bottom: 10px; }
-        h3 { margin-top: 0; color: #e67e22; }
-        .leaflet-popup-content-wrapper { background: #2b2b2b; color: #e0e0e0; border: 1px solid #444; }
+        #map { flex-grow: 1; width: 100%; border-bottom: 2px solid #444; }
+        #output-panel { height: 280px; background: #2b2b2b; padding: 15px; display: flex; flex-direction: column; }
+        .toolbar { display: flex; gap: 15px; align-items: center; margin-bottom: 10px; }
+        select { background: #444; color: white; border: 1px solid #777; padding: 8px; font-size: 16px; border-radius: 4px; cursor: pointer; }
+        textarea { flex-grow: 1; background: #000; color: #00ff00; border: 1px solid #555; padding: 10px; font-family: monospace; font-size: 13px; resize: none; }
+        h3 { margin: 0; color: #e67e22; }
+        p { margin: 0; font-size: 0.9em; color: #aaa; }
     </style>
 </head>
 <body>
@@ -26,9 +27,17 @@
     <div id="map"></div>
 
     <div id="output-panel">
-        <h3>Code Generator</h3>
-        <p class="instructions">1. Use the toolbar to draw. 2. Copy the code below. 3. Paste it into your GitHub .js files.</p>
-        <pre id="output">// New coordinates will appear here when you draw...</pre>
+        <div class="toolbar">
+            <h3>Code Generator</h3>
+            <p>Make a change on the map, select the file you want to update, and copy the code.</p>
+            <select id="fileSelector" onchange="updateCodeBox()">
+                <option value="polygons">polygons.js</option>
+                <option value="camarilla">camarilla.js</option>
+                <option value="anarch">anarch.js</option>
+                <option value="contested">contested.js</option>
+            </select>
+        </div>
+        <textarea id="codeBox" readonly></textarea>
     </div>
 
     <script src="data/camarilla.js"></script>
@@ -37,91 +46,116 @@
     <script src="data/polygons.js"></script>
 
     <script>
-        // 1. Initialize Map
+        // Store the generated codes globally
+        var generatedCodes = { polygons: "", camarilla: "", anarch: "", contested: "" };
+
+        // 2. Initialize Map
         var map = L.map('map').setView([45.53, -73.60], 11);
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { maxZoom: 19 }).addTo(map);
 
-        // 2. Add Tiles
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; CARTO',
-            subdomains: 'abcd',
-            maxZoom: 19
-        }).addTo(map);
-
-// 3. Define Colors
-function getColor(type) {
-    if (type === 'Camarilla') return '#e67e22'; // Orange
-    if (type === 'Anarch') return '#206694';    // Blue
-    if (type === 'Contested' || type === 'Hecata') return '#992d22'; // Dark Red
-    return '#546e7a'; // Grey
-}
-
-// --- NEW EDITABLE LAYER SETUP ---
-var drawnItems = new L.FeatureGroup();
-map.addLayer(drawnItems);
-
-// 4. LOAD POLYGONS INTO EDITABLE LAYER
-if (typeof mapPolygons !== 'undefined') {
-    mapPolygons.forEach(function(poly) {
-        var zoneColor = getColor(poly.type);
-        var layer = L.polygon(poly.coords, {
-            color: zoneColor,
-            weight: 2,
-            fillColor: zoneColor,
-            fillOpacity: 0.2
-        });
-        layer.addTo(drawnItems); // Add to drawnItems so pencil can edit it
-        layer.bindPopup("Zone: " + poly.name);
-    });
-}
-
-// 5. LOAD MARKERS INTO EDITABLE LAYER
-var mapLocations = [].concat(
-    typeof data_camarilla !== 'undefined' ? data_camarilla : [],
-    typeof data_anarch !== 'undefined' ? data_anarch : [],
-    typeof data_contested !== 'undefined' ? data_contested : []
-);
-
-mapLocations.forEach(function(loc) {
-    var color = getColor(loc.type);
-    var layer = L.circleMarker([loc.lat, loc.lng], {
-        color: color,
-        fillColor: color,
-        fillOpacity: 0.6,
-        radius: 6
-    });
-    layer.addTo(drawnItems); // Add to drawnItems so pencil can move it
-    layer.bindPopup("Location: " + loc.name);
-});
-
-// 6. SETUP DRAWING TOOLS (Pointing to drawnItems)
-var drawControl = new L.Control.Draw({
-    edit: { 
-        featureGroup: drawnItems // This link is what makes the pencil work!
-    },
-    draw: {
-        polyline: false, circle: false, circlemarker: false,
-        rectangle: true, marker: true,
-        polygon: { allowIntersection: false, showArea: true }
-    }
-});
-map.addControl(drawControl);
-
-// 7. GENERATE CODE ON EDIT/SAVE
-// This captures when you FINISH editing an existing shape
-map.on(L.Draw.Event.EDITED, function (e) {
-    var layers = e.layers;
-    var result = "// UPDATED DATA BELOW:\n";
-    
-    layers.eachLayer(function (layer) {
-        if (layer instanceof L.Marker || layer instanceof L.CircleMarker) {
-            var latlng = layer.getLatLng();
-            result += `{\n  "lat": ${latlng.lat.toFixed(6)}, "lng": ${latlng.lng.toFixed(6)}\n},\n`;
-        } else {
-            var latlngs = layer.getLatLngs()[0];
-            var coordsString = latlngs.map(ll => `[${ll.lat.toFixed(6)}, ${ll.lng.toFixed(6)}]`).join(", ");
-            result += `{\n  "coords": [ ${coordsString} ]\n},\n`;
+        // 3. Define Colors
+        function getColor(type) {
+            if (type === 'Camarilla') return '#e67e22'; // Orange
+            if (type === 'Anarch') return '#206694';    // Blue
+            if (type === 'Contested' || type === 'Hecata') return '#992d22'; // Dark Red
+            return '#546e7a'; // Grey
         }
-    });
-    
-    document.getElementById('output').innerHTML = result;
-});
+
+        // 4. Create ONE editable layer for everything
+        var drawnItems = new L.FeatureGroup();
+        map.addLayer(drawnItems);
+
+        // 5. Load Polygons into editable layer
+        if (typeof mapPolygons !== 'undefined') {
+            mapPolygons.forEach(function(poly) {
+                var zoneColor = getColor(poly.type);
+                var layer = L.polygon(poly.coords, { color: zoneColor, weight: 2, fillColor: zoneColor, fillOpacity: 0.15 });
+                layer.featureData = poly; // Save data so we don't lose the name
+                layer.dataType = 'polygon';
+                layer.bindPopup("<b>" + poly.name + "</b><br>Shape Layer");
+                drawnItems.addLayer(layer);
+            });
+        }
+
+        // 6. Load Markers into editable layer
+        var allMarkers = [];
+        if (typeof data_camarilla !== 'undefined') allMarkers = allMarkers.concat(data_camarilla);
+        if (typeof data_anarch !== 'undefined') allMarkers = allMarkers.concat(data_anarch);
+        if (typeof data_contested !== 'undefined') allMarkers = allMarkers.concat(data_contested);
+
+        allMarkers.forEach(function(loc) {
+            var color = getColor(loc.type);
+            var layer = L.circleMarker([loc.lat, loc.lng], { color: color, fillColor: color, fillOpacity: 0.8, radius: 7 });
+            layer.featureData = loc; // Save data so we don't lose descriptions
+            layer.dataType = 'marker';
+            layer.bindPopup("<b>" + loc.name + "</b><br>Pin Layer");
+            drawnItems.addLayer(layer);
+        });
+
+        // 7. Setup Leaflet.Draw Controls
+        var drawControl = new L.Control.Draw({
+            edit: { 
+                featureGroup: drawnItems, 
+                remove: true // Enables the Trash Can!
+            },
+            draw: {
+                polyline: false, circle: false, circlemarker: false,
+                rectangle: true, marker: true, polygon: true
+            }
+        });
+        map.addControl(drawControl);
+
+        // 8. Re-build the JSON codes whenever something changes
+        function generateCode() {
+            var outPolys = [], outCam = [], outAnarch = [], outCont = [];
+
+            drawnItems.eachLayer(function(layer) {
+                // If it's a Polygon or Rectangle
+                if (layer.dataType === 'polygon' || layer instanceof L.Polygon) {
+                    var coords = layer.getLatLngs()[0].map(ll => `[${ll.lat.toFixed(6)}, ${ll.lng.toFixed(6)}]`);
+                    var name = layer.featureData ? layer.featureData.name : "NEW ZONE";
+                    var type = layer.featureData ? layer.featureData.type : "Contested";
+                    
+                    outPolys.push(`  {\n    "name": "${name}", "type": "${type}",\n    "coords": [\n      ${coords.join(",\n      ")}\n    ]\n  }`);
+                } 
+                // If it's a Pin / Marker
+                else if (layer.dataType === 'marker' || layer instanceof L.Marker || layer instanceof L.CircleMarker) {
+                    var ll = layer.getLatLng();
+                    var name = layer.featureData ? layer.featureData.name : "NEW LOCATION";
+                    var type = layer.featureData ? layer.featureData.type : "Camarilla";
+                    var desc = layer.featureData ? layer.featureData.desc : "Description";
+                    
+                    var objStr = `  { \n    "name": "${name}", "lat": ${ll.lat.toFixed(6)}, "lng": ${ll.lng.toFixed(6)}, \n    "type": "${type}",\n    "desc": "${desc}" \n  }`;
+
+                    if (type === 'Camarilla') outCam.push(objStr);
+                    else if (type === 'Anarch') outAnarch.push(objStr);
+                    else outCont.push(objStr);
+                }
+            });
+
+            // Save the rebuilt arrays into our global object
+            generatedCodes.polygons = "var mapPolygons = [\n" + outPolys.join(",\n") + "\n];";
+            generatedCodes.camarilla = "var data_camarilla = [\n" + outCam.join(",\n") + "\n];";
+            generatedCodes.anarch = "var data_anarch = [\n" + outAnarch.join(",\n") + "\n];";
+            generatedCodes.contested = "var data_contested = [\n" + outCont.join(",\n") + "\n];";
+
+            updateCodeBox(); // Refresh the text box
+        }
+
+        // Put the right code in the text box based on the dropdown
+        function updateCodeBox() {
+            var selection = document.getElementById("fileSelector").value;
+            document.getElementById("codeBox").value = generatedCodes[selection];
+        }
+
+        // 9. Listen for map changes!
+        map.on(L.Draw.Event.CREATED, function (e) { drawnItems.addLayer(e.layer); generateCode(); });
+        map.on(L.Draw.Event.EDITED, function () { generateCode(); });
+        map.on(L.Draw.Event.DELETED, function () { generateCode(); });
+
+        // Run once on load to populate the boxes
+        setTimeout(generateCode, 500);
+
+    </script>
+</body>
+</html>
