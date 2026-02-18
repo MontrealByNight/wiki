@@ -147,4 +147,29 @@ var mapLocations = [
     "type": "Contested",
     "desc": "Illuminated cross at the summit.<br><b>Hunting:</b> Roadside Killer (DC 3)" 
   },
-  {
+  { 
+    "name": "Nestor's Bar", "lat": 45.5350, "lng": -73.6110, 
+    "type": "Hecata",
+    "desc": "Hidden speakeasy in Little Italy. Hecata hub." 
+  },
+  { 
+    "name": "Jean-Talon Market", "lat": 45.5361, "lng": -73.6149, 
+    "type": "Hecata",
+    "desc": "Sprawling market with stone floors." 
+  },
+  { 
+    "name": "Evans Funeral House", "lat": 45.5310, "lng": -73.6140, 
+    "type": "Hecata",
+    "desc": "<b>Hecata Leadership HQ.</b> Modern minimalist funeral home." 
+  },
+  { 
+    "name": "Fleury Hospital", "lat": 45.5684, "lng": -73.6558, 
+    "type": "Contested",
+    "desc": "Modest hospital in Ahuntsic.<br><b>Hunting:</b> Bagger (DC 3)" 
+  },
+  { 
+    "name": "Parc Ahuntsic", "lat": 45.5528, "lng": -73.6661, 
+    "type": "Contested",
+    "desc": "Peaceful retreat with a small lake." 
+  }
+];
