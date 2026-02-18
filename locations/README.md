@@ -1,12 +1,13 @@
-# Locations Map
+# Montreal Territories Map
 
-This is the interactive map of Montreal's territories.
+Below is the live interactive map of the city.
 
-<iframe src="https://montrealbynight.github.io/wikitest/" width="100%" height="800px" frameborder="0" style="border: 1px solid #333; border-radius: 8px;"></iframe>
+{% embed url="https://montrealbynight.github.io/wikitest/" %}
+{ "caption": "Interactive Map of Montreal By Night" }
+{% endembed %}
 
 ---
-### Map Legend
-* **Orange**: Camarilla Territory
-* **Blue**: Anarch Territory
-* **Dark Red**: Contested / Hecata
-* **Grey**: Outlands / Others
+### Legend
+* **Orange**: Camarilla
+* **Blue**: Anarch
+* **Dark Red**: Contested
