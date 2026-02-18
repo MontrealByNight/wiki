@@ -52,11 +52,12 @@
       maxZoom: 19
     }).addTo(map);
 
-    // 3. Define Colors (Your custom palette)
+   // 3. Define Colors
     function getColor(type) {
       if (type === 'Camarilla') return '#e67e22'; // Orange
       if (type === 'Anarch') return '#206694';    // Blue
-      return '#546e7a';                           // Grey (Contested)
+      if (type === 'Contested' || type === 'Hecata') return '#992d22'; // Dark Red
+      return '#546e7a';                           // Grey (Other / Outlands)
     }
 
     // 4. DRAW POLYGONS
