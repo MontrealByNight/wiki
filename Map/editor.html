@@ -47,78 +47,81 @@
             maxZoom: 19
         }).addTo(map);
 
-        // 3. Define Colors (Matches your theme)
-        function getColor(type) {
-            if (type === 'Camarilla') return '#e67e22'; // Orange
-            if (type === 'Anarch') return '#206694';    // Blue
-            if (type === 'Contested' || type === 'Hecata') return '#992d22'; // Dark Red
-            return '#546e7a'; // Grey
+// 3. Define Colors
+function getColor(type) {
+    if (type === 'Camarilla') return '#e67e22'; // Orange
+    if (type === 'Anarch') return '#206694';    // Blue
+    if (type === 'Contested' || type === 'Hecata') return '#992d22'; // Dark Red
+    return '#546e7a'; // Grey
+}
+
+// --- NEW EDITABLE LAYER SETUP ---
+var drawnItems = new L.FeatureGroup();
+map.addLayer(drawnItems);
+
+// 4. LOAD POLYGONS INTO EDITABLE LAYER
+if (typeof mapPolygons !== 'undefined') {
+    mapPolygons.forEach(function(poly) {
+        var zoneColor = getColor(poly.type);
+        var layer = L.polygon(poly.coords, {
+            color: zoneColor,
+            weight: 2,
+            fillColor: zoneColor,
+            fillOpacity: 0.2
+        });
+        layer.addTo(drawnItems); // Add to drawnItems so pencil can edit it
+        layer.bindPopup("Zone: " + poly.name);
+    });
+}
+
+// 5. LOAD MARKERS INTO EDITABLE LAYER
+var mapLocations = [].concat(
+    typeof data_camarilla !== 'undefined' ? data_camarilla : [],
+    typeof data_anarch !== 'undefined' ? data_anarch : [],
+    typeof data_contested !== 'undefined' ? data_contested : []
+);
+
+mapLocations.forEach(function(loc) {
+    var color = getColor(loc.type);
+    var layer = L.circleMarker([loc.lat, loc.lng], {
+        color: color,
+        fillColor: color,
+        fillOpacity: 0.6,
+        radius: 6
+    });
+    layer.addTo(drawnItems); // Add to drawnItems so pencil can move it
+    layer.bindPopup("Location: " + loc.name);
+});
+
+// 6. SETUP DRAWING TOOLS (Pointing to drawnItems)
+var drawControl = new L.Control.Draw({
+    edit: { 
+        featureGroup: drawnItems // This link is what makes the pencil work!
+    },
+    draw: {
+        polyline: false, circle: false, circlemarker: false,
+        rectangle: true, marker: true,
+        polygon: { allowIntersection: false, showArea: true }
+    }
+});
+map.addControl(drawControl);
+
+// 7. GENERATE CODE ON EDIT/SAVE
+// This captures when you FINISH editing an existing shape
+map.on(L.Draw.Event.EDITED, function (e) {
+    var layers = e.layers;
+    var result = "// UPDATED DATA BELOW:\n";
+    
+    layers.eachLayer(function (layer) {
+        if (layer instanceof L.Marker || layer instanceof L.CircleMarker) {
+            var latlng = layer.getLatLng();
+            result += `{\n  "lat": ${latlng.lat.toFixed(6)}, "lng": ${latlng.lng.toFixed(6)}\n},\n`;
+        } else {
+            var latlngs = layer.getLatLngs()[0];
+            var coordsString = latlngs.map(ll => `[${ll.lat.toFixed(6)}, ${ll.lng.toFixed(6)}]`).join(", ");
+            result += `{\n  "coords": [ ${coordsString} ]\n},\n`;
         }
-
-        // 4. DRAW EXISTING POLYGONS
-        if (typeof mapPolygons !== 'undefined') {
-            mapPolygons.forEach(function(poly) {
-                var zoneColor = getColor(poly.type);
-                L.polygon(poly.coords, {
-                    color: zoneColor,
-                    weight: 2,
-                    fillColor: zoneColor,
-                    fillOpacity: 0.1
-                }).addTo(map).bindPopup("Existing Zone: " + poly.name);
-            });
-        }
-
-        // 5. DRAW EXISTING MARKERS
-        var mapLocations = [].concat(
-            typeof data_camarilla !== 'undefined' ? data_camarilla : [],
-            typeof data_anarch !== 'undefined' ? data_anarch : [],
-            typeof data_contested !== 'undefined' ? data_contested : []
-        );
-
-        mapLocations.forEach(function(loc) {
-            var color = getColor(loc.type);
-            L.circleMarker([loc.lat, loc.lng], {
-                color: color,
-                fillColor: color,
-                fillOpacity: 0.5,
-                radius: 5
-            }).addTo(map).bindPopup("Existing: " + loc.name);
-        });
-
-        // 6. SETUP DRAWING TOOLS
-        var drawnItems = new L.FeatureGroup();
-        map.addLayer(drawnItems);
-
-        var drawControl = new L.Control.Draw({
-            edit: { featureGroup: drawnItems },
-            draw: {
-                polyline: false, circle: false, circlemarker: false,
-                rectangle: true, marker: true,
-                polygon: { allowIntersection: false, showArea: true }
-            }
-        });
-        map.addControl(drawControl);
-
-        // 7. GENERATE CODE ON DRAW
-        map.on(L.Draw.Event.CREATED, function (event) {
-            var layer = event.layer;
-            drawnItems.addLayer(layer);
-            
-            var output = document.getElementById('output');
-            var result = "";
-
-            if (event.layerType === 'marker') {
-                var latlng = layer.getLatLng();
-                result = `// Add this to your faction .js file:\n{\n  "name": "NEW LOCATION",\n  "lat": ${latlng.lat.toFixed(6)},\n  "lng": ${latlng.lng.toFixed(6)},\n  "type": "Camarilla",\n  "desc": "Description here"\n},`;
-            } 
-            else {
-                var latlngs = layer.getLatLngs()[0];
-                var coordsString = latlngs.map(ll => `[${ll.lat.toFixed(6)}, ${ll.lng.toFixed(6)}]`).join(", ");
-                result = `// Add this to polygons.js:\n{\n  "name": "NEW ZONE",\n  "type": "Contested",\n  "coords": [ ${coordsString} ]\n},`;
-            }
-
-            output.innerHTML = result;
-        });
-    </script>
-</body>
-</html>
+    });
+    
+    document.getElementById('output').innerHTML = result;
+});
