@@ -1,2 +1,3 @@
-this is a test
-why is this not working
+# Locations
+
+{% embed url="https://montrealbynight.github.io/wikitest/" %}
