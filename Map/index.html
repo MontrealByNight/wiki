@@ -36,28 +36,34 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   
-  <script src="map_data.js"></script>
+  <script src="data/camarilla.js"></script>
+  <script src="data/anarch.js"></script>
+  <script src="data/contested.js"></script>
+  <script src="data/others.js"></script>
 
   <script>
-    // 1. Initialize Map (Center on Montreal)
+    // 1. Initialize Map
     var map = L.map('map').setView([45.53, -73.60], 12);
 
-    // 2. Add Dark Mode Tiles (CartoDB Dark Matter)
+    // 2. Add Tiles
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      attribution: '&copy; OpenStreetMap &copy; CARTO',
       subdomains: 'abcd',
       maxZoom: 19
     }).addTo(map);
 
-    // 3. Define Colors
+   // 3. Define Colors
     function getColor(type) {
-      if (type === 'Camarilla') return '#3388ff'; // Blue
-      if (type === 'Anarch') return '#ff3333';    // Red
-      if (type === 'Hecata') return '#ffa500';    // Orange
-      return '#9c27b0';                           // Purple (Contested)
+      if (type === 'Camarilla') return '#e67e22'; // Orange
+      if (type === 'Anarch') return '#206694';    // Blue
+      return '#546e7a';                           // Grey (Contested & Others)
     }
 
-    // 4. Add Markers
+    // 4. COMBINE ALL DATA LISTS
+    // We now merge 3 lists
+    var mapLocations = [].concat(data_camarilla, data_anarch, data_contested);
+
+    // 5. Add Markers
     mapLocations.forEach(function(loc) {
       var color = getColor(loc.type);
       
@@ -69,7 +75,6 @@
         weight: 1
       }).addTo(map);
 
-      // Create Popup Content
       var popupContent = `
         <span class="type-tag" style="background:${color}; color:black">${loc.type}</span><br>
         <strong style="font-size:1.1em">${loc.name}</strong><br>
