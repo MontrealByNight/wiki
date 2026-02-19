@@ -20,6 +20,11 @@
         textarea { flex-grow: 1; background: #000; color: #00ff00; border: 1px solid #555; padding: 10px; font-family: monospace; font-size: 13px; resize: none; }
         h3 { margin: 0; color: #e67e22; }
         p { margin: 0; font-size: 0.9em; color: #aaa; }
+        
+        /* Custom Dark Mode Popups */
+        .leaflet-popup-content-wrapper { background: #2b2b2b; color: #e0e0e0; border: 1px solid #444; border-radius: 6px; }
+        .leaflet-popup-tip { background: #2b2b2b; border: 1px solid #444; }
+        .leaflet-popup-content b { color: #e67e22; font-size: 1.1em; }
     </style>
 </head>
 <body>
@@ -49,35 +54,57 @@
         // Store the generated codes globally
         var generatedCodes = { polygons: "", camarilla: "", anarch: "", contested: "" };
 
-        // 2. Initialize Map
-        var map = L.map('map').setView([45.53, -73.60], 11);
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { maxZoom: 19 }).addTo(map);
+        // 2. Define your Themes (Basemaps)
+        var darkTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; CARTO', subdomains: 'abcd', maxZoom: 19
+        });
+        var lightTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; CARTO', subdomains: 'abcd', maxZoom: 19
+        });
+        var satelliteTheme = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri', maxZoom: 19
+        });
 
-        // 3. Define Colors
+        // 3. Initialize Map
+        var map = L.map('map', {
+            center: [45.53, -73.60],
+            zoom: 11,
+            layers: [darkTheme] // Sets Dark Theme as the default
+        });
+
+        // Add the Theme Menu to the top right 
+        var baseMaps = {
+            "Dark Theme": darkTheme,
+            "Light Theme": lightTheme,
+            "Satellite View": satelliteTheme
+        };
+        L.control.layers(baseMaps, null, { position: 'topright' }).addTo(map);
+
+        // 4. Define Colors
         function getColor(type) {
-            if (type === 'Camarilla') return '#e67e22'; // Orange
-            if (type === 'Anarch') return '#206694';    // Blue
-            if (type === 'Contested' || type === 'Hecata') return '#992d22'; // Dark Red
-            return '#546e7a'; // Grey
+            if (type === 'Camarilla') return '#e67e22'; 
+            if (type === 'Anarch') return '#206694';    
+            if (type === 'Contested' || type === 'Hecata') return '#992d22'; 
+            return '#546e7a'; 
         }
 
-        // 4. Create ONE editable layer for everything
+        // 5. Create ONE editable layer for everything
         var drawnItems = new L.FeatureGroup();
         map.addLayer(drawnItems);
 
-        // 5. Load Polygons into editable layer
+        // 6. Load Polygons into editable layer
         if (typeof mapPolygons !== 'undefined') {
             mapPolygons.forEach(function(poly) {
                 var zoneColor = getColor(poly.type);
                 var layer = L.polygon(poly.coords, { color: zoneColor, weight: 2, fillColor: zoneColor, fillOpacity: 0.15 });
-                layer.featureData = poly; // Save data so we don't lose the name
+                layer.featureData = poly; 
                 layer.dataType = 'polygon';
                 layer.bindPopup("<b>" + poly.name + "</b><br>Shape Layer");
                 drawnItems.addLayer(layer);
             });
         }
 
-        // 6. Load Markers into editable layer
+        // 7. Load Markers into editable layer
         var allMarkers = [];
         if (typeof data_camarilla !== 'undefined') allMarkers = allMarkers.concat(data_camarilla);
         if (typeof data_anarch !== 'undefined') allMarkers = allMarkers.concat(data_anarch);
@@ -86,17 +113,17 @@
         allMarkers.forEach(function(loc) {
             var color = getColor(loc.type);
             var layer = L.circleMarker([loc.lat, loc.lng], { color: color, fillColor: color, fillOpacity: 0.8, radius: 7 });
-            layer.featureData = loc; // Save data so we don't lose descriptions
+            layer.featureData = loc; 
             layer.dataType = 'marker';
             layer.bindPopup("<b>" + loc.name + "</b><br>Pin Layer");
             drawnItems.addLayer(layer);
         });
 
-        // 7. Setup Leaflet.Draw Controls
+        // 8. Setup Leaflet.Draw Controls
         var drawControl = new L.Control.Draw({
             edit: { 
                 featureGroup: drawnItems, 
-                remove: true // Enables the Trash Can!
+                remove: true 
             },
             draw: {
                 polyline: false, circle: false, circlemarker: false,
@@ -105,12 +132,11 @@
         });
         map.addControl(drawControl);
 
-        // 8. Re-build the JSON codes whenever something changes
+        // 9. Re-build the JSON codes whenever something changes
         function generateCode() {
             var outPolys = [], outCam = [], outAnarch = [], outCont = [];
 
             drawnItems.eachLayer(function(layer) {
-                // If it's a Polygon or Rectangle
                 if (layer.dataType === 'polygon' || layer instanceof L.Polygon) {
                     var coords = layer.getLatLngs()[0].map(ll => `[${ll.lat.toFixed(6)}, ${ll.lng.toFixed(6)}]`);
                     var name = layer.featureData ? layer.featureData.name : "NEW ZONE";
@@ -118,14 +144,16 @@
                     
                     outPolys.push(`  {\n    "name": "${name}", "type": "${type}",\n    "coords": [\n      ${coords.join(",\n      ")}\n    ]\n  }`);
                 } 
-                // If it's a Pin / Marker
                 else if (layer.dataType === 'marker' || layer instanceof L.Marker || layer instanceof L.CircleMarker) {
                     var ll = layer.getLatLng();
                     var name = layer.featureData ? layer.featureData.name : "NEW LOCATION";
                     var type = layer.featureData ? layer.featureData.type : "Camarilla";
                     var desc = layer.featureData ? layer.featureData.desc : "Description";
                     
-                    var objStr = `  { \n    "name": "${name}", "lat": ${ll.lat.toFixed(6)}, "lng": ${ll.lng.toFixed(6)}, \n    "type": "${type}",\n    "desc": "${desc}" \n  }`;
+                    // We escape descriptions nicely so it generates safe code
+                    var safeDesc = desc.replace(/"/g, "'").replace(/\n/g, "");
+                    
+                    var objStr = `  { \n    "name": "${name}", "lat": ${ll.lat.toFixed(6)}, "lng": ${ll.lng.toFixed(6)}, \n    "type": "${type}",\n    "desc": "${safeDesc}" \n  }`;
 
                     if (type === 'Camarilla') outCam.push(objStr);
                     else if (type === 'Anarch') outAnarch.push(objStr);
@@ -133,13 +161,12 @@
                 }
             });
 
-            // Save the rebuilt arrays into our global object
             generatedCodes.polygons = "var mapPolygons = [\n" + outPolys.join(",\n") + "\n];";
             generatedCodes.camarilla = "var data_camarilla = [\n" + outCam.join(",\n") + "\n];";
             generatedCodes.anarch = "var data_anarch = [\n" + outAnarch.join(",\n") + "\n];";
             generatedCodes.contested = "var data_contested = [\n" + outCont.join(",\n") + "\n];";
 
-            updateCodeBox(); // Refresh the text box
+            updateCodeBox();
         }
 
         // Put the right code in the text box based on the dropdown
@@ -148,12 +175,12 @@
             document.getElementById("codeBox").value = generatedCodes[selection];
         }
 
-        // 9. Listen for map changes!
+        // 10. Listen for map changes
         map.on(L.Draw.Event.CREATED, function (e) { drawnItems.addLayer(e.layer); generateCode(); });
         map.on(L.Draw.Event.EDITED, function () { generateCode(); });
         map.on(L.Draw.Event.DELETED, function () { generateCode(); });
 
-        // Run once on load to populate the boxes
+        // Run once on load
         setTimeout(generateCode, 500);
 
     </script>
