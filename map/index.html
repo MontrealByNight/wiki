@@ -1,125 +1,79 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Montreal By Night - Interactive Map</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  
-  <style>
-    body { margin: 0; padding: 0; background: #1a1a1a; font-family: sans-serif; }
-    #map { height: 100vh; width: 100%; }
-    
-    /* Custom Popup Styles for Dark Theme */
-    .leaflet-popup-content-wrapper {
-      background: #2b2b2b;
-      color: #e0e0e0;
-      border: 1px solid #444;
-      border-radius: 4px;
-    }
-    .leaflet-popup-tip { background: #2b2b2b; }
-    .type-tag {
-      display: inline-block;
-      padding: 2px 6px;
-      border-radius: 3px;
-      font-size: 0.8em;
-      font-weight: bold;
-      text-transform: uppercase;
-      margin-bottom: 5px;
-    }
-  </style>
-</head>
-<body>
-
-  <div id="map"></div>
-
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  
-  <script src="data/camarilla.js"></script>
-  <script src="data/anarch.js"></script>
-  <script src="data/contested.js"></script>
-  <script src="data/polygons.js"></script>
-
-  <script>
 // 1. Define your Themes (Basemaps)
         var darkTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
             attribution: '&copy; CARTO', subdomains: 'abcd', maxZoom: 19
         });
-
         var lightTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
             attribution: '&copy; CARTO', subdomains: 'abcd', maxZoom: 19
         });
-
         var satelliteTheme = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
             attribution: 'Tiles &copy; Esri', maxZoom: 19
         });
 
-        // 2. Initialize the Map and set the Default Theme
+        // 2. Initialize the Map
         var map = L.map('map', {
             center: [45.53, -73.60],
             zoom: 11,
-            layers: [darkTheme] // This makes Dark Mode the default when they load the page
+            layers: [darkTheme] // Default theme
         });
 
-        // 3. Create the Theme Switcher Menu
+        // 3. Create the Empty Overlay Groups (These are the checkboxes!)
+        var territoryLayer = L.layerGroup().addTo(map);
+        var camarillaLayer = L.layerGroup().addTo(map);
+        var anarchLayer = L.layerGroup().addTo(map);
+        var contestedLayer = L.layerGroup().addTo(map);
+
+        // 4. Define Colors
+        function getColor(type) {
+            if (type === 'Camarilla') return '#e67e22'; // Orange
+            if (type === 'Anarch') return '#206694';    // Blue
+            if (type === 'Contested' || type === 'Hecata') return '#992d22'; // Dark Red
+            return '#546e7a'; // Grey
+        }
+
+        // 5. Draw Polygons into the Territory Layer
+        if (typeof mapPolygons !== 'undefined') {
+            mapPolygons.forEach(function(poly) {
+                var zoneColor = getColor(poly.type);
+                L.polygon(poly.coords, {
+                    color: zoneColor, weight: 2, fillColor: zoneColor, fillOpacity: 0.15
+                })
+                .bindPopup("<b>" + poly.name + "</b><br>Type: " + poly.type)
+                .addTo(territoryLayer); // Notice it goes to territoryLayer, not 'map'
+            });
+        }
+
+        // 6. Helper Function to Draw Pins into Specific Layers
+        function addPinsToLayer(dataArray, targetLayer) {
+            if (typeof dataArray !== 'undefined') {
+                dataArray.forEach(function(loc) {
+                    var color = getColor(loc.type);
+                    L.circleMarker([loc.lat, loc.lng], {
+                        color: color, fillColor: color, fillOpacity: 0.8, radius: 7
+                    })
+                    .bindPopup("<b>" + loc.name + "</b><br>" + (loc.desc ? loc.desc : ""))
+                    .addTo(targetLayer);
+                });
+            }
+        }
+
+        // Fill the layers with your data
+        addPinsToLayer(typeof data_camarilla !== 'undefined' ? data_camarilla : [], camarillaLayer);
+        addPinsToLayer(typeof data_anarch !== 'undefined' ? data_anarch : [], anarchLayer);
+        addPinsToLayer(typeof data_contested !== 'undefined' ? data_contested : [], contestedLayer);
+
+        // 7. Create the Unified Menu
         var baseMaps = {
-            "Dark Mode (Default)": darkTheme,
-            "Light Mode": lightTheme,
+            "Dark Theme": darkTheme,
+            "Light Theme": lightTheme,
             "Satellite View": satelliteTheme
         };
 
-        L.control.layers(baseMaps, null, { position: 'topright' }).addTo(map);
+        var overlayMaps = {
+            "Territories": territoryLayer,
+            "Camarilla Pins": camarillaLayer,
+            "Anarch Pins": anarchLayer,
+            "Contested/Other Pins": contestedLayer
+        };
 
-   // 3. Define Colors
-    function getColor(type) {
-      if (type === 'Camarilla') return '#e67e22'; // Orange
-      if (type === 'Anarch') return '#206694';    // Blue
-      if (type === 'Contested' || type === 'Hecata') return '#992d22'; // Dark Red
-      return '#546e7a';                           // Grey (Other / Outlands)
-    }
-
-    // 4. DRAW POLYGONS
-    if (typeof mapPolygons !== 'undefined') {
-      mapPolygons.forEach(function(poly) {
-        var zoneColor = getColor(poly.type);
-        
-        var polygon = L.polygon(poly.coords, {
-          color: zoneColor,       // Border line color
-          weight: 2,              // Border thickness
-          fillColor: zoneColor,   // Inside fill color
-          fillOpacity: 0.15       // 15% opacity so you can still read street names
-        }).addTo(map);
-
-        // Optional: Add a label when you click the shape itself
-        polygon.bindPopup(`<b>${poly.name}</b><br><span style="color:${zoneColor}">${poly.type} Territory</span>`);
-      });
-    }
-
-    // 5. COMBINE MARKER DATA LISTS
-    var mapLocations = [].concat(data_camarilla, data_anarch, data_contested);
-
-    // 6. ADD MARKERS
-    mapLocations.forEach(function(loc) {
-      var color = getColor(loc.type);
-      
-      var marker = L.circleMarker([loc.lat, loc.lng], {
-        color: color,
-        fillColor: color,
-        fillOpacity: 0.7,
-        radius: 7,
-        weight: 1
-      }).addTo(map);
-
-      var popupContent = `
-        <span class="type-tag" style="background:${color}; color:black">${loc.type}</span><br>
-        <strong style="font-size:1.1em">${loc.name}</strong><br>
-        <div style="margin-top:5px; font-size:0.9em">${loc.desc}</div>
-      `;
-
-      marker.bindPopup(popupContent);
-    });
-  </script>
-
-</body>
-</html>
+        // Add the menu to the top right
+        L.control.layers(baseMaps, overlayMaps, { position: 'topright' }).addTo(map);
