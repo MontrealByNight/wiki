@@ -31,29 +31,29 @@ Looking for a specific resonance could be done in some particular way.
 Predator Types:
 
 * **Alleycat**\
-  ↪ ![Camarilla](../assets/Choleric.png) Choleric <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic
+  ↪ ![Choleric](../assets/Choleric.png) Choleric ![Melancholic](../assets/Melancholic.png) Melancholic
 * **Bagger** \
-  ↪<img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Fleeting Melancholic only
+  ↪![Melancholic](../assets/Melancholic.png) Fleeting Melancholic only
 * ~~**Blood Leech**~~\
   ↪ No resonance
-* **Cleaver** ↪<img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic
+* **Cleaver** ↪![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic ![Melancholic](../assets/Melancholic.png) Melancholic
 * **Consensualist** \
-  ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic
-* **Extortionist** ↪<img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic ![Camarilla](../assets/Choleric.png) Choleric
+  ↪![Sanguiine](../assets/Sanguine.png) Sanguine ![Melancholic](../assets/Melancholic.png) Melancholic
+* **Extortionist** ↪![Melancholic](../assets/Melancholic.png) Melancholic ![Choleric](../assets/Choleric.png) Choleric
 * **Farmer**\
   ↪ Animal resonance (count as Melancholic or Sanguine only for the purpose of Animalism and Protean)\
   **Graverobber**\
-  ↪ <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic <img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic
+  ↪ ![Melancholic](../assets/Melancholic.png) Melancholic ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
 * **Grim Reaper**\
-  ↪ <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic <img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic
-* **Montero** ↪![Camarilla](../assets/Choleric.png) Choleric <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic
-* **Osiris** ↪<img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic <img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine
-* **Pursuer** ↪<img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic <img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic
-* **Roadside Killer** ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine ![Camarilla](../assets/Choleric.png) Choleric
-* **Sandman** ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine <img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic
-* **Scene Queen** ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine ![Camarilla](../assets/Choleric.png) Choleric
-* **Siren** ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine ![Camarilla](../assets/Choleric.png) Choleric
-* **Trapdoor** ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine <img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic
+  ↪ ![Melancholic](../assets/Melancholic.png) Melancholic ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
+* **Montero** ↪![Choleric](../assets/Choleric.png) Choleric ![Melancholic](../assets/Melancholic.png) Melancholic
+* **Osiris** ↪![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic ![Sanguiine](../assets/Sanguine.png) Sanguine
+* **Pursuer** ↪![Melancholic](../assets/Melancholic.png) Melancholic ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
+* **Roadside Killer** ↪![Sanguiine](../assets/Sanguine.png) Sanguine ![Choleric](../assets/Choleric.png) Choleric
+* **Sandman** ↪![Sanguiine](../assets/Sanguine.png) Sanguine ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
+* **Scene Queen** ↪![Sanguiine](../assets/Sanguine.png) Sanguine ![Choleric](../assets/Choleric.png) Choleric
+* **Siren** ↪![Sanguiine](../assets/Sanguine.png) Sanguine ![Choleric](../assets/Choleric.png) Choleric
+* **Trapdoor** ↪![Sanguiine](../assets/Sanguine.png) Sanguine ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
 
 Dyscrasias can be achieved by either fully draining a human with an acute Resonance or by tapping the same person over three different nights. Ping the ST team if that's something you want to do.&#x20;
 
@@ -115,12 +115,12 @@ An assault-feeder, this Kindred chooses to stalk, overpower, feed and escape fro
 
 Locations:
 
-<img src="../assets/Camarilla.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> # Montreal west - Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood. - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
+![Camarilla](../assets/Camarilla.png) # Montreal west - Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood. - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
 
 * DC 3
-* <img src="../assets/Anarch.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Mercier Hocelaga Maisonneuve - Marché Maisonneuve A large public market housed in a beaux-arts building with brick columns and arched windows.
+* ![Anarch](../assets/Anarch.png) #Mercier Hocelaga Maisonneuve - Marché Maisonneuve A large public market housed in a beaux-arts building with brick columns and arched windows.
   * DC 2
-* <img src="../assets/Indie.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #The old Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
+* ![Indie](../assets/Indie.png) #The old Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
   * DC 4
 
 ## Bagger
@@ -136,11 +136,11 @@ Those bag cannot be stored if the character doesn't posses a relevant haven meri
 
 Locations:
 
-* <img src="../assets/Camarilla.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Montreal West Verdun Hospital a small hospital near the river.
+* ![Camarilla](../assets/Camarilla.png) #Montreal West Verdun Hospital a small hospital near the river.
   * DC 2
-* <img src="../assets/Anarch.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Montreal East - Hôpital Vétérinaire de L’Est: a small veterinary clinic that offers back alley deal for the right price.
+* ![Anarch](../assets/Anarch.png) #Montreal East - Hôpital Vétérinaire de L’Est: a small veterinary clinic that offers back alley deal for the right price.
   * DC 2
-* <img src="../assets/Indie.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Ahuntsic - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient.
+* ![Indie](../assets/Indie.png) #Ahuntsic - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient.
   * DC 3
 
 ## Blood Leech
@@ -158,9 +158,9 @@ This Kindred feeds covertly from a mortal family and friends, often their own.
 
 Locations:
 
-* <img src="../assets/Camarilla.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Beaconsfield - Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
+* ![Camarilla](../assets/Camarilla.png) #Beaconsfield - Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
   * DC 4
-* <img src="../assets/Anarch.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Montreal Nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+* ![Anarch](../assets/Anarch.png) #Montreal Nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 4
 
 ## Consensualist
@@ -180,11 +180,11 @@ This Kindred acquires blood in exchange for services rendered.
 
 Locations:
 
-* <img src="../assets/Camarilla.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Montreal west - Boulevard Newman - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
+* ![Camarilla](../assets/Camarilla.png) #Montreal west - Boulevard Newman - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
   * DC 3
-* <img src="../assets/Anarch.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Montreal-nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+* ![Anarch](../assets/Anarch.png) #Montreal-nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 3
-* <img src="../assets/Indie.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions. - Place Jacques-Cartier contains a lot of dark spots, few alleys away from the more turistic attactions.
+* ![Indie](../assets/Indie.png) The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions. - Place Jacques-Cartier contains a lot of dark spots, few alleys away from the more turistic attactions.
   * DC 4
 
 ## Farmer
@@ -195,11 +195,11 @@ This Kindred only feeds from animals.
 
 Locations
 
-* <img src="../assets/Camarilla.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Ile-bizard - Bois-de-l'Île-Bizard: An estensive natural park and reserve.
+* ![Camarilla](../assets/Camarilla.png) #Ile-bizard - Bois-de-l'Île-Bizard: An estensive natural park and reserve.
   * DC 3
-* <img src="../assets/Anarch.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Roviere-des-Prairies - Bois-d'Anjou Nature Park: Another major park inside the city of Montreal
+* ![Anarch](../assets/Anarch.png) #Roviere-des-Prairies - Bois-d'Anjou Nature Park: Another major park inside the city of Montreal
   * DC 3
-* <img src="../assets/Indie.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #wilderness - Outisde the island, there are parks and woods. It might be danjerous to wander those lands alone at night...
+* ![Indie](../assets/Indie.png) #wilderness - Outisde the island, there are parks and woods. It might be danjerous to wander those lands alone at night...
   * DC 4
 
 ## Graverobber
@@ -211,11 +211,11 @@ Graverobbers often feed from fresh corpses, though they actually prefer feeding 
 
 Locations:
 
-* <img src="../assets/Camarilla.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Montreal-west: Verdun hospital: a small hospital near the river.
+* ![Camarilla](../assets/Camarilla.png) #Montreal-west: Verdun hospital: a small hospital near the river.
   * DC 3
-* <img src="../assets/Anarch.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Mercier-Hocelaga-Maissonneuve Le Repos Saint-François d'Assise: A major graveyard located just slight north of citè Jardin
+* ![Anarch](../assets/Anarch.png) #Mercier-Hocelaga-Maissonneuve Le Repos Saint-François d'Assise: A major graveyard located just slight north of citè Jardin
   * DC 3
-* <img src="../assets/Indie.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Mont-Royal-Plateau - Mount Royal Cemetery: The biggest graveyard at the heart of the city. Mostly old burials, but some parts are still actively being used
+* ![Indie](../assets/Indie.png) #Mont-Royal-Plateau - Mount Royal Cemetery: The biggest graveyard at the heart of the city. Mostly old burials, but some parts are still actively being used
   * DC 2
 
 ## Grim Reaper
@@ -227,9 +227,9 @@ Known as plague-rats, these Kindred feed exclusively on the dying. They find the
 
 Locations:
 
-* <img src="../assets/Camarilla.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Montreal-west: Verdun hospital: a small hospital near the river.
+* ![Camarilla](../assets/Camarilla.png) #Montreal-west: Verdun hospital: a small hospital near the river.
   * DC 2
-* <img src="../assets/Indie.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Ahuntsic - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient
+* ![Indie](../assets/Indie.png) #Ahuntsic - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient
   * DC 2
 
 ## Montero
@@ -241,11 +241,11 @@ A Spanish loanword, the montería were mounted deer hunts where a set of beater 
 
 Locations:
 
-* <img src="../assets/Camarilla.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Montreal west - Boulevard Newman - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
+* ![Camarilla](../assets/Camarilla.png) #Montreal west - Boulevard Newman - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
   * DC 3
-* <img src="../assets/Anarch.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Montreal-nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+* ![Anarch](../assets/Anarch.png) #Montreal-nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 3
-* <img src="../assets/Indie.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #the-old-port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
+* ![Indie](../assets/Indie.png) #the-old-port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
   * DC 4
 
 ## Osiris
@@ -266,11 +266,11 @@ The pursuer hunts targets that will never be missed. Studying their victims, lea
 
 Locations:
 
-* <img src="../assets/Camarilla.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> - #montreal-west : Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood. - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
+* ![Camarilla](../assets/Camarilla.png) - #montreal-west : Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood. - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
   * DC 3
-* <img src="../assets/Anarch.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> - #Montreal-nord: Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+* ![Anarch](../assets/Anarch.png) - #Montreal-nord: Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 3
-* <img src="../assets/Indie.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #the-old-port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
+* ![Indie](../assets/Indie.png) #the-old-port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
   * DC 4
 
 ## Roadside Killer
@@ -282,11 +282,11 @@ This Kindred feeds exclusively from the transient population. From the Truckers,
 
 Locations:
 
-* <img src="../assets/Camarilla.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Elliot-Trudeau-International-airport: The main international airport and the surrounding area are always full of people in transit
+* ![Camarilla](../assets/Camarilla.png) #Elliot-Trudeau-International-airport: The main international airport and the surrounding area are always full of people in transit
   * DC 3
-* <img src="../assets/Anarch.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #mercier-hochelaga-maisonneuve Charron Island: A small pier on the island is the host of many turistic tracts and some commercial boats might stop there as well
+* ![Anarch](../assets/Anarch.png) #mercier-hochelaga-maisonneuve Charron Island: A small pier on the island is the host of many turistic tracts and some commercial boats might stop there as well
   * DC 3
-* <img src="../assets/Indie.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Mont-Royal-Plateau The Mount Royal, the main attraction of the city, is a place ripe of tourists of all kind.
+* ![Indie](../assets/Indie.png) #Mont-Royal-Plateau The Mount Royal, the main attraction of the city, is a place ripe of tourists of all kind.
   * DC 3
 
 ## Sandman
@@ -297,9 +297,9 @@ This Kindred prefers to feed from sleeping victims using stealth or Disciplines.
 
 Locations:
 
-* <img src="../assets/Camarilla.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #beaconsville Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
+* ![Camarilla](../assets/Camarilla.png) #beaconsville Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
   * DC 4
-* <img src="../assets/Anarch.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Montreal-nord Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+* ![Anarch](../assets/Anarch.png) #Montreal-nord Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 4
 
 ## Siren
@@ -310,11 +310,11 @@ The Kindred feeds almost exclusively during (or while feigning) sex, relying on 
 
 Locations:
 
-* <img src="../assets/Camarilla.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #Elliot-Trudeau-International-airport - La Source du Sexe: near the airport there is a night and strip club
+* ![Camarilla](../assets/Camarilla.png) #Elliot-Trudeau-International-airport - La Source du Sexe: near the airport there is a night and strip club
   * DC 3
-* <img src="../assets/Anarch.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #gay-village - The Heart: The BDSM nighclub owned by the Reeves is available - just dont mess up 😉
+* ![Anarch](../assets/Anarch.png) #gay-village - The Heart: The BDSM nighclub owned by the Reeves is available - just dont mess up 😉
   * DC 3
-* <img src="../assets/Indie.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #the-old-port - Velvet Speakeasy: Accessed by going through catacombs, this stylish club offers cocktails, DJs & late-night dancing.
+* ![Indie](../assets/Indie.png) #the-old-port - Velvet Speakeasy: Accessed by going through catacombs, this stylish club offers cocktails, DJs & late-night dancing.
   * DC 3
 
 ## Scene queen
@@ -337,9 +337,9 @@ The Kindred builds a trap, in the form of their haven, and lures their prey into
 
 Locations (for the second type of hunt):
 
-* <img src="../assets/Camarilla.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> - #montreal-west : Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood.
+* ![Camarilla](../assets/Camarilla.png) - #montreal-west : Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood.
   * DC 3
-* <img src="../assets/Anarch.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> - #Montreal-nord Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+* ![Anarch](../assets/Anarch.png) - #Montreal-nord Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 3
-* <img src="../assets/Indie.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> #the-old-port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
+* ![Indie](../assets/Indie.png) #the-old-port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
   * DC 4
