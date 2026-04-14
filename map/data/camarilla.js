@@ -5,7 +5,7 @@ var data_camarilla = [
     "desc": "A scenic road along Lake Saint-Louis.<br><b>Hunting:</b> Sandman (DC 4), Cleaver (DC 4)" 
   },
   { 
-    "name": "Beaconsfield Yacht Club", "lat": 45.4283, "lng": -73.8665, 
+    "name": "Beaconsfield Yacht Club", "lat": 45.4266, "lng": -73.8357, 
     "type": "Camarilla",
     "desc": "Private club for sailing enthusiasts. Hub for boating." 
   },
@@ -20,12 +20,12 @@ var data_camarilla = [
     "desc": "Prestigious private high school with historical buildings." 
   },
   { 
-    "name": "Our Lady of Grace", "lat": 45.4500, "lng": -73.6328, 
+    "name": "Our Lady of Grace", "lat": 45.4735, "lng": -73.6148, 
     "type": "Camarilla",
     "desc": "<b>Maison Des Lys Violets HQ.</b> Modest stone parish.<br><b>Hunting:</b> Cleaver (DC 6)" 
   },
   { 
-    "name": "Devil's Hill", "lat": 45.4480, "lng": -73.6420, 
+    "name": "Devil's Hill", "lat": 45.4493, "lng": -73.6482, 
     "type": "Camarilla",
     "desc": "Rugged hill with panoramic views.<br><b>Hunting:</b> Alleycat, Trapdoor, Pursuer (DC 3)" 
   },
@@ -54,11 +54,13 @@ var data_camarilla = [
     "type": "Camarilla",
     "desc": "Heritage library with oak-paneled rooms." 
   },{ "name": "Beacon Hill Park", "lat": 45.4365, "lng": -73.8443, "type": "Camarilla", "desc": "A quiet public park with large trees and walking paths." },
-  { "name": "Monkland Avenue (NDG)", "lat": 45.4715, "lng": -73.6231, "type": "Camarilla", "desc": "A bustling commercial street with shops and cafés." },
   { "name": "Bistro le Bourbon", "lat": 45.4720, "lng": -73.6200, "type": "Camarilla", "desc": "A cozy, French-inspired bistro with rustic decor." },
   { "name": "Montreal West Train Station", "lat": 45.4533, "lng": -73.6425, "type": "Camarilla", "desc": "A small, historic train station with vintage charm." },
-  { "name": "Monkland Avenue (Montreal West)", "lat": 45.4600, "lng": -73.6350, "type": "Camarilla", "desc": "A lively commercial street with a suburban-urban feel." },
-  { "name": "Parc-nature du Bois-de-l'Île-Bizard", "lat": 45.4980, "lng": -73.8820, "type": "Camarilla", "desc": "A large park with expansive forested areas." },
+{ 
+    "name": "Boulevard Newman", "lat": 45.4313, "lng": -73.6353, 
+    "type": "Camarilla",
+    "desc": "A sprawling commercial artery lined with strip malls and parking lots.<br><b>Hunting:</b> Montero (DC 3), Extortionist (DC 3)" 
+  },  { "name": "Parc-nature du Bois-de-l'Île-Bizard", "lat": 45.4980, "lng": -73.8820, "type": "Camarilla", "desc": "A large park with expansive forested areas." },
   { "name": "Île-Bizard Golf Club", "lat": 45.4880, "lng": -73.8850, "type": "Camarilla", "desc": "An expansive, tranquil golf course." },
   { "name": "Faubourg de l'Île", "lat": 45.4920, "lng": -73.8750, "type": "Camarilla", "desc": "A peaceful residential neighborhood." },
   { "name": "Carrefour d'Île-Bizard", "lat": 45.4905, "lng": -73.8720, "type": "Camarilla", "desc": "A commercial hub serving the island." },

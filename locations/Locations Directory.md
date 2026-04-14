@@ -11,18 +11,16 @@ This directory serves as the master reference for all territories in the chronic
     * **Coordinates**: `45.4344, -73.9032`
     * **Hunting**: **Sandman** DC 4, **Cleaver** DC 4.
 * **Beaconsfield Yacht Club**: A private club located along the shores of Lake Saint-Louis, offering facilities for sailing and other water-based activities. The club is a hub for local boating enthusiasts, with docks, storage areas for boats, and a clubhouse that offers both casual and formal spaces for members. The surrounding area includes scenic views of the lake and is a place for recreation and social gatherings, particularly during the warmer months.
-    * **Coordinates**: `45.4283, -73.8665`
+    * **Coordinates**: ``45.4266, -73.8357``
     * **Domain Traits**: Owned by 🚢The Undertow Coterie | Domain: ●●●, Chasse: ●●●, Lien: ●●●, (Special: ↪ Members Only ●●) Portillon: ●●●.
 * **Beacon Hill Park**: A well-maintained public park offering a quiet retreat for the residents of Beaconsfield. The park features open green spaces, shaded areas under large trees, and walking paths. It's a popular spot for picnics, outdoor sports, and leisurely strolls. The park's calm atmosphere makes it a peaceful location for both relaxation and recreation.
     * **Coordinates**: `45.4365, -73.8443`
 
 ### Notre Dame de Grace (NDG)
 * **Trinity Memorial Church (Chantry)**: The historic and imposing 93-year-old gray limestone church on Sherbrooke Street West was dedicated as a memorial to soldiers who died in World War I. After a fire in 2023, the interior was consumed in flames while the exterior remained mostly unscathed. It now belongs to a fund to repurpose the church as a public service hub. The building is being brought back to life, offering a safe space for people to gather, join work meetings, and general events. The sacristy is now a kitchen, though it is intermittently closed for maintenance.
-    * **Coordinates**: `45.4748, -73.6076`
+    * **Coordinates**: `45.4735, -73.6148`
 * **Villa Maria High School**: A private, prestigious high school known for its strong academic reputation and traditional architecture. The campus includes a mix of historical buildings and modern facilities, with well-maintained gardens and athletic fields.
     * **Coordinates**: `45.4795, -73.6163`
-* **Monkland Avenue**: A bustling commercial street running through the heart of NDG, lined with various shops, cafés, restaurants, and local businesses. The avenue has a vibrant, community-centered atmosphere, with pedestrians strolling along the tree-lined sidewalks.
-    * **Coordinates**: `45.4715, -73.6231`
 * **Bistro le Bourbon**: A cozy and casual bistro known for its laid-back atmosphere and French-inspired menu. The interior is decorated with warm, rustic touches, including wooden tables, soft lighting, and vintage-style décor.
     * **Coordinates**: `45.4720, -73.6200`
 * **Our Lady of Grace Catholic Church**: A modest stone parish church with a simple steeple rising above the surrounding neighborhood. Its exterior is light grey, with arched stained glass windows and heavy wooden doors. Inside, the long nave is lined with wooden pews leading to a raised altar beneath a vaulted ceiling.
@@ -32,15 +30,15 @@ This directory serves as the master reference for all territories in the chronic
 
 ### Montreal West
 * **Devil's Hill**: A prominent, elevated area known for its panoramic views of the surrounding neighborhood. The hill is surrounded by a mix of dense trees and open spaces, offering a natural, somewhat rugged terrain. It’s a quiet location, often frequented by those seeking solitude or a scenic place to relax.
-    * **Coordinates**: `45.4480, -73.6420`
+    * **Coordinates**: `45.4493, -73.6482`
     * **Hunting**: **Alleycat** DC 3, **Trapdoor** DC 3, **Pursuer** DC 3.
 * **Montreal West Train Station**: A small, historic train station marked by classic architecture, with a waiting area that retains its vintage charm. It’s a functional space, with a small platform and nearby park for travelers to pass the time.
-    * **Coordinates**: `45.4533, -73.6425`
-* **Monkland Avenue (Montreal West)**: A lively commercial street lined with a mix of independent shops, cafés, and restaurants. The street has a suburban, yet urban feel, with tree-lined sidewalks and a variety of local businesses.
-    * **Coordinates**: `45.4600, -73.6350`
+    * **Coordinates**: `45.4542, -73.6422`
+* **Boulevard Newman**: The primary commercial artery of LaSalle, this wide, bustling avenue is lined with strip malls, big-box retailers, and fast-food chains. Unlike pedestrian-heavy café streets, Newman is defined by transient car traffic and sprawling parking lots, providing a distinctly utilitarian suburban hunting ground.
+    * **Coordinates**: `45.4313, -73.6353`
     * **Hunting**: **Montero** DC 3, **Extortionist** DC 3.
 * **Verdun Hospital**: A large, modern healthcare facility located in the borough of LaSalle. The hospital complex includes multiple buildings, with a main structure that features a mix of contemporary and functional design. Inside, the hospital is equipped with various medical departments, providing a wide range of services.
-    * **Coordinates**: `45.4475, -73.5707`
+    * **Coordinates**: `45.4583, -73.5661`
     * **Hunting**: **Grim Reaper** DC 2, **Bagger** DC 2, **Graverobber** DC 3.
 
 ### Ile Bizard
