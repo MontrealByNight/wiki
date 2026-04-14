@@ -179,7 +179,7 @@ This Kindred acquires blood in exchange for services rendered.
 
 Locations:
 
-* :camarilla: #Montreal west - Monkland Avenue - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
+* :camarilla: #Montreal west - Boulevard Newman - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
   * DC 3
 * :anarch: #Montreal-nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 3
@@ -240,7 +240,7 @@ A Spanish loanword, the montería were mounted deer hunts where a set of beater 
 
 Locations:
 
-* :camarilla: #Montreal west - Monkland Avenue - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
+* :camarilla: #Montreal west - Boulevard Newman - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
   * DC 3
 * :anarch: #Montreal-nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 3
