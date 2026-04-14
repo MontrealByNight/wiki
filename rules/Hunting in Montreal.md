@@ -2,7 +2,6 @@
 
 ## Hunting
 
-test ![Camarilla](../assets/Camarilla.png) test
 
 Hunting is, if not specified, at a base difficulty of 6. In named locations, there will be listed predator types in which one can hunt with their associated difficulty. If your predator type matches the hunt you are doing, you have a -1 on the listed difficulty.\
 For example:\
