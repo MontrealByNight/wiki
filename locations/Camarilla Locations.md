@@ -71,22 +71,23 @@ There was a delay in renovating the place due to a change in the administration.
 ## Ile Bizard
 **General Hunting DC:** 6
 
-* **Parc-nature du Bois-de-l'Île-Bizard**: A large park with dense forests, meadows, and winding nature trails.
+* **Parc-nature du Bois-de-l'Île-Bizard**: A large natural park located on the western tip of Île-Bizard, featuring expansive forested areas and winding trails. The park offers a variety of landscapes, including dense woods and open meadows. It is a popular spot for outdoor activities such as walking, birdwatching, and nature observation.
     * **Farmer DC**: 3
-* **Île-Bizard Golf Club**: An expansive, tranquil course lined with large trees.
-* **Faubourg de l'Île**: A peaceful residential neighborhood characterized by modern homes and cul-de-sacs.
-* **Carrefour d'Île-Bizard**: The local commercial hub featuring small businesses and grocery stores.
+* **Île-Bizard Golf Club**: An expansive golf course located on the southern edge of Île-Bizard. The course features well-maintained fairways, greens, and a clubhouse with views of the landscape. It is a quiet and scenic place, often frequented by golfers, with large trees lining the course and providing a tranquil environment.
+* **Faubourg de l'Île**: A residential neighborhood known for its modern homes and suburban layout. The area features neatly maintained lawns, quiet streets, and cul-de-sacs. It is primarily a peaceful, residential area with a family-friendly atmosphere, offering a calm living environment within a suburban setting.
+
+* **Carrefour d'Île-Bizard**: A shopping complex that serves as the commercial hub of Île-Bizard, featuring a variety of small businesses, cafes, and grocery stores. The area is busy during the day with local residents shopping or running errands. It provides convenient services for the community and offers a variety of retail options in a suburban setting.
 
 ---
 
 ## Elliot Trudeau International Airport
 **General Hunting DC:** 6
 
-* **Montréal-Pierre Elliott Trudeau International Airport**: A vast, bright terminal with glass walls designed for high traffic and efficiency.
+* **Montréal-Pierre Elliott Trudeau International Airport**: The airport terminal is a vast, modern structure with expansive glass walls, showcasing the constant flow of travelers through spacious, open concourses. The interior is bright and orderly, designed to support high traffic, with lounges, retail areas, and concourse seating that create a balanced and organized atmosphere. Various terminals and pathways connect in a well-marked layout, optimized for efficiency and accessibility.  
     * **Roadside Killer DC**: 2
-* **Dorval Train Station**: A utilitarian transit space near the airport with wide platforms and a steady rhythm of travelers.
-* **Côte-de-Liesse Industrial Park**: A functional complex of warehouses and distribution centers with loading zones for transport vehicles.
-* **La Source du Sexe**: A recognizable strip club with a neon exterior and a lounge-style interior featuring a main stage and bar.
+* **Dorval Train Station**: Located near the airport, the train station is a functional, utilitarian space that connects travelers to the broader transit network. Its straightforward design emphasizes practical features like wide platforms, accessible stairways, and clear signage for ease of use. Open areas and basic seating reflect its purpose, with frequent transit schedules providing a steady rhythm to the station's activities.
+* **Côte-de-Liesse Industrial Park**: This complex comprises large warehouses, distribution centers, and fenced storage facilities, with roads and loading zones designed to accommodate transport vehicles. The architecture is practical, characterized by wide, functional spaces and straightforward layouts for storage and distribution.  
+* **La Source du Sexe**: Located near the airport, La Source du Sexe is a well-known strip club with a bold neon-lit exterior, making it a recognizable spot for nightlife in the area. The venue is designed with a lounge-style interior, featuring a main stage, private seating sections, and a vibrant bar area. Popular among visitors and locals alike, its atmosphere is lively and energetic, drawing a mix of patrons looking for an engaging night out.
     * **Siren DC**: 3
 
 ---
@@ -94,17 +95,17 @@ There was a delay in renovating the place due to a change in the administration.
 ## Pierrefonds
 **General Hunting DC:** 6
 
-* **Cap-Saint-Jacques Nature Park**: A secluded park with forests and beaches; it is notably eerie and quiet at night.
-* **Pierrefonds Cultural Centre**: A contemporary community hub with glass façades that cast a soft glow over the area at night.
-* **Boulevard Gouin Ouest**: A historic riverfront boulevard featuring century-old heritage homes and cobbled sidewalks.
+* **Cap-Saint-Jacques Nature Park**: This vast, secluded park offers a range of landscapes—from dense forests to sandy beaches along Lake of Two Mountains. Its hidden trails and serene lakeside areas make it a retreat from city life. At night, the park takes on an eerie quiet, with only the rustle of leaves and distant water sounds breaking the silence.
+* **Pierrefonds Cultural Centre**: A community hub and event space, the Cultural Centre hosts everything from art exhibitions to workshops and private events. With its contemporary architecture, glass façades, and spacious interiors, the centre stands as a beacon of local culture. At night, the building casts a soft glow over the nearby park, visible through large windows that give glimpses into its frequently changing displays.
+* **Boulevard Gouin Ouest**: This historic boulevard winds along the river, lined with heritage homes and quaint local shops. The architecture is a blend of rustic charm and elegance, with several houses dating back a century or more. By night, the street is quiet, with only sparse streetlights illuminating the cobbled sidewalks, casting long shadows across the vintage façades.
 
 ---
 
 ## Westmount
 **General Hunting DC:** 5
 
-* **S16 Art Gallery**: A sleek, modern gallery showcasing innovative contemporary art exhibitions.
-* **Bibliothèque publique de Westmount**: A public library blending heritage charm with oak-paneled rooms and arched windows.
-* **Westmount Park**: A manicured escape featuring winding paths, ponds, and well-kept gardens.
-* **Westmount Municipal Building**: A stately civic hub with grand stone architecture, historic woodwork, and polished floors.
-* **Westmount Greenhouses**: A "hidden gem" within Westmount Park featuring glass-paned rooms of exotic flora.
+* **S16 Art Gallery**: A contemporary art gallery known for its innovative exhibitions that challenge traditional aesthetics. The gallery’s sleek, modern architecture stands out amidst Westmount’s historical surroundings, featuring an open layout with focused lighting that brings each piece to life.
+* **Bibliothèque publique de Westmount**: Westmount's public library, a blend of heritage charm and modernity, offers an inviting space with oak-paneled reading rooms, large arched windows, and cozy study areas. The library’s classic architecture and quiet ambiance make it a popular spot for those seeking knowledge or a peaceful place to read.
+* **Summit Woods**: This wild, untamed urban forest provides a secluded escape with rugged dirt paths, dense undergrowth, and a heavy tree canopy. It features quiet, shaded trails and an elevated vantage point at the summit that adds to its rugged, natural charm, making it ideal for absolute isolation and quiet reflection.
+* **Westmount Municipal Building**: This stately building houses various administrative offices and serves as a civic hub for the area. With its grand stone architecture and classic style, it embodies the neighborhood's distinguished heritage. Inside, the building features historic woodwork, polished floors, and halls lined with portraits, offering a sense of gravitas fitting the civic duties it upholds.
+* **Westmount Greenhouses**: Situated within Westmount Park, these historic greenhouses are home to a collection of exotic plants and seasonal blooms. Visitors can wander through glass-paned rooms filled with vibrant flora or sit in nearby shaded areas to enjoy the surroundings, making it a hidden gem for nature enthusiasts.

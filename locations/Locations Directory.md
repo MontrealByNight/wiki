@@ -43,42 +43,42 @@ This directory serves as the master reference for all territories in the chronic
 
 ### Ile Bizard
 * **Parc-nature du Bois-de-l'Île-Bizard**: A large natural park located on the western tip of Île-Bizard, featuring expansive forested areas and winding trails. The park offers a variety of landscapes, including dense woods and open meadows.
-    * **Coordinates**: `45.4980, -73.8820`
+    * **Coordinates**: `45.5173, -73.8860`
     * **Hunting**: **Farmer** DC 3.
 * **Île-Bizard Golf Club**: An expansive golf course located on the southern edge of Île-Bizard. The course features well-maintained fairways, greens, and a clubhouse with views of the landscape. It is a quiet and scenic place with large trees lining the course.
-    * **Coordinates**: `45.4880, -73.8850`
+    * **Coordinates**: `45.4865, -73.8860`
 * **Faubourg de l'Île**: A residential neighborhood known for its modern homes and suburban layout. The area features neatly maintained lawns, quiet streets, and cul-de-sacs. It is primarily a peaceful, residential area with a family-friendly atmosphere.
-    * **Coordinates**: `45.4920, -73.8750`
+    * **Coordinates**: `45.4950, -73.8750`
 * **Carrefour d'Île-Bizard**: A shopping complex that serves as the commercial hub of Île-Bizard, featuring a variety of small businesses, cafes, and grocery stores.
     * **Coordinates**: `45.4905, -73.8720`
 
 ### Elliot Trudeau International Airport
 * **Montréal-Pierre Elliott Trudeau International Airport**: The airport terminal is a vast, modern structure with expansive glass walls, showcasing the constant flow of travelers through spacious, open concourses. The interior is bright and orderly, with lounges, retail areas, and concourse seating.
-    * **Coordinates**: `45.4656, -73.7408`
+    * **Coordinates**: `45.4667, -73.7426`
     * **Hunting**: **Roadside Killer** DC 2.
 * **Dorval Train Station**: Located near the airport, the train station is a functional, utilitarian space. Its straightforward design emphasizes practical features like wide platforms, accessible stairways, and clear signage.
-    * **Coordinates**: `45.4435, -73.7431`
+    * **Coordinates**: `45.4452, -73.7415`
 * **Côte-de-Liesse Industrial Park**: This complex comprises large warehouses, distribution centers, and fenced storage facilities, with roads and loading zones designed to accommodate transport vehicles.
     * **Coordinates**: `45.4850, -73.6950`
 * **La Source du Sexe**: A well-known strip club with a bold neon-lit exterior. The venue is designed with a lounge-style interior, featuring a main stage, private seating sections, and a vibrant bar area.
-    * **Coordinates**: `45.4678, -73.7412`
+    * **Coordinates**: `45.4530, -73.7350`
     * **Hunting**: **Siren** DC 3.
 
 ### Pierrefonds
 * **Cap-Saint-Jacques Nature Park**: This vast, secluded park offers a range of landscapes—from dense forests to sandy beaches along Lake of Two Mountains. At night, the park takes on an eerie quiet, with only the rustle of leaves and distant water sounds.
-    * **Coordinates**: `45.4550, -73.9400`
+    * **Coordinates**: `45.4610, -73.9410`
 * **Pierrefonds Cultural Centre**: A community hub and event space with contemporary architecture, glass façades, and spacious interiors. At night, the building casts a soft glow over the nearby park.
-    * **Coordinates**: `45.4865, -73.8560`
+    * **Coordinates**: `45.4868, -73.8557`
 * **Boulevard Gouin Ouest**: This historic boulevard winds along the river, lined with heritage homes and quaint local shops. The architecture is a blend of rustic charm and elegance, with several houses dating back a century or more.
     * **Coordinates**: `45.5090, -73.8340`
 
 ### Westmount 
 * **S16 Art Gallery**: A contemporary art gallery known for its innovative exhibitions that challenge traditional aesthetics. The gallery’s sleek, modern architecture stands out amidst Westmount’s historical surroundings.
-    * **Coordinates**: `45.4874, -73.5909`
+    * **Coordinates**: `45.4828, -73.5898`
 * **Bibliothèque publique de Westmount**: Westmount's public library offers an inviting space with oak-paneled reading rooms, large arched windows, and cozy study areas. The library’s classic architecture and quiet ambiance make it a popular spot.
-    * **Coordinates**: `45.4814, -73.5993`
-* **Westmount Park**: This expansive, manicured park provides a serene escape with winding paths, small ponds, and well-kept gardens.
-    * **Coordinates**: `45.4800, -73.5975`
+    * **Coordinates**: `45.4830, -73.5975`
+* **Summit Woods**: An urban forest and bird sanctuary covering the highest peak of Westmount Summit. Unlike the manicured lawns of the lower city, this park feels wild and untamed, offering secluded dirt trails under a heavy canopy of trees.
+    * **Coordinates**: `45.4914, -73.6064`
 * **Westmount Municipal Building**: This stately building houses various administrative offices. With its grand stone architecture, historic woodwork, and polished floors, it embodies the neighborhood's distinguished heritage.
     * **Coordinates**: `45.4835, -73.5960`
 * **Westmount Greenhouses**: Situated within Westmount Park, these historic greenhouses are home to a collection of exotic plants and seasonal blooms.
