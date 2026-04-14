@@ -32,6 +32,7 @@ var data_anarch = [
   { 
     "name": "Marché Maisonneuve", "lat": 45.5505, "lng": -73.5461, 
     "type": "Anarch",
+    "emoji": "🐺",
     "desc": "<b>Wolfhounds HQ.</b> Beaux-arts public market.<br><b>Hunting:</b> Alleycat (DC 2)" 
   },
   { 
@@ -63,7 +64,10 @@ var data_anarch = [
   { "name": "Saint-Léonard Cavern Entrance", "lat": 45.5828, "lng": -73.6122, "type": "Anarch", "desc": "A natural cave system with unexplored deeper passages." },
   { "name": "Refinery Overlook", "lat": 45.6320, "lng": -73.5150, "type": "Anarch", "desc": "A hill overlooking chimneys that glow orange at night." },
   { "name": "Rue Notre-Dame Industrial Strip", "lat": 45.6200, "lng": -73.5050, "type": "Anarch", "desc": "Deserted stretch of aging warehouses." },
-  { "name": "Waterfront Rail Yard", "lat": 45.6268, "lng": -73.5042, "type": "Anarch", "desc": "Parallel to the river. Smells of rust and diesel." },
+  { "name": "Waterfront Rail Yard", "lat": 45.6268, "lng": -73.5042, 
+    "type": "Anarch", 
+    "emoji": "♻️",
+    "desc": "Parallel to the river. Smells of rust and diesel." },
   { "name": "Bois-de-l'Anjou Nature Park", "lat": 45.6190, "lng": -73.5460, "type": "Anarch", "desc": "Dense stretch of preserved woodland." },
   { "name": "CLSC Rivière-des-Prairies", "lat": 45.6530, "lng": -73.5650, "type": "Anarch", "desc": "A utilitarian public health facility." },
   { "name": "Rivière-des-Prairies Train Station", "lat": 45.6580, "lng": -73.5500, "type": "Anarch", "desc": "A quiet commuter station with minimal signage." },

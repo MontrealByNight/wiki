@@ -75,14 +75,47 @@
             });
         }
 
-        // 6. Helper Function to Draw Pins into Specific Layers
+        // 6. Define Custom Emoji Icons using L.divIcon
+        var iconSize = [30, 30]; // Width and height of the invisible box holding the emoji
+        var iconAnchor = [15, 15]; // Center point of the box
+
+        // Helper function to build the emoji icon with no background
+        function createEmojiIcon(emoji) {
+            return L.divIcon({
+                html: '<div style="font-size: 24px; text-align: center; line-height: 30px;">' + emoji + '</div>',
+                className: '', // Setting this to blank removes the default white square Leaflet usually draws
+                iconSize: iconSize,
+                iconAnchor: iconAnchor
+            });
+        }
+
+        // Assign emojis to your factions
+        var icons = {
+            'Camarilla': createEmojiIcon('🟠'), // Bat
+            'Anarch': createEmojiIcon('🟣'), // Fire
+            'Hecata': createEmojiIcon('💀'), // Skull
+            'Contested': createEmojiIcon('🔴')  // Crossed Swords
+        };
+
+        var defaultIcon = createEmojiIcon('📍'); // Default pin
+
+        // 7. Helper Function to Draw Pins
         function addPinsToLayer(dataArray, targetLayer) {
             if (typeof dataArray !== 'undefined') {
                 dataArray.forEach(function(loc) {
-                    var color = getColor(loc.type);
-                    L.circleMarker([loc.lat, loc.lng], {
-                        color: color, fillColor: color, fillOpacity: 0.8, radius: 7
-                    })
+                    
+                    var markerIcon;
+
+                    // 1. Check if this specific location has its own custom emoji
+                    if (loc.emoji) {
+                        markerIcon = createEmojiIcon(loc.emoji);
+                    } 
+                    // 2. Otherwise, fall back to the faction group icon (or default)
+                    else {
+                        markerIcon = icons[loc.type] || defaultIcon;
+                    }
+
+                    L.marker([loc.lat, loc.lng], { icon: markerIcon })
                     .bindPopup("<b>" + loc.name + "</b><br>" + (loc.desc ? loc.desc : ""))
                     .addTo(targetLayer);
                 });

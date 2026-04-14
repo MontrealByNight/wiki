@@ -8,6 +8,7 @@ var data_contested = [
   { 
     "name": "The Labyrinth", "lat": 45.5030, "lng": -73.5530, 
     "type": "Contested",
+    "emoji": "🎤",
     "desc": "<b>Wildlings HQ.</b> Narrow alleys and hidden courtyards.<br><b>Hunting:</b> Alleycat (DC 4)" 
   },
   { 
@@ -68,7 +69,7 @@ var data_contested = [
   { "name": "Bonsecours Market", "lat": 45.5093, "lng": -73.5517, "type": "Contested", "desc": "Elegant neoclassical building." },
   { "name": "Rue Saint-Denis", "lat": 45.5180, "lng": -73.5640, "type": "Contested", "desc": "Lively avenue with a vibrant nightlife." },
   { "name": "Carré Saint-Louis", "lat": 45.5170, "lng": -73.5695, "type": "Contested", "desc": "Picturesque park surrounded by Victorian houses." },
-  { "name": "Church of the Madonna della Difesa", "lat": 45.5348, "lng": -73.6120, "type": "Hecata", "desc": "Striking brick church with vibrant stained-glass." },
+  { "name": "Church of the Madonna della Difesa", "lat": 45.5348, "lng": -73.6120, "type": "Contested", "desc": "Striking brick church with vibrant stained-glass." },
   { "name": "Rialto Theatre", "lat": 45.5232, "lng": -73.6050, "type": "Contested", "desc": "Elegant building with a faded art deco style." },
   { "name": "Saint-Benoît Church", "lat": 45.5450, "lng": -73.6550, "type": "Contested", "desc": "Historical church that is largely empty at night." },
   { "name": "Ahuntsic-Cartierville Public Library", "lat": 45.5440, "lng": -73.6600, "type": "Contested", "desc": "A squat brick building with overgrown ivy." }

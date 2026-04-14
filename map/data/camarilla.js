@@ -7,6 +7,7 @@ var data_camarilla = [
   { 
     "name": "Beaconsfield Yacht Club", "lat": 45.4266, "lng": -73.8357, 
     "type": "Camarilla",
+    "emoji": "🚢",
     "desc": "Private club for sailing enthusiasts. Hub for boating." 
   },
   { 
@@ -22,6 +23,7 @@ var data_camarilla = [
   { 
     "name": "Our Lady of Grace", "lat": 45.4735, "lng": -73.6148, 
     "type": "Camarilla",
+    "emoji": "⚜️",
     "desc": "<b>Maison Des Lys Violets HQ.</b> Modest stone parish.<br><b>Hunting:</b> Cleaver (DC 6)" 
   },
   { 
