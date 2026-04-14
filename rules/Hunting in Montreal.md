@@ -41,7 +41,7 @@ Predator Types:
   ↪ ![Sanguiine](../assets/Sanguine.png) Sanguine ![Melancholic](../assets/Melancholic.png) Melancholic
 * **Extortionist** ↪ ![Melancholic](../assets/Melancholic.png) Melancholic ![Choleric](../assets/Choleric.png) Choleric
 * **Farmer**\
-  ↪ Animal resonance (count as ![Melancholic](../assets/Melancholic.png) Melancholic or ![Melancholic](../assets/Melancholic.png) Sanguine only for the purpose of Animalism and Protean.)\
+  ↪ Animal resonance (count as ![Melancholic](../assets/Melancholic.png) Melancholic or ![Sanguine](../assets/Sanguine.png) Sanguine only for the purpose of Animalism and Protean.)\
 * **Graverobber**\
   ↪ ![Melancholic](../assets/Melancholic.png) Melancholic ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
 * **Grim Reaper**\
@@ -140,9 +140,9 @@ Locations:
 
 * ![Camarilla](../assets/Camarilla.png) #Montreal-West Verdun Hospital a small hospital near the river.
   * DC 2
-* ![Anarch](../assets/Anarch.png) #Montreal East - Hôpital Vétérinaire de L’Est: a small veterinary clinic that offers back alley deal for the right price.
+* ![Anarch](../assets/Anarch.png) #Montreal-East - Hôpital Vétérinaire de L’Est: a small veterinary clinic that offers back alley deal for the right price.
   * DC 2
-* ![Indie](../assets/Indie.png) #Ahuntsic - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient.
+* ![Indie](../assets/Indie.png) #Ahuntsic-Cartierville - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient.
   * DC 3
 
 ## Blood Leech
@@ -161,7 +161,7 @@ This Kindred feeds covertly from a mortal family and friends, often their own.
 
 Locations:
 
-* ![Camarilla](../assets/Camarilla.png) #Beaconsfield - Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
+* ![Camarilla](../assets/Camarilla.png) #Beaconsville - Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
   * DC 4
 * ![Anarch](../assets/Anarch.png) #Montreal Nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 4
@@ -187,7 +187,7 @@ Locations:
   * DC 3
 * ![Anarch](../assets/Anarch.png) #Montreal-Nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 3
-* ![Indie](../assets/Indie.png) #Old-Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions. - Place Jacques-Cartier contains a lot of dark spots, few alleys away from the more turistic attactions.
+* ![Indie](../assets/Indie.png) #The-Old-Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions. - Place Jacques-Cartier contains a lot of dark spots, few alleys away from the more turistic attactions.
   * DC 4
 
 ## Farmer
@@ -232,7 +232,7 @@ Locations:
 
 * ![Camarilla](../assets/Camarilla.png) #Montreal-West: Verdun hospital: a small hospital near the river.
   * DC 2
-* ![Indie](../assets/Indie.png) #Ahuntsic - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient
+* ![Indie](../assets/Indie.png) #Ahuntsic-Cartierville - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient
   * DC 2
 
 ## Montero
