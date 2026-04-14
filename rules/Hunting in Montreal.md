@@ -31,7 +31,7 @@ Looking for a specific resonance could be done in some particular way.
 Predator Types:
 
 * **Alleycat**\
-  ↪ <img src="../assets/Choleric.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Choleric <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic
+  ↪ ![Camarilla](../assets/Choleric.png) Choleric <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic
 * **Bagger** \
   ↪<img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Fleeting Melancholic only
 * ~~**Blood Leech**~~\
@@ -39,20 +39,20 @@ Predator Types:
 * **Cleaver** ↪<img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic
 * **Consensualist** \
   ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic
-* **Extortionist** ↪<img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic <img src="../assets/Choleric.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Choleric
+* **Extortionist** ↪<img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic ![Camarilla](../assets/Choleric.png) Choleric
 * **Farmer**\
   ↪ Animal resonance (count as Melancholic or Sanguine only for the purpose of Animalism and Protean)\
   **Graverobber**\
   ↪ <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic <img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic
 * **Grim Reaper**\
   ↪ <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic <img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic
-* **Montero** ↪<img src="../assets/Choleric.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Choleric <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic
+* **Montero** ↪![Camarilla](../assets/Choleric.png) Choleric <img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic
 * **Osiris** ↪<img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic <img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine
 * **Pursuer** ↪<img src="../assets/Melancholic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Melancholic <img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic
-* **Roadside Killer** ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine <img src="../assets/Choleric.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Choleric
+* **Roadside Killer** ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine ![Camarilla](../assets/Choleric.png) Choleric
 * **Sandman** ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine <img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic
-* **Scene Queen** ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine <img src="../assets/Choleric.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Choleric
-* **Siren** ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine <img src="../assets/Choleric.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Choleric
+* **Scene Queen** ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine ![Camarilla](../assets/Choleric.png) Choleric
+* **Siren** ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine ![Camarilla](../assets/Choleric.png) Choleric
 * **Trapdoor** ↪<img src="../assets/Sanguine.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Sanguine <img src="../assets/Phlegmatic.png" style="width: 20px; height: 20px; vertical-align: middle; display: inline-block;"> Phlegmatic
 
 Dyscrasias can be achieved by either fully draining a human with an acute Resonance or by tapping the same person over three different nights. Ping the ST team if that's something you want to do.&#x20;
