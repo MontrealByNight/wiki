@@ -35,7 +35,7 @@
         * **Domain:** ●●●
         * **Chasse:** ●●●
         * **Lien:** ●●●
-        * **Portillon:** ●●●
+        * **Portillon:** ●(●●)
         * **Special:** ↪ Firestation ●●
 
 ---
