@@ -26,7 +26,9 @@
     <div id="map"></div>
 
     <script src="data/camarilla.js"></script>
-    <script src="data/polygons.js"></script>
+    <script src="data/anarch.js"></script>
+    <script src="data/contested.js"></script>
+        <script src="data/polygons.js"></script>
 
     <script>
         // 1. Define your Themes (Basemaps)
@@ -124,8 +126,13 @@
 
                 if (startIndex !== -1) {
                     var textAfterStart = markdownText.substring(startIndex + searchString.length);
-                    var endIndex = textAfterStart.indexOf("\n* **"); 
-                    var rawBlock = endIndex !== -1 ? textAfterStart.substring(0, endIndex) : textAfterStart;
+                    
+                    // --- THE NEW STOPPER ---
+                    // Stops reading at the next location (\n* **), a new heading (\n##), or a divider (\n---)
+                    var stopRegex = /\n(?:\*\s\*\*|##|---)/;
+                    var stopMatch = textAfterStart.match(stopRegex);
+                    
+                    var rawBlock = stopMatch ? textAfterStart.substring(0, stopMatch.index) : textAfterStart;
 
                     // 1. EXTRACT COORDINATES
                     var coordsMatch = rawBlock.match(/\*\*Coordinates\*\*:\s*`\s*([-\d.]+)\s*,\s*([-\d.]+)\s*`/);
