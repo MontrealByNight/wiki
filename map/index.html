@@ -67,10 +67,17 @@
         if (typeof mapPolygons !== 'undefined') {
             mapPolygons.forEach(function(poly) {
                 var zoneColor = getColor(poly.type);
+                
+                // Build the popup content
+                var popupContent = "<b>" + poly.name + "</b><br><i>" + poly.type + " Territory</i>";
+                if (poly.desc) {
+                    popupContent += "<br><br>" + poly.desc; // Adds the description if it exists
+                }
+
                 L.polygon(poly.coords, {
                     color: zoneColor, weight: 2, fillColor: zoneColor, fillOpacity: 0.15
                 })
-                .bindPopup("<b>" + poly.name + "</b><br>Type: " + poly.type)
+                .bindPopup(popupContent)
                 .addTo(territoryLayer);
             });
         }
