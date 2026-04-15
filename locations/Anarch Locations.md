@@ -35,18 +35,18 @@
 
 * **Hôpital Vétérinaire**: A utilitarian brick building between industrial lots.
     * **Coordinates**: `45.6358, -73.4985`
-    * **Bagger DC:** 2
+    * **Bagger DC**: 2
 * **Refinery Overlook**: A hill overlooking industrial pipes and chimneys that glow orange with safety flares at night.
     * **Coordinates**: `45.6320, -73.5150`
 * **Rue Notre-Dame Industrial Strip**: A stretch of warehouses and service yards that is mostly deserted after sunset.
     * **Coordinates**: `45.6200, -73.5050`
-* **Waterfront Rail Yard**: Parallel to the St. Lawrence River, this yard smells of rust and diesel and is covered in graffiti.  
+* **Waterfront Rail Yard**: Parallel to the St. Lawrence River, this yard smells of rust and diesel and is covered in graffiti.
     * **Coordinates**: `45.6268, -73.5042`
     * **Currently Owned By The ♻️ Ordinance 16-49 Coterie**
-        * **Domain:** ●●●
-        * **Chasse:** ●●●
-        * **Lien:** ●●●
-        * **Portillon:** ●●●
+        * **Domain**: ●●●
+        * **Chasse**: ●●●
+        * **Lien**: ●●●
+        * **Portillon**: ●●●
 
 ---
 
@@ -57,18 +57,18 @@
     * **Coordinates**: `45.5592, -73.5498`
 * **Le Repos Saint-François**: A vast, quiet cemetery with gravel paths and aging mausoleums.
     * **Coordinates**: `45.5781, -73.5658`
-    * **Graverobber DC:** 2
+    * **Graverobber DC**: 2
 * **Charron Island**: A forested island surrounded by dark waters, containing industrial remnants half-consumed by nature.
     * **Coordinates**: `45.5815, -73.4912`
-    * **Roadside Killer DC:** 3
+    * **Roadside Killer DC**: 3
 * **Marché Maisonneuve**: A beaux-arts public market building.
     * **Coordinates**: `45.5505, -73.5461`
-    * **Alleycat DC:** 2
+    * **Alleycat DC**: 2
     * **Currently Owned By 🐺 The Wolfhounds Coterie**
-        * **Domain:** ●
-        * **Chasse:** ●
-        * **Lien:** ●(●●) [Market Place]
-        * **Portillon:** ●
+        * **Domain**: ●
+        * **Chasse**: ●
+        * **Lien**: ●(●●) [Market Place]
+        * **Portillon**: ●
 
 ---
 
@@ -77,7 +77,7 @@
 
 * **Bois-de-l'Anjou Nature Park**: A dense woodland area with trails winding through pine and birch groves.
     * **Coordinates**: `45.6190, -73.5460`
-    * **Farmer DC:** 3
+    * **Farmer DC**: 3
 * **CLSC Rivière-des-Prairies**: A utilitarian public health facility with long, dated corridors.
     * **Coordinates**: `45.6530, -73.5650`
 * **Rivière-des-Prairies Train Station**: A quiet commuter station with a subdued atmosphere and minimal signage.
@@ -92,11 +92,11 @@
 
 * **Emmanuel Church**: A modest stone church with soft lighting and the scent of old wood.
     * **Coordinates**: `45.6012, -73.6358`
-    * **Cleaver DC:** 4
-    * **Extortionist DC:** 3
-    * **Montero DC:** 3
-    * **Pursuer DC:** 3
-    * **Sandman DC:** 4
+    * **Cleaver DC**: 4
+    * **Extortionist DC**: 3
+    * **Montero DC**: 3
+    * **Pursuer DC**: 3
+    * **Sandman DC**: 4
 * **Boulevard Henri-Bourassa Est**: A wide commercial boulevard with strip malls and steady traffic.
     * **Coordinates**: `45.6050, -73.6200`
 * **Parc Pilon**: A neighborhood park bordered by mid-rise apartments, featuring open green space and concrete benches.
@@ -119,4 +119,4 @@
     * **Coordinates**: `45.5230, -73.5500`
 * **The Heart**: An eccentric BDSM club owned by Sasha; a place where the Ministry hides in plain sight under red lights.
     * **Coordinates**: `45.5249, -73.5483`
-    * **Siren DC:** 3
+    * **Siren DC**: 3
