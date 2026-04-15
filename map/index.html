@@ -83,58 +83,99 @@
         }
 
         // 6. Define Custom Emoji Icons using L.divIcon
-        var iconSize = [30, 30]; // Width and height of the invisible box holding the emoji
-        var iconAnchor = [15, 15]; // Center point of the box
+        var iconSize = [30, 30]; 
+        var iconAnchor = [15, 15]; 
 
-        // Helper function to build the emoji icon with no background
         function createEmojiIcon(emoji) {
             return L.divIcon({
                 html: '<div style="font-size: 24px; text-align: center; line-height: 30px;">' + emoji + '</div>',
-                className: '', // Setting this to blank removes the default white square Leaflet usually draws
+                className: '', 
                 iconSize: iconSize,
                 iconAnchor: iconAnchor
             });
         }
 
-        // Assign emojis to your factions
         var icons = {
-            'Camarilla': createEmojiIcon('🟠'), // Bat
-            'Anarch': createEmojiIcon('🟣'), // Fire
-            'Hecata': createEmojiIcon('💀'), // Skull
-            'Contested': createEmojiIcon('🔴')  // Crossed Swords
+            'Camarilla': createEmojiIcon('🦇'), 
+            'Anarch': createEmojiIcon('🔥'), 
+            'Hecata': createEmojiIcon('💀'), 
+            'Contested': createEmojiIcon('⚔️')  
         };
+        var defaultIcon = createEmojiIcon('📍'); 
 
-        var defaultIcon = createEmojiIcon('📍'); // Default pin
+        // 7. Automated Markdown Fetcher and Pin Drawer (With Auto-Coordinates!)
+        async function fetchDescriptionsAndDraw(dataArray, targetLayer, rawMarkdownUrl) {
+            if (typeof dataArray === 'undefined' || dataArray.length === 0) return;
 
-        // 7. Helper Function to Draw Pins
-        function addPinsToLayer(dataArray, targetLayer) {
-            if (typeof dataArray !== 'undefined') {
-                dataArray.forEach(function(loc) {
-                    
-                    var markerIcon;
+            let markdownText = "";
+            try {
+                // Download the raw text
+                const response = await fetch(rawMarkdownUrl);
+                markdownText = await response.text();
+            } catch (error) {
+                console.error("Could not load Markdown file:", error);
+                return;
+            }
 
-                    // 1. Check if this specific location has its own custom emoji
-                    if (loc.emoji) {
-                        markerIcon = createEmojiIcon(loc.emoji);
-                    } 
-                    // 2. Otherwise, fall back to the faction group icon (or default)
-                    else {
-                        markerIcon = icons[loc.type] || defaultIcon;
+            dataArray.forEach(function(loc) {
+                var markerIcon = loc.emoji ? createEmojiIcon(loc.emoji) : (icons[loc.type] || defaultIcon);
+                
+                // Find this location in the markdown text
+                var searchString = "* **" + loc.name + "**";
+                var startIndex = markdownText.indexOf(searchString);
+
+                if (startIndex !== -1) {
+                    var textAfterStart = markdownText.substring(startIndex + searchString.length);
+                    var endIndex = textAfterStart.indexOf("\n* **"); 
+                    var rawBlock = endIndex !== -1 ? textAfterStart.substring(0, endIndex) : textAfterStart;
+
+                    // 1. EXTRACT COORDINATES
+                    var coordsMatch = rawBlock.match(/\*\*Coordinates\*\*:\s*`\s*([-\d.]+)\s*,\s*([-\d.]+)\s*`/);
+                    var pinLat, pinLng;
+
+                    if (coordsMatch) {
+                        pinLat = parseFloat(coordsMatch[1]);
+                        pinLng = parseFloat(coordsMatch[2]);
+                    } else if (loc.lat && loc.lng) {
+                        pinLat = loc.lat;
+                        pinLng = loc.lng;
                     }
 
-                    L.marker([loc.lat, loc.lng], { icon: markerIcon })
-                    .bindPopup("<b>" + loc.name + "</b><br>" + (loc.desc ? loc.desc : ""))
-                    .addTo(targetLayer);
-                });
-            }
+                    // 2. CLEAN UP HTML
+                    rawBlock = rawBlock.replace(/\n\s*\*\s\*\*Coordinates\*\*.*?(?=\n|$)/g, ''); // Hide coordinates from popup
+
+                    var descriptionHTML = rawBlock
+                        .replace(/^:\s*/, '') // Remove leading colon
+                        .replace(/\n\s*\*\s\*\*(.*?)\*\*:/g, '<br><b>$1:</b>') 
+                        .replace(/\n\s*\*\s↪\s\*\*(.*?)\*\*:/g, '<br>↳ <b>$1:</b>') 
+                        .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>') 
+                        .replace(/\n/g, '<br>'); 
+
+                    // 3. DRAW THE PIN
+                    if (pinLat && pinLng) {
+                        L.marker([pinLat, pinLng], { icon: markerIcon })
+                        .bindPopup("<b>" + loc.name + "</b><br><br>" + descriptionHTML, { maxWidth: 400, minWidth: 250 })
+                        .addTo(targetLayer);
+                    } else {
+                        console.warn("Skipped '" + loc.name + "' - No coordinates found.");
+                    }
+                } else {
+                    console.warn("Skipped '" + loc.name + "' - Could not find a matching name in the Markdown file.");
+                }
+            });
         }
 
-        // Fill the layers with your data
-        addPinsToLayer(typeof data_camarilla !== 'undefined' ? data_camarilla : [], camarillaLayer);
-        addPinsToLayer(typeof data_anarch !== 'undefined' ? data_anarch : [], anarchLayer);
-        addPinsToLayer(typeof data_contested !== 'undefined' ? data_contested : [], contestedLayer);
+        // 8. EXECUTE THE AUTOMATED SCRIPT! 
+        // Note: I am using 'main' branch here. If your branch is 'master', change the URLs below!
+        var camarillaUrl = "https://raw.githubusercontent.com/montrealbynight/wiki/main/locations/Camarilla%20Locations.md";
+        fetchDescriptionsAndDraw(typeof data_camarilla !== 'undefined' ? data_camarilla : [], camarillaLayer, camarillaUrl);
 
-        // 7. Create the Unified Menu
+        // (We will uncomment the Anarch one once you format the Anarch Locations.md file!)
+        // var anarchUrl = "https://raw.githubusercontent.com/montrealbynight/wiki/main/locations/Anarch%20Locations.md";
+        // fetchDescriptionsAndDraw(typeof data_anarch !== 'undefined' ? data_anarch : [], anarchLayer, anarchUrl);
+
+
+        // 9. Create the Unified Menu
         var baseMaps = {
             "Dark Theme": darkTheme,
             "Light Theme": lightTheme,
@@ -148,8 +189,5 @@
             "Contested/Other Pins": contestedLayer
         };
 
-        // Add the menu to the top right 
         L.control.layers(baseMaps, overlayMaps, { position: 'topright' }).addTo(map);
     </script>
-</body>
-</html>
