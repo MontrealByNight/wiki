@@ -170,14 +170,18 @@
             });
         }
 
-        // 8. EXECUTE THE AUTOMATED SCRIPT! 
-        // Note: I am using 'main' branch here. If your branch is 'master', change the URLs below!
+        // 8. EXECUTE ALL FACTIONS
+        // Camarilla
         var camarillaUrl = "https://raw.githubusercontent.com/montrealbynight/wiki/main/locations/Camarilla%20Locations.md";
         fetchDescriptionsAndDraw(typeof data_camarilla !== 'undefined' ? data_camarilla : [], camarillaLayer, camarillaUrl);
 
-        // (We will uncomment the Anarch one once you format the Anarch Locations.md file!)
-        // var anarchUrl = "https://raw.githubusercontent.com/montrealbynight/wiki/main/locations/Anarch%20Locations.md";
-        // fetchDescriptionsAndDraw(typeof data_anarch !== 'undefined' ? data_anarch : [], anarchLayer, anarchUrl);
+        // Anarch
+        var anarchUrl = "https://raw.githubusercontent.com/montrealbynight/wiki/main/locations/Anarch%20Locations.md";
+        fetchDescriptionsAndDraw(typeof data_anarch !== 'undefined' ? data_anarch : [], anarchLayer, anarchUrl);
+
+        // Contested
+        var contestedUrl = "https://raw.githubusercontent.com/montrealbynight/wiki/main/locations/Contested%20Locations.md";
+        fetchDescriptionsAndDraw(typeof data_contested !== 'undefined' ? data_contested : [], contestedLayer, contestedUrl);
 
 
         // 9. Create the Unified Menu
