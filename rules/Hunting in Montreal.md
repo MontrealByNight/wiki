@@ -38,7 +38,7 @@ Predator Types:
   ↪ No resonance
 * **Cleaver** ↪ ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic ![Melancholic](../assets/Melancholic.png) Melancholic
 * **Consensualist** \
-  ↪ ![Sanguiine](../assets/Sanguine.png) Sanguine ![Melancholic](../assets/Melancholic.png) Melancholic
+  ↪ ![Sanguine](../assets/Sanguine.png) Sanguine ![Melancholic](../assets/Melancholic.png) Melancholic
 * **Extortionist** ↪ ![Melancholic](../assets/Melancholic.png) Melancholic ![Choleric](../assets/Choleric.png) Choleric
 * **Farmer**\
   ↪ Animal resonance (count as ![Melancholic](../assets/Melancholic.png) Melancholic or ![Sanguine](../assets/Sanguine.png) Sanguine only for the purpose of Animalism and Protean.)\
@@ -47,13 +47,13 @@ Predator Types:
 * **Grim Reaper**\
   ↪ ![Melancholic](../assets/Melancholic.png) Melancholic ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
 * **Montero** ↪ ![Choleric](../assets/Choleric.png) Choleric ![Melancholic](../assets/Melancholic.png) Melancholic
-* **Osiris** ↪ ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic ![Sanguiine](../assets/Sanguine.png) Sanguine
+* **Osiris** ↪ ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic ![Sanguine](../assets/Sanguine.png) Sanguine
 * **Pursuer** ↪ ![Melancholic](../assets/Melancholic.png) Melancholic ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
-* **Roadside Killer** ↪ ![Sanguiine](../assets/Sanguine.png) Sanguine ![Choleric](../assets/Choleric.png) Choleric
-* **Sandman** ↪ ![Sanguiine](../assets/Sanguine.png) Sanguine ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
-* **Scene Queen** ↪ ![Sanguiine](../assets/Sanguine.png) Sanguine ![Choleric](../assets/Choleric.png) Choleric
-* **Siren** ↪ ![Sanguiine](../assets/Sanguine.png) Sanguine ![Choleric](../assets/Choleric.png) Choleric
-* **Trapdoor** ↪ ![Sanguiine](../assets/Sanguine.png) Sanguine ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
+* **Roadside Killer** ↪ ![Sanguine](../assets/Sanguine.png) Sanguine ![Choleric](../assets/Choleric.png) Choleric
+* **Sandman** ↪ ![Sanguine](../assets/Sanguine.png) Sanguine ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
+* **Scene Queen** ↪ ![Sanguine](../assets/Sanguine.png) Sanguine ![Choleric](../assets/Choleric.png) Choleric
+* **Siren** ↪ ![Sanguine](../assets/Sanguine.png) Sanguine ![Choleric](../assets/Choleric.png) Choleric
+* **Trapdoor** ↪ ![Sanguine](../assets/Sanguine.png) Sanguine ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
 
 Dyscrasias can be achieved by either fully draining a human with an acute Resonance or by tapping the same person over three different nights. Ping the ST team if that's something you want to do.&#x20;
 
