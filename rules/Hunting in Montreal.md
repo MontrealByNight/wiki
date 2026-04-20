@@ -2,7 +2,6 @@
 
 ## Hunting
 
-
 Hunting is, if not specified, at a base difficulty of 6. In named locations, there will be listed predator types in which one can hunt with their associated difficulty. If your predator type matches the hunt you are doing, you have a -1 on the listed difficulty.\
 For example:\
 Hunting in Downtown would be an hunting difficulty of 6.\
@@ -31,31 +30,31 @@ Looking for a specific resonance could be done in some particular way.
 Predator Types:
 
 * **Alleycat**\
-  ↪ ![Choleric](../assets/Choleric.png) Choleric ![Melancholic](../assets/Melancholic.png) Melancholic
-* **Bagger** \
-  ↪ ![Melancholic](../assets/Melancholic.png) Fleeting Melancholic only
+  ↪ ![Choleric](../.gitbook/assets/Choleric.png) Choleric ![Melancholic](<../.gitbook/assets/Melancholic (1).png>) Melancholic
+* **Bagger**\
+  ↪ ![Melancholic](<../.gitbook/assets/Melancholic (1).png>) Fleeting Melancholic only
 * ~~**Blood Leech**~~\
   ↪ No resonance
-* **Cleaver** ↪ ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic ![Melancholic](../assets/Melancholic.png) Melancholic
-* **Consensualist** \
-  ↪ ![Sanguine](../assets/Sanguine.png) Sanguine ![Melancholic](../assets/Melancholic.png) Melancholic
-* **Extortionist** ↪ ![Melancholic](../assets/Melancholic.png) Melancholic ![Choleric](../assets/Choleric.png) Choleric
+* **Cleaver** ↪ ![Phlegmatic](../.gitbook/assets/Phlegmatic.png) Phlegmatic ![Melancholic](<../.gitbook/assets/Melancholic (1).png>) Melancholic
+* **Consensualist**\
+  ↪ ![Sanguine](../.gitbook/assets/Sanguine.png) Sanguine ![Melancholic](<../.gitbook/assets/Melancholic (1).png>) Melancholic
+* **Extortionist** ↪ ![Melancholic](<../.gitbook/assets/Melancholic (1).png>) Melancholic ![Choleric](../.gitbook/assets/Choleric.png) Choleric
 * **Farmer**\
-  ↪ Animal resonance (count as ![Melancholic](../assets/Melancholic.png) Melancholic or ![Sanguine](../assets/Sanguine.png) Sanguine only for the purpose of Animalism and Protean.)\
+  ↪ Animal resonance (count as ![Melancholic](<../.gitbook/assets/Melancholic (1).png>) Melancholic or ![Sanguine](../.gitbook/assets/Sanguine.png) Sanguine only for the purpose of Animalism and Protean.)\\
 * **Graverobber**\
-  ↪ ![Melancholic](../assets/Melancholic.png) Melancholic ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
+  ↪ ![Melancholic](<../.gitbook/assets/Melancholic (1).png>) Melancholic ![Phlegmatic](../.gitbook/assets/Phlegmatic.png) Phlegmatic
 * **Grim Reaper**\
-  ↪ ![Melancholic](../assets/Melancholic.png) Melancholic ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
-* **Montero** ↪ ![Choleric](../assets/Choleric.png) Choleric ![Melancholic](../assets/Melancholic.png) Melancholic
-* **Osiris** ↪ ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic ![Sanguine](../assets/Sanguine.png) Sanguine
-* **Pursuer** ↪ ![Melancholic](../assets/Melancholic.png) Melancholic ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
-* **Roadside Killer** ↪ ![Sanguine](../assets/Sanguine.png) Sanguine ![Choleric](../assets/Choleric.png) Choleric
-* **Sandman** ↪ ![Sanguine](../assets/Sanguine.png) Sanguine ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
-* **Scene Queen** ↪ ![Sanguine](../assets/Sanguine.png) Sanguine ![Choleric](../assets/Choleric.png) Choleric
-* **Siren** ↪ ![Sanguine](../assets/Sanguine.png) Sanguine ![Choleric](../assets/Choleric.png) Choleric
-* **Trapdoor** ↪ ![Sanguine](../assets/Sanguine.png) Sanguine ![Phlegmatic](../assets/Phlegmatic.png) Phlegmatic
+  ↪ ![Melancholic](<../.gitbook/assets/Melancholic (1).png>) Melancholic ![Phlegmatic](../.gitbook/assets/Phlegmatic.png) Phlegmatic
+* **Montero** ↪ ![Choleric](../.gitbook/assets/Choleric.png) Choleric ![Melancholic](<../.gitbook/assets/Melancholic (1).png>) Melancholic
+* **Osiris** ↪ ![Phlegmatic](../.gitbook/assets/Phlegmatic.png) Phlegmatic ![Sanguine](../.gitbook/assets/Sanguine.png) Sanguine
+* **Pursuer** ↪ ![Melancholic](<../.gitbook/assets/Melancholic (1).png>) Melancholic ![Phlegmatic](../.gitbook/assets/Phlegmatic.png) Phlegmatic
+* **Roadside Killer** ↪ ![Sanguine](../.gitbook/assets/Sanguine.png) Sanguine ![Choleric](../.gitbook/assets/Choleric.png) Choleric
+* **Sandman** ↪ ![Sanguine](../.gitbook/assets/Sanguine.png) Sanguine ![Phlegmatic](../.gitbook/assets/Phlegmatic.png) Phlegmatic
+* **Scene Queen** ↪ ![Sanguine](../.gitbook/assets/Sanguine.png) Sanguine ![Choleric](../.gitbook/assets/Choleric.png) Choleric
+* **Siren** ↪ ![Sanguine](../.gitbook/assets/Sanguine.png) Sanguine ![Choleric](../.gitbook/assets/Choleric.png) Choleric
+* **Trapdoor** ↪ ![Sanguine](../.gitbook/assets/Sanguine.png) Sanguine ![Phlegmatic](../.gitbook/assets/Phlegmatic.png) Phlegmatic
 
-Dyscrasias can be achieved by either fully draining a human with an acute Resonance or by tapping the same person over three different nights. Ping the ST team if that's something you want to do.&#x20;
+Dyscrasias can be achieved by either fully draining a human with an acute Resonance or by tapping the same person over three different nights. Ping the ST team if that's something you want to do.
 
 **Please disregard the automatic selectionf od the Dyscrasia offered by the Inconnu bot.**
 
@@ -90,12 +89,12 @@ Human PCs can give a Resonance, but for balancing purpose there are some limits 
 * Intense can only be achieved in very particular and extreme circumstances that requires an ST interaction. It's extremely rare and not a simple process.
 * Acute can not be achieved by player characters.
 
-The blood loss is recovered at the same rate as advantages and backgrounds. A human that has loss 2 "Slakes" worth of hunger is tired and debilitated (suffer a -1 to all pools for the rest of the night).  
+The blood loss is recovered at the same rate as advantages and backgrounds. A human that has loss 2 "Slakes" worth of hunger is tired and debilitated (suffer a -1 to all pools for the rest of the night).\
 A human that has lost 3 or more blood points, needs medical assistance or risks to die. Always ping a ST if that happens.
 
 ### Prey Exclusions and Addictions
 
-A character with prey exclusions always hunt at +1 DC (some prey exclusions might be at +2, but that needs to be ironed out at CC).   
+A character with prey exclusions always hunt at +1 DC (some prey exclusions might be at +2, but that needs to be ironed out at CC).\
 Hunting without this increased difficulty means your characters gain a stain due to the prey exclusion.
 
 Addictions works in a similar way, to find a victim that has made use of the susbtance needed, there is an increased difficulty based on the substance:
@@ -104,7 +103,7 @@ Addictions works in a similar way, to find a victim that has made use of the sus
 * +2 DC: Cocaine, Meth, Speed, MDMA, Hallucinogens, lesser opiates, etc (most other street drugs).
 * +3 DC: Heroin.
 
-And again, similarly to a prey exclusions, a character that hunts without the increased DC will not be able to satisfy the flaw and as such they will receive the effects of the flaw.   
+And again, similarly to a prey exclusions, a character that hunts without the increased DC will not be able to satisfy the flaw and as such they will receive the effects of the flaw.\
 A successfull hunt with the appropriate higher DC means that the kindred manages to feed on someone that has used the substance and so they receive the effects of said substance as written in the book.
 
 Those effects lasts for 2 scenes after the hunt (generally for most if not all night), or until the kindreed feeds again or reaches hunger 5.
@@ -118,11 +117,11 @@ An assault-feeder, this Kindred chooses to stalk, overpower, feed and escape fro
 
 Locations:
 
-* ![Camarilla](../assets/Camarilla.png) # Montreal west - Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood. - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
+* ![Camarilla](../.gitbook/assets/Camarilla.png) # Montreal west - Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood. - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
   * DC 3
-* ![Anarch](../assets/Anarch.png) #Mercier Hocelaga Maisonneuve - Marché Maisonneuve A large public market housed in a beaux-arts building with brick columns and arched windows.
+* ![Anarch](../.gitbook/assets/Anarch.png) #Mercier Hocelaga Maisonneuve - Marché Maisonneuve A large public market housed in a beaux-arts building with brick columns and arched windows.
   * DC 2
-* ![Indie](../assets/Indie.png) #The old Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
+* ![Indie](../.gitbook/assets/Indie.png) #The old Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
   * DC 4
 
 ## Bagger
@@ -138,17 +137,17 @@ Those bag cannot be stored if the character doesn't posses a relevant haven meri
 
 Locations:
 
-* ![Camarilla](../assets/Camarilla.png) #Montreal-West Verdun Hospital a small hospital near the river.
+* ![Camarilla](../.gitbook/assets/Camarilla.png) #Montreal-West Verdun Hospital a small hospital near the river.
   * DC 2
-* ![Anarch](../assets/Anarch.png) #Montreal-East - Hôpital Vétérinaire de L’Est: a small veterinary clinic that offers back alley deal for the right price.
+* ![Anarch](../.gitbook/assets/Anarch.png) #Montreal-East - Hôpital Vétérinaire de L’Est: a small veterinary clinic that offers back alley deal for the right price.
   * DC 2
-* ![Indie](../assets/Indie.png) #Ahuntsic-Cartierville - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient.
+* ![Indie](../.gitbook/assets/Indie.png) #Ahuntsic-Cartierville - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient.
   * DC 3
 
 ## Blood Leech
 
-Blood leech can hunt anywhere at DC 5. A bestial failure or a messy crit will have very heavy implication for the character.  
-_You can not use this hunting pool to find the blood of a kindred to learn a new discipline._
+Blood leech can hunt anywhere at DC 5. A bestial failure or a messy crit will have very heavy implication for the character.\
+&#xNAN;_&#x59;ou can not use this hunting pool to find the blood of a kindred to learn a new discipline._
 
 * Strength + Brawl (beating an opponent)
 * Persuasion + Manipulation (seducing a victim)
@@ -161,9 +160,9 @@ This Kindred feeds covertly from a mortal family and friends, often their own.
 
 Locations:
 
-* ![Camarilla](../assets/Camarilla.png) #Beaconsville - Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
+* ![Camarilla](../.gitbook/assets/Camarilla.png) #Beaconsville - Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
   * DC 4
-* ![Anarch](../assets/Anarch.png) #Montreal Nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+* ![Anarch](../.gitbook/assets/Anarch.png) #Montreal Nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 4
 
 ## Consensualist
@@ -183,11 +182,11 @@ This Kindred acquires blood in exchange for services rendered.
 
 Locations:
 
-* ![Camarilla](../assets/Camarilla.png) #Montreal-West - Boulevard Newman - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
+* ![Camarilla](../.gitbook/assets/Camarilla.png) #Montreal-West - Boulevard Newman - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
   * DC 3
-* ![Anarch](../assets/Anarch.png) #Montreal-Nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+* ![Anarch](../.gitbook/assets/Anarch.png) #Montreal-Nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 3
-* ![Indie](../assets/Indie.png) #The-Old-Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions. - Place Jacques-Cartier contains a lot of dark spots, few alleys away from the more turistic attactions.
+* ![Indie](../.gitbook/assets/Indie.png) #The-Old-Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions. - Place Jacques-Cartier contains a lot of dark spots, few alleys away from the more turistic attactions.
   * DC 4
 
 ## Farmer
@@ -198,11 +197,11 @@ This Kindred only feeds from animals.
 
 Locations
 
-* ![Camarilla](../assets/Camarilla.png) #Ile-bizard - Bois-de-l'Île-Bizard: An estensive natural park and reserve.
+* ![Camarilla](../.gitbook/assets/Camarilla.png) #Ile-bizard - Bois-de-l'Île-Bizard: An estensive natural park and reserve.
   * DC 3
-* ![Anarch](../assets/Anarch.png) #Roviere-des-Prairies - Bois-d'Anjou Nature Park: Another major park inside the city of Montreal
+* ![Anarch](../.gitbook/assets/Anarch.png) #Roviere-des-Prairies - Bois-d'Anjou Nature Park: Another major park inside the city of Montreal
   * DC 3
-* ![Indie](../assets/Indie.png) #The-Wilderness - Outisde the island, there are parks and woods. It might be danjerous to wander those lands alone at night...
+* ![Indie](../.gitbook/assets/Indie.png) #The-Wilderness - Outisde the island, there are parks and woods. It might be danjerous to wander those lands alone at night...
   * DC 4
 
 ## Graverobber
@@ -214,11 +213,11 @@ Graverobbers often feed from fresh corpses, though they actually prefer feeding 
 
 Locations:
 
-* ![Camarilla](../assets/Camarilla.png) #Montreal-West: Verdun hospital: a small hospital near the river.
+* ![Camarilla](../.gitbook/assets/Camarilla.png) #Montreal-West: Verdun hospital: a small hospital near the river.
   * DC 3
-* ![Anarch](../assets/Anarch.png) #Mercier-Hocelaga-Maissonneuve Le Repos Saint-François d'Assise: A major graveyard located just slight north of citè Jardin
+* ![Anarch](../.gitbook/assets/Anarch.png) #Mercier-Hocelaga-Maissonneuve Le Repos Saint-François d'Assise: A major graveyard located just slight north of citè Jardin
   * DC 3
-* ![Indie](../assets/Indie.png) #Mont-Royal-Plateau - Mount Royal Cemetery: The biggest graveyard at the heart of the city. Mostly old burials, but some parts are still actively being used
+* ![Indie](../.gitbook/assets/Indie.png) #Mont-Royal-Plateau - Mount Royal Cemetery: The biggest graveyard at the heart of the city. Mostly old burials, but some parts are still actively being used
   * DC 2
 
 ## Grim Reaper
@@ -230,9 +229,9 @@ Known as plague-rats, these Kindred feed exclusively on the dying. They find the
 
 Locations:
 
-* ![Camarilla](../assets/Camarilla.png) #Montreal-West: Verdun hospital: a small hospital near the river.
+* ![Camarilla](../.gitbook/assets/Camarilla.png) #Montreal-West: Verdun hospital: a small hospital near the river.
   * DC 2
-* ![Indie](../assets/Indie.png) #Ahuntsic-Cartierville - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient
+* ![Indie](../.gitbook/assets/Indie.png) #Ahuntsic-Cartierville - Fleury Hospital an extremely low funded hospital that can hardly cater to their own patient
   * DC 2
 
 ## Montero
@@ -244,11 +243,11 @@ A Spanish loanword, the montería were mounted deer hunts where a set of beater 
 
 Locations:
 
-* ![Camarilla](../assets/Camarilla.png) #Montreal-West - Boulevard Newman - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
+* ![Camarilla](../.gitbook/assets/Camarilla.png) #Montreal-West - Boulevard Newman - A lively commercial street running through Montreal West, lined with a mix of independent shops, cafés, and restaurants.
   * DC 3
-* ![Anarch](../assets/Anarch.png) #Montreal-Nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+* ![Anarch](../.gitbook/assets/Anarch.png) #Montreal-Nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 3
-* ![Indie](../assets/Indie.png) #The-Old-Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
+* ![Indie](../.gitbook/assets/Indie.png) #The-Old-Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
   * DC 4
 
 ## Osiris
@@ -269,11 +268,11 @@ The pursuer hunts targets that will never be missed. Studying their victims, lea
 
 Locations:
 
-* ![Camarilla](../assets/Camarilla.png) - #Montreal-West : Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood. - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
+* ![Camarilla](../.gitbook/assets/Camarilla.png) - #Montreal-West : Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood. - Rare rough location near Westmont, it is possible to find some dark alley near a pub, some shady drug dealers or some low level crime.
   * DC 3
-* ![Anarch](../assets/Anarch.png) - #Montreal-Nord: Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+* ![Anarch](../.gitbook/assets/Anarch.png) - #Montreal-Nord: Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 3
-* ![Indie](../assets/Indie.png) #The-Old-Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
+* ![Indie](../.gitbook/assets/Indie.png) #The-Old-Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
   * DC 4
 
 ## Roadside Killer
@@ -285,11 +284,11 @@ This Kindred feeds exclusively from the transient population. From the Truckers,
 
 Locations:
 
-* ![Camarilla](../assets/Camarilla.png) #Elliot-Trudeau-International-airport: The main international airport and the surrounding area are always full of people in transit
+* ![Camarilla](../.gitbook/assets/Camarilla.png) #Elliot-Trudeau-International-airport: The main international airport and the surrounding area are always full of people in transit
   * DC 3
-* ![Anarch](../assets/Anarch.png) #Mercier-Hochelaga-Maisonneuve Charron Island: A small pier on the island is the host of many turistic tracts and some commercial boats might stop there as well
+* ![Anarch](../.gitbook/assets/Anarch.png) #Mercier-Hochelaga-Maisonneuve Charron Island: A small pier on the island is the host of many turistic tracts and some commercial boats might stop there as well
   * DC 3
-* ![Indie](../assets/Indie.png) #Mont-Royal-Plateau The Mount Royal, the main attraction of the city, is a place ripe of tourists of all kind.
+* ![Indie](../.gitbook/assets/Indie.png) #Mont-Royal-Plateau The Mount Royal, the main attraction of the city, is a place ripe of tourists of all kind.
   * DC 3
 
 ## Sandman
@@ -300,9 +299,9 @@ This Kindred prefers to feed from sleeping victims using stealth or Disciplines.
 
 Locations:
 
-* ![Camarilla](../assets/Camarilla.png) #Beaconsville Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
+* ![Camarilla](../.gitbook/assets/Camarilla.png) #Beaconsville Lakeshore rd: a small and semi-enclosed block with a lot of small houses and villas.
   * DC 4
-* ![Anarch](../assets/Anarch.png) #Montreal-Nord Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+* ![Anarch](../.gitbook/assets/Anarch.png) #Montreal-Nord Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 4
 
 ## Siren
@@ -313,11 +312,11 @@ The Kindred feeds almost exclusively during (or while feigning) sex, relying on 
 
 Locations:
 
-* ![Camarilla](../assets/Camarilla.png) #Elliot-Trudeau-International-airport - La Source du Sexe: near the airport there is a night and strip club
+* ![Camarilla](../.gitbook/assets/Camarilla.png) #Elliot-Trudeau-International-airport - La Source du Sexe: near the airport there is a night and strip club
   * DC 3
-* ![Anarch](../assets/Anarch.png) #Gay-Village - The Heart: The BDSM nighclub owned by the Reeves is available - just dont mess up 😉
+* ![Anarch](../.gitbook/assets/Anarch.png) #Gay-Village - The Heart: The BDSM nighclub owned by the Reeves is available - just dont mess up 😉
   * DC 3
-* ![Indie](../assets/Indie.png) #The-Old-Port - Velvet Speakeasy: Accessed by going through catacombs, this stylish club offers cocktails, DJs & late-night dancing.
+* ![Indie](../.gitbook/assets/Indie.png) #The-Old-Port - Velvet Speakeasy: Accessed by going through catacombs, this stylish club offers cocktails, DJs & late-night dancing.
   * DC 3
 
 ## Scene queen
@@ -340,9 +339,9 @@ The Kindred builds a trap, in the form of their haven, and lures their prey into
 
 Locations (for the second type of hunt):
 
-* ![Camarilla](../assets/Camarilla.png) - #Montreal-West : Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood.
+* ![Camarilla](../.gitbook/assets/Camarilla.png) - #Montreal-West : Devil's Hill - A prominent, elevated area known for its panoramic views of the surrounding neighborhood.
   * DC 3
-* ![Anarch](../assets/Anarch.png) - #Montreal-Nord Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
+* ![Anarch](../.gitbook/assets/Anarch.png) - #Montreal-Nord Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 3
-* ![Indie](../assets/Indie.png) #The-Old-Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
+* ![Indie](../.gitbook/assets/Indie.png) #The-Old-Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions.
   * DC 4

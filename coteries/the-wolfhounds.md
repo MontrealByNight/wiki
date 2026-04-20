@@ -1,15 +1,15 @@
-# 🐺 The Wolfhounds
+# 🐺The Wolfhounds
 
-* **Type:** Champions 
-* **Name:** Wolfhounds 
+* **Type:** Champions
+* **Name:** Wolfhounds
 * **Symbol:** 🐺
 
 ## 🏰 Domain Traits
 
-* **Domain:** ●  
-* **Location:** Marché Maisonneuve (Mercier Hochelaga Maisonneuve)  
-* **Chasse:** ●  
-* **Lien:** ●(●●)  
+* **Domain:** ●
+* **Location:** Marché Maisonneuve (Mercier Hochelaga Maisonneuve)
+* **Chasse:** ●
+* **Lien:** ●(●●)
 * ↪ **Market Place:** ●● **Portillon:** ●
 
 ## 📍 Location Details
@@ -22,7 +22,8 @@
 
 ## 🏚️ Haven
 
-**Haven Rating:** ●● 
+**Haven Rating:** ●●
+
 * ↪ **Watchmen:** ●
 * ↪ **Security System:** ●
 * ↪ **Postern:** ●
@@ -31,8 +32,8 @@
 
 **Clan Merits:**
 
-* <:Brujah:1134621764660510842> **Boot and Rally** (Brujah): ● 
-* <:Ventrue:1134621798365921342> **Pack Tactics** (Gangrel): ●●●  
+* <:Brujah:1134621764660510842> **Boot and Rally** (Brujah): ●
+* <:Ventrue:1134621798365921342> **Pack Tactics** (Gangrel): ●●●
 
 ## 👥 Members
 
@@ -47,4 +48,3 @@
 * **Criminal Arms Dealer:** ●●● (Hector Jurez - Laney)
 * **Criminal (Corrupt Manager):** ●●● (Leon Hurst, Med Research Co. - Seamus)
 * **Criminal Subcontractor:** ●●● (Big Timmy - Marta)
-
