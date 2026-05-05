@@ -4,7 +4,7 @@ This directory serves as the master reference for all territories in the chronic
 
 ---
 
-## 🟦 Camarilla Territory
+## 🟠 Camarilla Territory
 
 ### Beaconsfield
 * **Lakeshore Road**: A scenic road that stretches along the northern edge of Lake Saint-Louis in Beaconsfield. The road is lined with well-kept homes, many with views of the lake, as well as small parks and green spaces. It’s a quiet, residential area, often used by locals for leisurely walks, cycling, and enjoying the waterfront scenery. The road provides easy access to the lake's edge, where the atmosphere is peaceful and relaxed.
@@ -17,7 +17,7 @@ This directory serves as the master reference for all territories in the chronic
     * **Coordinates**: `45.4365, -73.8443`
 
 ### Notre Dame de Grace (NDG)
-* **Trinity Memorial Church (Chantry)**: The historic and imposing 93-year-old gray limestone church on Sherbrooke Street West was dedicated as a memorial to soldiers who died in World War I. After a fire in 2023, the interior was consumed in flames while the exterior remained mostly unscathed. It now belongs to a fund to repurpose the church as a public service hub. The building is being brought back to life, offering a safe space for people to gather, join work meetings, and general events. The sacristy is now a kitchen, though it is intermittently closed for maintenance.
+* **Trinity Memorial Church**: The historic and imposing 93-year-old gray limestone church on Sherbrooke Street West was dedicated as a memorial to soldiers who died in World War I. After a fire in 2023, the interior was consumed in flames while the exterior remained mostly unscathed. It now belongs to a fund to repurpose the church as a public service hub. The building is being brought back to life, offering a safe space for people to gather, join work meetings, and general events. The sacristy is now a kitchen, though it is intermittently closed for maintenance.
     * **Coordinates**: `45.4735, -73.6148`
 * **Villa Maria High School**: A private, prestigious high school known for its strong academic reputation and traditional architecture. The campus includes a mix of historical buildings and modern facilities, with well-maintained gardens and athletic fields.
     * **Coordinates**: `45.4795, -73.6163`
@@ -25,7 +25,6 @@ This directory serves as the master reference for all territories in the chronic
     * **Coordinates**: `45.4720, -73.6200`
 * **Our Lady of Grace Catholic Church**: A modest stone parish church with a simple steeple rising above the surrounding neighborhood. Its exterior is light grey, with arched stained glass windows and heavy wooden doors. Inside, the long nave is lined with wooden pews leading to a raised altar beneath a vaulted ceiling.
     * **Coordinates**: `45.4500, -73.6328`
-    * **Hunting**: **Cleaver** DC 6.
     * **Domain Traits**: Owned by ⚜️Maison Des Lys Violets Coterie | Domain ●●●, Chasse ●●●, Lien ●●●, Portillon ●●● (Special: ↪ Firestation ●●).
 
 ### Montreal West
@@ -86,7 +85,7 @@ This directory serves as the master reference for all territories in the chronic
 
 ---
 
-## 🟥 Anarch Territory
+## 🟣 Anarch Territory
 
 ### St Helens Island
 * **La Ronde**: A large amusement park located on Saint Helen's Island, offering a wide range of rides, attractions, and entertainment options. It features roller coasters, water rides, and a variety of family-friendly attractions.
@@ -173,7 +172,7 @@ This directory serves as the master reference for all territories in the chronic
 
 ---
 
-## 🟧 Contested Territory
+## 🔴 Contested Territory
 
 ### The Underground City
 * **Complexe Desjardins**: A vast, multi-level indoor plaza with polished floors, glass-paneled walls, and a massive central atrium that fills with a dim glow by night.
@@ -247,7 +246,7 @@ This directory serves as the master reference for all territories in the chronic
 
 ---
 
-## ⬜ Other Regions
+## ⚪ Other Regions
 * **City Sewers**: Scenes occurring within the city's subterranean systems.
 * **Laval**: Scenes taking place in the city of Laval.
 * **Longueuil**: Scenes taking place on the south shore in Longueuil.
