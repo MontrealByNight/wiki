@@ -30,7 +30,6 @@
     * **Coordinates**: `45.4720, -73.6200`
 * **Our Lady of Grace**: A modest stone parish church with a simple steeple rising above the surrounding neighborhood. Its exterior is light grey, with arched stained glass windows and a small set of steps leading to heavy wooden doors. Inside, the long nave is lined with wooden pews, leading to a raised altar beneath a vaulted ceiling. 
     * **Coordinates**: `45.4735, -73.6148`
-    * **Hunting**: Cleaver DC 6
     * **Currently Owned by the ⚜️ Maison Des Lys Violets Coterie**
         * **Domain:** ●●●
         * **Chasse:** ●●●
