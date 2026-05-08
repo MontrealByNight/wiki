@@ -1,6 +1,10 @@
-# VTM V5 Server PvP Combat Flowchart and Rules
+# Montreal Combat Rule correction
 
-This document outlines the strict, step-by-step resolution system for Player vs. Player (PvP) combat on the server. These rules are designed to remove ambiguity, enforce action economy, and ensure fair, balanced encounters based on the *Vampire: The Masquerade 5th Edition* Corebook.
+This document outlines the strict, step-by-step resolution system for combat that we will use in the server. 
+
+As integrity and fairness is the most important aspect during PvP combat, some of those rules can be hand-waived by the STs in situation of PvE. 
+
+These rules are designed to remove ambiguity, enforce action economy, and ensure fair, balanced encounters based on the *Vampire: The Masquerade 5th Edition* Corebook.
 
 ---
 
@@ -12,7 +16,7 @@ Unless one party has successfully set up an ambush (gaining **Surprise** via a s
 1. **Old Melee:** Characters who are *already* locked in close combat (brawling or melee) from a previous turn.
 2. **Ranged:** Characters firing guns, throwing weapons, or using ranged attacks.
 3. **New Melee:** Characters who are moving into striking distance to engage in close combat this turn.
-4. **Anything Else:** Activating non-combat Disciplines, fleeing, reloading, healing, interacting with the environment, or purely defensive actions.
+4. **Anything Else:** Activating Disciplines, fleeing, reloading, healing, interacting with the environment, or purely defensive actions.
 
 ### Resolving Ties Within a Tier
 When multiple players act within the same tier, use the following order to determine who resolves their action first:
@@ -24,7 +28,7 @@ When multiple players act within the same tier, use the following order to deter
 
 ## Phase 2: Action Declarations
 
-Before any dice hit the table, all players must formally declare their actions for the turn. To reflect the tactical advantage of speed and awareness, declarations are made in **Reverse Initiative Order**. 
+Before any roll is made, all players must formally declare their actions for the turn. To reflect the tactical advantage of speed and awareness, declarations are made in **Reverse Initiative Order**. 
 
 ### 1. The Declaration Order
 * The character who is *last* in the initiative order must declare their action first. 
@@ -62,6 +66,7 @@ When two characters are engaged in physical combat and have declared physical at
 * Both players roll their respective combat pools against each other simultaneously.
 * **The Result:** The character with the most successes wins. They subtract the loser's successes from their own to find their **Margin**. 
 * The winner deals damage based on that Margin. The loser deals *no damage*.
+* In Case of a Tie: If both players roll the exact same number of successes, they strike each other simultaneously. The Margin is 0. Both characters deal damage to each other equal to their weapon rating (+ other modifiers like *Feral Weapons* or *Prowess*).
 
 ### 2. Defensive Actions & The Right to Defend
 A character can **ALWAYS** roll to defend against an incoming attack unless the situation makes it absolutely impossible. Defensive options include:
@@ -72,7 +77,9 @@ A character can **ALWAYS** roll to defend against an incoming attack unless the 
 **When Defense is Impossible:** A character cannot roll to defend if they:
 * Are the victim of a successful **Surprise/Ambush** attack.
 * Have declared an **All-Out Attack** (which sacrifices all defense for a single powerful strike).
-* Are currently immobilized or held in a **Grapple**.
+* Are currently immobilized and held in a **Grapple** (more later).
+
+**In Case of a Tie (Pure Defense):** If the opposed roll between an attacker and a purely defending character (Dodging, Blocking, or Parrying) results in a tie, the defender "wins" the contest. The attack is entirely avoided or deflected, and the defender takes zero damage.
 
 ### 3. Multiple Attackers & All-Out Defense
 Every character is strictly limited to **one attack per turn**, meaning you can only Counter-Attack one declared target. For all subsequent attacks, you must roll purely to defend. 
@@ -97,6 +104,8 @@ When an attack successfully lands, calculate the damage by strictly following th
 * Take the attacker’s **Margin of Success** (the successes remaining after subtracting the defender's). 
 * Add the **Weapon Modifier** (e.g., +2 for a knife, +3 for a sword, +4 for a heavy firearm). 
 * *Result:* Margin + Weapon Modifier = Total Base Damage.
+* If the Roll was a Tie (Attack vs Attack): The Margin is 0. Both characters take damage simultaneously. The Total Base Damage for each character is strictly equal to their Weapon Modifier (+ other modifiers like *Feral Weapons* or *Prowess*).
+* If the Roll was a Tie (Attack vs Defense): If the defender was purely dodging, blocking, or parrying, they win the tie. The Margin is effectively negated, and the attacker deals 0 damage (weapon modifiers are not applied).
 
 ### Step 2: Apply Fortitude (Toughness)
 *(Ref: V5 Corebook, pg. 258)*
@@ -113,7 +122,7 @@ Because you are vampires fighting vampires, almost all physical damage (fists, b
 
 ### Step 4: Mark Health & Impairment
 Apply the final damage number to the character's Health track.
-* **Impairment:** If a character's Health track becomes completely filled with Superficial damage, they are **Impaired**. They suffer a strict **-2 penalty** to all physical dice pools.
+* **Impairment:** If a character's Health track becomes completely filled with Superficial damage, they are **Impaired**. They suffer a strict **-2 penalty** to all physical dice pools. **This will apply to all the remaining rolls for the turn, if any.**
 * **Torpor:** If a character's Health track becomes completely filled with Aggravated damage, they immediately fall into Torpor. Combat ends for them.
 
 ---
