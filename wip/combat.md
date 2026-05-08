@@ -8,15 +8,16 @@ These rules are designed to remove ambiguity, enforce action economy, and ensure
 
 ---
 
-## Phase 1: Initiative Order (Ref: V5 Corebook, pg. 125)
+## Phase 1: Initiative Order (Ref: V5 Corebook, pg. 125 - Gehenna War pg. 52)
 
 Unless one party has successfully set up an ambush (gaining **Surprise** via a stealth or tactics test), combat actions are resolved in a strict descending order based on the action tier. 
 
 ### The Action Tiers
+0. **Surprise:** Any characters who successfully snuck up on someone, has entered combat undetected, or has some other narrative means of striking unnoticed, acts first, no matter what arena of combat they fight in.
 1. **Old Melee:** Characters who are *already* locked in close combat (brawling or melee) from a previous turn.
-2. **Ranged:** Characters firing guns, throwing weapons, or using ranged attacks.
+2. **Ranged:** Any characters using firearms, a Discipline that acts from a distance, or any other means of attacking outside of a person’s reach act next.
 3. **New Melee:** Characters who are moving into striking distance to engage in close combat this turn.
-4. **Anything Else:** Activating Disciplines, fleeing, reloading, healing, interacting with the environment, or purely defensive actions.
+4. **Anything Else:** Any actions that aren’t engaging in any kind of active physical or ranged combat but do require a roll act last. This includes acts of larceny, hacking, commanding animals in a non-combat manner, and any non-aggressive use of vehicles. Any characters trying social means of ending the physical combat or are involved in afull Social combat act in this order as well.
 
 ### Resolving Ties Within a Tier
 When multiple players act within the same tier, use the following order to determine who resolves their action first:
