@@ -24,7 +24,6 @@ Looking for a specific resonance could be done in some particular way.
 
 * Using the Bloodhound merit. Another character could roll for the merit and point the 'prey' at you. You still need to successfully hunt.
 * Once per night, and this can't be assisted, you can find the correct resonance with a successfull Resolve + Insight DC 5 roll.
-* Bagged blood and blood from corpses has no resonance, same for ghoul's blood.
 * Each predator type has access to a specific resonance linked to the predator type. One can decide to hunt for one of those instead. Just add `/temperament resonance` instead of `/resonance`
 
 Predator Types:
