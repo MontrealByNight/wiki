@@ -66,7 +66,10 @@ Requesting to drink from the same person again will require talking with the sta
 
 Reaching Hunger 5 or drinking any other blood will remove the effect of the current resonance. A resonance can not be stored and loses it's properties in about 10 minutes.
 
-Bagged blood always give a fleeting Melancholic resonance. (unless for TBA purposes)
+Bagged blood and corpses always give a Fleeting Melancholic resonance. (unless for TBA purposes)  
+
+Ghoul's blood never provide resonance.
+* **Drinking from your Retainer is forbidden by the rules, unless extremely specific scenarios which need to be discussed with the storytellers before it happens.**
 
 Resonances are needed to learn and level up new disciplines.<br>
 
