@@ -134,3 +134,36 @@ Apply the final damage number to the character's Health track.
 * **Step 2 (Fortitude):** Player B has activated *Toughness* (Fortitude 2) and subtracts 2 from the damage. *(Remaining damage = 3)*.
 * **Step 3 (Halving):** Bullets deal standard Superficial damage to vampires. The remaining 3 damage is halved and rounded up. *(Remaining damage = 2)*.
 * **Final Result:** Player B takes **2 Superficial damage** to their Health track.
+
+
+# Grapple (correction and balance difference from RAW)
+*(Ref: V5 Corebook, pg. 301 - Storyteller system Expanded Mechanics, pg. 125*
+
+Grappling is an extremely strong maneuver that restricts a target's options and sets them up for devastating attacks. Because of its complexity in a PvP environment, and the lack of clear rules from the offical book, this server has some changes compared to the normal grapple system you will find in the corebook. This is also taking into consideration the slight changes present in the Storyteller System Expanded Mechanics document.
+
+### 1. Initiating the Grapple (Turn 1)
+To start a grapple, a character must declare their intent to grapple during Phase 2. 
+* The attacker rolls **Strength + Brawl**.
+* The defender may roll to **Dodge** (Dexterity + Athletics) or **Counter-Attack** (Standard Conflict Pool).
+* **If Attacker Wins:** The attacker deals **0 damage** on this initial turn, regardless of their margin. Instead, the defender gains the **Grappled** condition.
+* **If Defender Wins:** The grapple fails. The defender successfully evades or deals damage to the attacker as normal.
+* **In Case of a Tie (vs. Dodge):** The defender wins the tie. The grapple completely fails and no one takes damage.
+* **In Case of a Tie (vs. Counter-Attack):** Both characters strike each other simultaneously, dealing base damage (1 damage + any discipline modifiers like *Prowess*). However, the **grapple fails** to take hold.
+
+### 2. The Grappled Condition
+While a character is Grappled, they are physically restricted but not completely helpless. The following strict rules apply:
+* **Against the Grappler:** The target can act as normal against the person holding them. This includes declaring physical counter-attacks, shooting them (if the weapon allows), or using Disciplines directly against them. They basically can act as normal against the grappler.
+* **Against Other Targets (Offense):** The target *cannot* take physical actions or declare attacks against anyone other than the grappler. (Purely mental/visual Disciplines may still be used against third parties at the ST's discretion).
+* **Against Other Targets (Defense):** The target **can** still roll to Dodge attacks from third parties, suffering the normal multiple-attacker penalties. They *cannot* declare counter-attacks against third parties.
+
+### 3. The Struggle (Turn 2 and Beyond)
+In the rounds *after* a grapple is successfully initiated, the grappler must declare how they are using the hold. 
+
+**The Grappler's Defense (Releasing the Hold):** If the grappled target declares an attack against the grappler, the grappler may choose to **Dodge** (Dexterity + Athletics) instead of contesting the attack with Strength + Brawl. However, if the grappler chooses to dodge, **the grapple is immediately released** and the hold is broken.
+
+**Contesting the Grapple:** If the grappler chooses to maintain the hold, both combatants roll an opposed **Strength + Brawl** (unless the defender uses a different valid counter-attack pool).
+* **If the Grappler Wins:** The grappler maintains the hold and may immediately choose **ONE** of the following options:
+    1. **Damage:** Damage the foe based on their margin of successes, calculated as a normal attack.
+    2. **Bite:** Sink their fangs into the foe. Because the target is grappled, this attack suffers *no called-shot penalty*. If successful against a vampire, it deals a flat **2 Aggravated damage** (This damage is not halved, and standard Toughness does not reduce it). To feed from a bite attack, the attacker needs to either have the *Brutal Feed* power, or they need to maintain the bite (and the grapple) for another turn.
+    4. **Restrain (Hold):** Deal no damage, but pin the target securely. If the grappler chooses this option, the target is completely immobilized and **loses the ability to dodge other attackers** for the remainder of the turn. *(Server Rule: The Potence power "Relentless Grasp" ONLY provides its bonus if the grappler selects this specific Restrain option. The bonus does not apply to the initial grab, nor to the Damage or Bite options).*
+* **If the Grappled Target Wins:** The target deals damage (if they declared a counter-attack) or simply escapes. Regardless, the hold is broken, and they can move freely in the next round.
