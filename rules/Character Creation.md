@@ -1,8 +1,20 @@
 # Character Creation
 
+## Editable PDF Sheet
+
+First and foremost, we will need you to fill an editable PDF sheet. We use a custom PDF created for us by the amazing [MrGone](https://mrgone.rocksolidshells.com/index.html).&#x20;
+
+{% file src="../.gitbook/assets/Montreal by Night sheet.pdf" %}
+
+Any time there is an update on the sheet, it needs to be reflected and you will need to submit an updated file.
+
+Remember to fill all the important details in the sheet, especially the conviction, the tenets and all the value related to blood potency and generation.
+
 ## Character Creation
 
 Following the Rulebook Character creation, with slight edits regarding the age of the Characters.
+
+
 
 ## Attributes
 
