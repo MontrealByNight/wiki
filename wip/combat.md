@@ -25,6 +25,10 @@ When multiple players act within the same tier, use the following order to deter
 * **2nd Tie-Breaker:** Compare the dots in the **Skill** being used (e.g., Firearms vs. Firearms). The higher rating goes first.
 * **3rd Tie-Breaker (Server Standard):** If stats are completely identical, players roll a single standard 10-sided die. The highest number goes first.
 
+### Initiative Clarifications
+* **Static Initiative:** Initiative is determined only once at the beginning of combat. It does not change from turn to turn. The only exceptions being if someone becomes incapacitated or similar.
+* **No Surges or Powers:** Because the tie-breaker is a static comparison of stats (Dexterity + Wits) and not a dice roll, players *cannot* use Blood Surge to boost their Initiative. Passive Disciplines (like Celerity) also do not add to this value, unless specified directly by the power itself.
+
 ---
 
 ## Phase 2: Action Declarations
@@ -167,3 +171,39 @@ In the rounds *after* a grapple is successfully initiated, the grappler must dec
     2. **Bite:** Sink their fangs into the foe. Because the target is grappled, this attack suffers *no called-shot penalty*. If successful against a vampire, it deals a flat **2 Aggravated damage** (This damage is not halved, and standard Toughness does not reduce it). To feed from a bite attack, the attacker needs to either have the *Brutal Feed* power, or they need to maintain the bite (and the grapple) for another turn.
     4. **Restrain (Hold):** Deal no damage, but pin the target securely. If the grappler chooses this option, the target is completely immobilized and **loses the ability to dodge other attackers** for the remainder of the turn. *(Server Rule: The Potence power "Relentless Grasp" ONLY provides its bonus if the grappler selects this specific Restrain option. The bonus does not apply to the initial grab, nor to the Damage or Bite options).*
 * **If the Grappled Target Wins:** The target deals damage (if they declared a counter-attack) or simply escapes. Regardless, the hold is broken, and they can move freely in the next round.
+
+
+# Bite Attacks & Combat Feeding (correction and balance difference from RAW)
+*(Ref: V5 Corebook, pg. 213)*
+
+Biting another Kindred in combat is a high-risk, high-reward maneuver that bypasses standard damage calculation. 
+
+### 1. Initiating a Bite Attack
+Players must declare their intention to bite during the Action Declaration phase. A bite can be initiated in two ways:
+* **From an Active Grapple:** If the attacker has already successfully grappled their opponent in a previous turn, they may choose the "Bite" option upon winning the *Strength + Brawl* struggle. This roll suffers no penalty.
+* **Direct Attack (The Lunge):** A combatant can attempt to bite directly using a **Strength + Brawl** attack. Because biting exposed flesh on a moving target is difficult, this direct attack suffers a **1-success penalty** to the attacker's roll.
+
+### 2. The Bite Effect & Escaping
+If the bite attack wins the opposed roll:
+* **Damage:** The attacker's fangs lodge into the victim, dealing a flat **2 Aggravated Damage** (against vampires). This damage ignores margin of success, weapon modifiers, and standard *Toughness*. 
+* **The Grapple State:** A successful direct bite immediately treats the victim as **Grappled**. 
+* **Escaping:** The bitten foe can escape on subsequent turns through a contested *Strength + Brawl* roll, exactly as per the Grappling rules. If the attacker maintains the bite on subsequent turns, they continue to deal damage/feed without the 1-success penalty.
+
+### 3. Combat Feeding & The "Hunger 5" Rule (Server Standard)
+While actively biting a target, the attacker may choose to feed. Normally, an attacker slakes 1 Hunger for every 1 point of Hunger they inflict on the victim. However, to prevent infinite loops during Frenzy, the following server rules apply when the victim's tank is empty (Hunger 5):
+* **Overfeeding Damage:** If an attacker feeds on a Kindred who is already at Hunger 5, the attacker still successfully slakes their Hunger. However, because the victim has no blood left to give, the victim takes **1 Superficial Damage** for every point of Hunger the attacker slakes. This damage is a direct consequence of their vitae being violently ripped from a dry system. This damage cannot be mitigated in any way.
+
+### 4. Brutal Feed Clarifications
+The Potence power *Brutal Feed* allows for massive damage and feeding in a single turn, but operates under strict mathematical limits against other vampires:
+* **Halved on Kindred:** When used on another vampire, the number of feeding attempts is halved (rounded down). For example, a character with Potence 5 gets 2 feeding attempts.
+* **Brutal Feed vs. Hunger 5:** If *Brutal Feed* is used on a vampire who is already at Hunger 5, the "Overfeeding Damage" rule applies. The attacker slakes their halved amount (e.g., 2 Hunger), and the victim takes an equal amount of **Aggravated Damage** (e.g., 2 Aggravated Damage). Same as before, they cannot be mitigated in any way.
+* *Note on Stacking:* This Aggravated damage *replaces* the standard Superficial damage normally dealt by Brutal Feed. They do not stack.
+
+### 5. Diablerie in Combat 
+*(Ref: V5 Corebook, pg. 235)*
+
+Because of the time and horrific effort required, Diablerie is almost never possible during active combat. Consuming a Kindred's soul is a brutal process that typically requires an entire undisturbed scene. 
+
+If a player wishes to attempt Diablerie during a combat encounter, the following strict boundaries apply:
+* **The Absolute Prerequisites:** Before the soul can even be targeted, the victim's vitae must be entirely drained and their physical form broken. The victim must simultaneously be at **Hunger 5** AND have their Health track **completely filled with Aggravated Damage** (placing them in Torpor). 
+* **The Combat Exception:** Even if the prerequisites are met, mid-combat Diablerie is not a guaranteed action. It will only be considered by STs under extreme, extenuating circumstances, and generally requires the active use of powers like *Brutal Feed* to accelerate the horrific process to an unnatural speed.
