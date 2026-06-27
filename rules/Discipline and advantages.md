@@ -230,6 +230,14 @@ Owning different labs could help with brewing multiple formulae at once if using
 * The Flaw "Land Locked" does not fit a stationary chronicle and it's banned.
 * The Loresheet "Succubus Club Copycat" is banned.
 * All the powers, ritual, ceremonies from Fall of London are very incomplete and their systems don't make much for a game and so they are banned. (Ritual of transferring the Soul - Unseen Underground - Web of Hunger - Eyes of Beasts - Ventriloquism - The sun eclypses everything- Vermin Vision - Clear the Field) with the exception of 'The Knowing Stone'.
+*  The ritual "Preservation" doesnt work on living things or other substances that would normally spoil (for example, blood or vitae)
+*  The ceremony "Misfortune's Hand" will be actively monitored and the duration is set to 4 IC night (the one night when the ceremony is used + 3)
+*  The first dot of the "Descendant of Count Jocalo" loresheet dot doesn't actually provide real dots of status.
+*  The loresheet "Descendant of Marconius" is banned. An homebrew to replace it might come in the future.
+
+## A note regarding Loresheets and boons
+There are many loresheet powers that alter the level of the boons provided or owed. Those do not work in an enviroinment where a player almost always interact with another player, and so the boons are the result of roleplay, rather than project or social rolls against NPCs.  
+As such, every power that modifies the level of boons or grant boons is to be considered banned or heavily restricted and not usable against other PCs.  
 
 ## Restricted Clans, Sects and Cults
 
