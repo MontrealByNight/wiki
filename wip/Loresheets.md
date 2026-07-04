@@ -1094,7 +1094,7 @@
 * Comrades in Arms
 * Dangerous Secrets
 
-~~**The Parthenon Troupe** ~~ 🚫 Banned 🚫
+~~**The Parthenon Troupe**~~ 🚫 Banned 🚫
 
 **Temple of Boom Contract** (Free download on World of Darkness or Live from the Succubus Club Page 166)
 * Chocolate Drop
