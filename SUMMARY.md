@@ -5,6 +5,7 @@
   * [How to play](<rules/How to play.md>)
   * [Character Creation](<rules/Character Creation.md>)
   * [Discipline and advantages](<rules/Discipline and advantages.md>)
+  * [Loresheets](<rules/Loresheets.md>) 
   * [Hunting in Montreal](<rules/Hunting in Montreal.md>)
   * [Hombrew Bloodlines](<rules/Hombrew Bloodlines.md>)
   * [Homebrew Loresheets](<rules/Homebrew Loresheets.md>)
