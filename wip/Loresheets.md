@@ -87,7 +87,7 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 * Like Sire, Like Childe
 * Long-Lost Relative
 
-**~~Descendant of Marconius** (Courts of the Damned Page 219)~~ 🚫 Banned 🚫
+** ~~Descendant of Marconius** (Courts of the Damned Page 219)~~ 🚫 Banned 🚫
 > Note on this specific loresheet: Now that we have some tidbits about the Kyasid that is somewhat official, i would not be opposed to write our own version of this Loresheet, in the same way as our Dracula loresheet predates the official one and we still use our own brew. For the reasons mentioned above, this loresheet as it stands can't really be approved for play. But we can work together on something that's more appropriated.
 
 **Descendant of Meerlinda** (Courts of the Damned Page 220) - *[Restriction: Tremere only]*
@@ -412,7 +412,7 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 * Troile’s Wish
 * ~~Carthage Anew~~ 🚫 Banned 🚫
 
-**~~Blood Plagued~~** (Page 197) ~~ 🚫 Banned 🚫
+** ~~Blood Plagued~~** (Page 197) ~~ 🚫 Banned 🚫
 
 **Anarch Revolt** (Page 198)
 * Critical Ancestor
@@ -548,7 +548,7 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 * No Records Found
 * Friend on the Inside
 
-**~~Kevin Jackson** (Page 277)~~ 🚫 Banned 🚫
+** ~~Kevin Jackson** (Page 277)~~ 🚫 Banned 🚫
 
 **Kindred Iconography** (Page 278)
 * Iconographer
@@ -617,9 +617,9 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 
 ## Chicago Folios Loresheets
 
-**~~Archons** (Page 158)~~ 🚫 Banned 🚫
+** ~~Archons** (Page 158)~~ 🚫 Banned 🚫
 
-**~~The Convention of Chicago** (Page 159)~~ 🚫 Banned 🚫
+** ~~The Convention of Chicago** (Page 159)~~ 🚫 Banned 🚫
 
 **Goblin Roads** (Page 161)
 * Night Rider
@@ -628,7 +628,7 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 * Weird Ally
 * One with the Weird
 
-**~~Justicar Lucinde** (Page 162)~~ 🚫 Banned 🚫
+** ~~Justicar Lucinde** (Page 162)~~ 🚫 Banned 🚫
 
 **Khalid Al-Rashid** (Page 163)
 * Safe Haven
@@ -665,9 +665,9 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 * World Tour
 * Passenger Service
 
-**~~Sheriff Damien** (Page 168)~~ 🚫 Banned 🚫
+** ~~Sheriff Damien** (Page 168)~~ 🚫 Banned 🚫
 
-**~~The Wolf Pack** (Page 169)~~ 🚫 Banned 🚫
+** ~~The Wolf Pack** (Page 169)~~ 🚫 Banned 🚫
 
 ---
 
@@ -708,7 +708,7 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 * Objects of Desire
 * Dr. Mortius’s Haven
 
-**~~Mark Decker** (Page 229)~~ 🚫 Banned 🚫
+** ~~Mark Decker** (Page 229)~~ 🚫 Banned 🚫
 
 **Maxwell** (Page 230)
 * Tactician
@@ -724,13 +724,13 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 * Church of Isis
 * Usla’s Talismans
 
-**~~Modius** (Page 233)~~ 🚫 Banned 🚫
+** ~~Modius** (Page 233)~~ 🚫 Banned 🚫
 
 ---
 
 ## Cults of the Blood Gods / Players Guide Loresheets
 
-**~~Calling the Family Reunion** (Cults of the Blood Gods Page 228)~~ 🚫 Banned 🚫
+** ~~Calling the Family Reunion** (Cults of the Blood Gods Page 228)~~ 🚫 Banned 🚫
 
 **Child of the Angel Michael** (Cults of the Blood Gods Page 229) - *[Restriction: Nosferatu cannot take this]*
 * The Great and the Good
@@ -824,7 +824,7 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 * Cult Breaker
 * Red Truths
 
-**~~Plagues of Gehenna** (Page 91)~~ 🚫 Banned 🚫
+** ~~Plagues of Gehenna** (Page 91)~~ 🚫 Banned 🚫
 
 **Praepositor** (Page 92) - *[Restriction: Tremere only]*
 * Chastise the Wayward
@@ -933,9 +933,9 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 * A Wolf in the Fold
 * The Shepherd
 
-**~~Minneapolis** (Issue 2, page 32)~~ 🚫 Banned 🚫
+** ~~Minneapolis** (Issue 2, page 32)~~ 🚫 Banned 🚫
 
-**~~St. Paul** (Issue 2, page 33)~~ 🚫 Banned 🚫
+** ~~St. Paul** (Issue 2, page 33)~~ 🚫 Banned 🚫
 
 
 **The Mortician's Army** (Issue 9, page 32)
@@ -1049,7 +1049,7 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 
 ## Live from the Succubus Club Loresheets
 
-**~~Succubus Club Copycat** (Page 162)~~ 🚫 Banned 🚫
+** ~~Succubus Club Copycat** (Page 162)~~ 🚫 Banned 🚫
 
 **The Pony Express** (Page 163 or Chicago Folios Page 167)
 * Access to the Network
@@ -1099,7 +1099,7 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 * Comrades in Arms
 * Dangerous Secrets
 
-~~**The Parthenon Troupe**~~ 🚫 Banned 🚫
+~~**The Parthenon Troupe** ~~ 🚫 Banned 🚫
 
 **Temple of Boom Contract** (Free download on World of Darkness or Live from the Succubus Club Page 166)
 * Chocolate Drop
