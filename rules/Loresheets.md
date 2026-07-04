@@ -1,6 +1,7 @@
 # General Specifics about Loresheets
 * There are many loresheets power that grant or alter boons with other kindred. As those other kindred are almost always PCs, those powers are either banned alltogether or restricted for use against other PCs.
 * There are also a lot of Loresheets that involve specific locations (Chicago, Los Angeles, Milwaukee and many more) or specific STCs (Helena, Victor Temple, Fiorenza, Juggler and many more). Those Loresheets might not be available for the current Chronicle, depending on the situation and the involvment of such locations and STCs. Some of those might become available later if a story involving those entities becomes part of the server. A different STCs could replace the official one, or a location that is part of a Loresheet might be "relocated" to Montreal (for example, The Blue Velvet Loresheet is replaced by our The Heart loresheet - Maybe a quest involving The Nul Zone or the Goblin Road might take part in the city and so those Loresheet would be relocated)
+* All the Loresheets that are connected to specific Cults (or similar) require some form of adhesion to those principles. If a character is part of a cult, they should at least have a related conviction.
 
 ---
 
@@ -520,14 +521,14 @@
 * Pluck the Strands
 * Malkav’s Will
 
-**Cultivar** (Page 271) - *[Restriction: Cultivar members only]*
+**Cultivar** (Page 271) 
 * Dark Seedling
 * Fresh Cutting
 * Suppressing the Beast
 * Newly Made Initiate
 * Jewel in the Garden
 
-**Cult of Shalim** (Page 272) - *[Restriction: Cult of Shalim members only]* *[❗You gain the Dark Secret Flaw (•) when taking this loresheet❗]*
+**Cult of Shalim** (Page 272) *[❗You gain the Dark Secret Flaw (•) when taking this loresheet❗]*
 * Dark Whispers
 * Cult Initiate
 * Power of Faith
