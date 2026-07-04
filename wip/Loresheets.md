@@ -412,7 +412,7 @@
 * Troile’s Wish
 * ~~Carthage Anew~~ 🚫 Banned 🚫
 
-** ~~Blood Plagued~~** (Page 197) ~~ 🚫 Banned 🚫
+** ~~Blood Plagued** (Page 197)~~ 🚫 Banned 🚫
 
 **Anarch Revolt** (Page 198)
 * Critical Ancestor
