@@ -425,10 +425,10 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 
 ## Camarilla Loresheets
 
-**Carmelita Neillson** (Page 184 or Corebook, page 403)
+**Carmelita Neillson** (Page 403)
 * The Art of Story
 * The Art of Will
-* Neillson Library
+* Neillson Library - 🔒Limited to 1 Character *[Currently Owned by Maison Des Lys Violets Coterie]*
 * Interview With the Methuselah
 * Ancestor’s Tomb
 
@@ -880,12 +880,7 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 
 ## Fall of London Loresheets
 
-**Agent of Justicar Parr** (Page 231)
-* Information Drop
-* Camarilla Conditioning
-* Request Backup
-* Favored Protégé
-* Camarilla Archon
+** ~~Agent of Justicar Parr** (Page 231)~~ 🚫 Banned 🚫
 
 **Court of Shadows** (Page 232)
 * Free Meals
@@ -1051,7 +1046,7 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 
 ** ~~Succubus Club Copycat** (Page 162)~~ 🚫 Banned 🚫
 
-**The Pony Express** (Page 163 or Chicago Folios Page 167)
+**The Pony Express** (Page 167 or Live from the Succubus Club Page 163) *[❗This loresheet is what is used in game for the Rumor Mill. Effective bonuses might vary and will be agreed with the Staff❗]*
 * Access to the Network
 * Station Agent
 * Driver
@@ -1082,7 +1077,7 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 * Bucket
 * Six in the Morning
 * Ride or Die
-* Highway Harbringer
+* ~~Highway Harbringer~~ 🚫 Banned 🚫
 * Midnight Express
 
 **Amanda Chastain** (Free download on World of Darkness)
@@ -1105,8 +1100,8 @@ There are also a lot of Loresheets that involve specific locations (Chicago, Los
 * Chocolate Drop
 * I Got Connections
 * This is Fine
-* Maharaja/Maharani
-* If Not Now, When? **[Restricted/Banned against PCs: Grants Boons]**
+* Maharaja/Maharani - 🔒Limited to 1 Character 
+* If Not Now, When? 
 
 ---
 
