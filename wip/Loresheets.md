@@ -1,10 +1,10 @@
-> **SERVER RULES REGARDING LORESHEETS & BOONS**
-> * **Boons:** Any Loresheet power that modifies the level of boons or grants boons is considered banned or heavily restricted, and is **not usable against other PCs**. (Boons between players are the result of roleplay, not sheet mechanics).
-> * **Loresheet Specifics:** *High Clan*, *Low Clan*, *Succubus Club Copycat*, and *Descendant of Marconius* are strictly banned. *Vienna Zero* is heavily moderated. *Descendant of Dracula* is replaced by homebrew.
+# General Specifics about Loresheets
+There are many loresheets power that grant or alter boons with other kindred. As those other kindred are almost always PCs, those powers are either banned alltogether or restricted for use against other PCs.
+There are also a lot of Loresheets that involve specific locations (Chicago, Los Angeles, Milwaukee and many more) or specific STCs (Helena, Victor Temple, Fiorenza, Juggler and many more). Those Loresheets might not be available for the current Chronicle, depending on the situation and the involvment of such locations and STCs. Some of those might become available later if a story involving those entities becomes part of the server. A different STCs could replace the official one, or a location that is part of a Loresheet might be "relocated" to Montreal (for example, The Blue Velvet Loresheet is replaced by our The Heart loresheet - Maybe a quest involving The Nul Zone or the Goblin Road might take part in the city and so those Loresheet would be relocated)
 
 ---
 
-## Bloodlines & Descendants Loresheets
+## Bloodlines & Descendants Loresheets 🩸
 
 **Bankers of Dunsirn** (Cults of the Blood Gods Page 220 or Players Guide Page 223) - *[Restriction: Hecata only]*
 * Money Obfuscates
@@ -16,9 +16,9 @@
 **Children of Tenochtitlan** (Cults of the Blood Gods Page 221 or Players Guide Page 224) - *[Restriction: Hecata only]*
 * Hiding from the Wolf
 * Ghostly Instincts
-* Forward Thinking
+* Forward Thinking - *[❗One reroll is intended as one "willpower reroll" - in this case, free of the willpower cost.❗]*
 * Necromantic Prodigy
-* Next in Line
+* ~~Next in Line~~ 🚫 Banned 🚫
 
 **Descendant of Al-Ashrad** (Blood Sigils page 177) - *[Restriction: Banu Haqim only]*
 * Stories of Old
@@ -34,37 +34,51 @@
 * Unusual Connections
 * Voice of Treachery
 
-**Descendant of Count Jocalo** **[Note: First dot does not provide real dots of Status]**
+**Descendant of Count Jocalo** (Courts of the Damned Page 218)
+* A Name You Can't Refuse *[❗This loresheet does not actually provide dots of Status❗]*
+* Tools of the Trade
+* A Taste so Sweet
+* Relic Hound
+* Rapid Entanglement
 
-**Descendant of Dracula** (In Memoriam Page 151) - *[Restriction: Tzimisce only]* **[Replaced by Homebrew]**
-* *(Powers not provided in document)*
+
+**Descendant of Dracula** (In Memoriam Page 151) - *[Restriction: Tzimisce only]* **[Replaced by our own Homebrew]**
+
 
 **Descendant of Hardestadt** (Corebook Page 390) - *[Restriction: Ventrue only]*
 * Voice of Hardestadt
 * Supreme Leader
 * Ventrue Pillar
 * Line to the Founders
-* Hardestadt’s Heir
+* ~~Hardestadt’s Heir~~ 🚫 Banned 🚫
 
 **Descendant of Helena** (Corebook Page 391) - *[Restriction: Toreador only]*
 * Skin-Deep
 * Real Talent
 * Embrace the Stereotype
 * Divine Purity
-* Succubus Club Franchise
+* Succubus Club Franchise - 🔒Limited to 1 Character 
 
-**Descendant of Idder** (Live from the Succubus Club Page 158) - *[Restriction: Banu Haqim only]*
-* *(Powers not provided in document)*
+**Descendant of Idder** (Live from the Succubus Club Page 158) - *[Restriction: Banu Haqim only]* **[Note: 5th dot requires a ruling if it comes into play]**
+* Animal Affinity
+* Shepherd
+* Never Unprepared
+* Safe Haven
+* Haqim's Justice
 
 **Descendant of Karl Schrekt** (Corebook Page 405) - *[Restriction: Tremere only]*
 * Remember the House
 * Hardliner
 * Ritual Preparedness
-* Archon’s Bane
+* ~~Archon’s Bane~~ 🚫 Banned 🚫
 * Know the World
 
-**Descendant of Kerwiya** (Live from the Succubus Club Page 159) - *[Restriction: Gangrel only]*
-* *(Powers not provided in document)*
+**Descendant of Kerwiya** (Live from the Succubus Club Page 159) - *[Restriction: Gangrel only]* **[Restriction: 4th dot is Banned]**
+* Hidden Predator
+* Politically Adept
+* Actions have Consequences
+* ~~The Boon Economy~~ 🚫 Banned 🚫
+* Echoes of Constantinople
 
 **Descendant of Lodin** (Chicago by Night Page 273) - *[Restriction: Ventrue only]*
 * Baby of the Family
@@ -73,10 +87,18 @@
 * Like Sire, Like Childe
 * Long-Lost Relative
 
-**Descendant of Marconius** **[Banned]**
+**~~Descendant of Marconius** (Courts of the Damned Page 219)~~ 🚫 Banned 🚫
+> Note on this specific loresheet: Now that we have some tidbits about the Kyasid that is somewhat official, i would not be opposed to write our own version of this Loresheet, in the same way as our Dracula loresheet predates the official one and we still use our own brew. For the reasons mentioned above, this loresheet as it stands can't really be approved for play. But we can work together on something that's more appropriated.
 
-**Descendant of Menele** (Chicago Folios Page 160) - *[Restriction: Brujah only]*
-* Symposium
+**Descendant of Meerlinda** (Courts of the Damned Page 220) - *[Restriction: Tremere only]*
+* Strength of the Coven
+* ~~Wealth of Boons~~ 🚫 Banned 🚫
+* Sanguine Understanding
+* Meerlinda's Heir
+* Bestial Neutrality
+
+**Descendant of Menele** (Chicago Folios Page 160 or Courts of the Damned Page 221) - *[Restriction: Brujah only]*
+* Symposium *[❗This loresheet has been updated with Courts of the Damned❗]*
 * Carthago Delenda Est
 * Know Thyself
 * Knowledge is Power
@@ -90,7 +112,18 @@
 * Purity of Remorse
 
 **Descendant of Phaedyme** (Live from the Succubus Club Page 160) - *[Restriction: Ravnos only]*
-* *(Powers not provided in document)*
+* Skilled Traveler
+* Safe Routes
+* ~~Renown Guardian~~ 🚫 Banned 🚫
+* Honor among the Honorless
+* Defender
+
+**Descendant of Rasalon** (Courts of the Damned Page 222) - *[Restriction: Nosferatu only]*
+* Whisper to the Brood
+* Shared Knowledge
+* Underground Support
+* Clan of the Hidden
+* ~~Hidden Primogen~~ 🚫 Banned 🚫
 
 **Descendant of Roger De Camden** (Trails of Ash and Bone Page 171) - *[Restriction: Hecata only]*
 * Proud Childe
@@ -104,10 +137,14 @@
 * Crimson Visionary
 * Bloody Work
 * Focus of Clarity
-* The Prophet of Death Re-born **[Restricted/Banned against PCs: Grants Boons]**
+* ~~The Prophet of Death Re-born~~ 🚫 Banned 🚫
 
 **Descendant of The Fallen Lord** (Live from the Succubus Club Page 161) - *[Restriction: Salubri only]*
-* *(Powers not provided in document)*
+* Instinct for Death
+* Tracker's Mark
+* Fury's Strike
+* What Must Be Done
+* Vengeful Eye
 
 **Descendant of Tyler** (Corebook Page 397 or Anarch, page 195) - *[Restriction: Brujah only]*
 * Instigator
@@ -121,18 +158,18 @@
 * Hear My Words
 * Scent the Bond
 * Destroy the Bond
-* Sabbat Becomes Camarilla
+* Sabbat Becomes Camarilla - *[Requires players consent]*
 
 **Descendant of Xaviar** (Corebook Page 406 or Anarch, page 194) - *[Restriction: Gangrel only]*
 * Martyred Ancestor
 * Where the Bodies Are Buried
-* Loyal Hound
+* Loyal Hound - **[Restricted: Depends on Agreement with the Prince]**
 * Monstrous Bat
 * Experienced the Antediluvian
 
 **Descendant of Zelios** (Corebook Page 398) - *[Restriction: Nosferatu only]*
 * Sanctuary
-* Saboteur
+* ~~Saboteur~~ 🚫 Banned 🚫
 * On Commission **[Restricted/Banned against PCs: Grants Boons]**
 * The Labyrinth
 * Sense the Ley Lines
@@ -146,22 +183,24 @@
 
 **Grudge Masters** (Children of the Blood Page 102) - *[Restriction: Hecata only]*
 * You Know Who I Am
-* Family Bank
+* Family Bank - *[❗This loresheet can be used, but at a much lower level than what's provided here, depending on the character's situation.❗]*
 * Perfect Grudges
-* You Owe Me
+* ~~You Owe Me~~ 🚫 Banned 🚫
 * Friends in High Places
 
 **Harbingers of Ashur** (Cults of the Blood Gods Page 224 or Players Guide Page 226) - *[Restriction: Hecata only]*
 * The Ashen Mask
 * The Gold Mask
+* The White Mask
+* The Obsidian Mask *[❗This loresheet should be taken at Character Creation as the details require a background related to this.❗]*
 * The Lazarene Mask
 
 **La Famiglia Giovanni** (Cults of the Blood Gods Page 225 or Players Guide Page 227) - *[Restriction: Hecata only]*
-* A Cousin’s Ear
-* Faded Glamour
+* A Cousin’s Ear - **[Restricted/Banned against PCs]**
+* Faded Glamour - **[Restricted: The bonus are not for Social Combat]**
 * Petty Cash
 * Spectre Servant
-* Aspiring Anziani
+* ~~Aspiring Anziani~~ 🚫 Banned 🚫
 
 **Little Siblings** (Children of the Blood Page 101 or Tattered Façade Page 174) - *[Restriction: Hecata only]*
 * Grave Attitude
@@ -179,9 +218,9 @@
 
 **Stories of the Daughters** (Live from the Succubus Club Page 165 or Free download on World of Darkness) **[Note: Any dot acts as a prerequisite for the Melpominee and Thrown Voice Presence amalgams]**
 * Aspiring Idol
-* Surprise Performance
+* Surprise Performance **[Restricted: The bonus are not for Social Combat]**
 * Wayward Daughter
-* Songstress Supreme
+* Songstress Supreme **[Restricted: The bonus are not for Social Combat]**
 * Rejuvenating Voice
 
 **The Criminal Puttanesca** (Cults of the Blood Gods Page 226) - *[Restriction: Hecata only]*
@@ -189,21 +228,21 @@
 * Show Your Belly
 * Show Your Fists
 * Get the Squad Together
-* The Don
+* ~~The Don~~ 🚫 Banned 🚫
 
 **The Gorgons** (Cults of the Blood Gods Page 227 or Players Guide Page 228) - *[Restriction: Hecata only]*
-* The Serpent’s Kiss
+* ~~The Serpent’s Kiss~~ 🚫 Banned 🚫
 * Protection
 * Four Humours
 * Controlling the Beast
 * Medusa’s Gaze
 
-**The Nation of Blood Errata / Nasyon San An** (Cults of the Blood Gods Page 222 or Players Guide Page 229) - *[Restriction: Hecata only]*
+**Descendants of the Baron / The Nation of Blood Errata / Nasyon San An** (Cults of the Blood Gods Page 222 or Players Guide Page 229) - *[Restriction: Hecata only]*
 * CSI Shit
 * Exquisite Corpse
 * Hollow Inside
-* My Setite Friend
-* The Silk Hat
+* My Setite Friend - **[Restricted/Banned against PCs]**
+* ~~The Silk Hat~~ 🚫 Banned 🚫
 
 **The Nictuku** (Winter's Teeth Issue 3, page 34) - *[Restriction: Nosferatu only]*
 * Signal-To-Noise
@@ -212,8 +251,6 @@
 * Deathmark
 * Hunted-Becomes-Hunter
 
-**The Vanderbilt Ventrue** (In Memoriam Page 154) - *[Restriction: Ventrue only]*
-* *(Powers not provided in document)*
 
 ---
 
@@ -222,7 +259,7 @@
 **The Bahari** (Page 382)
 * Dangerous Reputation
 * Ritual Scarification
-* Sacrifice the Children
+* ~~Sacrifice the Children~~ 🚫 Banned 🚫
 * The Womb’s Blood
 * First-Cursed
 
@@ -247,8 +284,8 @@
 * Reimagined Bond
 * Book of the Grave-War
 
-**The Circulatory System** (Page 386)
-* Tap into the System
+**The Circulatory System** (Page 386) - *[ST Note: dealing with the Circulatory System might make you incur in stains.] [The blood obtained through the Circulatory System is always from normal Humans]*
+* Tap into the System 
 * Little Black Book
 * Farm Upstate
 * Secure Transit
@@ -257,9 +294,9 @@
 **Convention of Thorns** (Page 387)
 * Thorns Historian
 * Tradition Master
-* Convention Secrets **[Restricted/Banned against PCs: Grants Boons]**
-* Prospective Justicar
-* New Traditions
+* Convention Secrets **[Restricted/Banned against PCs]**
+* ~~Prospective Justicar~~ 🚫 Banned 🚫
+* ~~New Traditions~~ 🚫 Banned 🚫
 
 **The First Inquisition** (Page 388)
 * Mistakes of the Past
@@ -289,12 +326,12 @@
 * The Dracon
 * The New Trinity
 
-**Jeanette/Therese Voerman** (Page 394)
+**Jeanette/Therese Voerman** (Page 394) 
 * Asylum Membership
 * Performing Monkey
 * Jeanette’s Favorite
 * Therese’s Favorite
-* Asylum Operator
+* Asylum Operator - 🔒Limited to 1 Character *[Currently Owned by Ashley Yu]*
 
 **The Week of Nightmares** (Page 395)
 * Oral History
@@ -310,19 +347,10 @@
 * The Bear Pack
 * Rudi’s Army
 
-**High Clan** (Page 400) - *[Restriction: Must be a member of the High Clans (Varies by Domain, historically Lasombra, Toreador, Tzimisce, and Ventrue)]* **[Banned]**
-* Peacock
-* Sway the Low
-* Elevate the Low
-* Embraced to Rule
-* Blessed, not Cursed
+** ~~High Clan** (Page 400)~~ 🚫 Banned 🚫
 
-**Low Clan** (Page 401) - *[Restriction: Must be a member of the Low Clans (Varies by Domain, historically Gangrel, Malkavian, and Nosferatu)]* **[Banned]**
-* Thick Hide
-* Cursed with Pride
-* Uncanny Kinship
-* Trade Among Equals
-* Criticality Incident
+** ~~Low Clan** (Page 401)~~ 🚫 Banned 🚫
+
 
 **Ambrus Maropis** (Page 402)
 * True Believer
@@ -334,7 +362,7 @@
 **Carmelita Neillson** (Page 403)
 * The Art of Story
 * The Art of Will
-* Neillson Library
+* Neillson Library - 🔒Limited to 1 Character *[Currently Owned by Maison Des Lys Violets Coterie]*
 * Interview With the Methuselah
 * Ancestor’s Tomb
 
@@ -354,23 +382,26 @@
 * Old School
 * Enemy of the State
 * The War of Ideas
-* Rise Up
+* Rise Up - **[Restricted/Banned against PCs]**
 
 **Agata Starek** (Page 191)
 * Terrorizing the Powerful
-* Apprentice
-* A Favor Owed **[Restricted/Banned against PCs: Grants Boons]**
+* Apprentice - **[Requires players consent]**
+* A Favor Owed 
 * Unlikely Allies
 * The Joy of Transgression
 
 **Hesha Ruhadze** (Page 192) - *[Restriction: 4-dot and 5-dot powers are Ministry only]*
-* *(Powers not provided in document)*
+* One of Hesha's Works
+* Something Esha Wants
+* Museum of the Faithful
+* Hear the Blood Sing
 
 **The Church of Set** (Page 193) - *[Restriction: Church of Set members only]*
 * Congregation
 * Tap the Secret Vein
 * Freedom from the Aeons
-* Degenerative Process
+* Degenerative Process - **[Requires players consent]**
 * Body of Set
 
 **Ruins of Carthage** (Page 196)
@@ -379,14 +410,9 @@
 * Death to Tyrants
 * Moloch’s Will
 * Troile’s Wish
-* Carthage Anew
+* ~~Carthage Anew~~ 🚫 Banned 🚫
 
-**Blood Plagued** (Page 197)
-* Detection
-* The Science of the Blood
-* Trace the Torpid Victims
-* Curative Vitae
-* Vector
+**~~Blood Plagued~~** (Page 197) ~~ 🚫 Banned 🚫
 
 **Anarch Revolt** (Page 198)
 * Critical Ancestor
@@ -429,10 +455,10 @@
 
 **The Pyramid** (Page 189) - *[Restriction: Tremere only]*
 * Apprentice
-* Savant **[Restricted/Banned against PCs: Grants Boons]**
+* Savant **[Restricted/Banned against PCs]**
 * Regent
 * Pontifex
-* The New Council
+* ~~The New Council~~ 🚫 Banned 🚫
 
 **Victoria Ash** (Page 190)
 * Ashen Kiss
@@ -463,11 +489,11 @@
 * Rumors
 * No, Really!
 * Paranoia Strikes Deep
-* It’s My Job To Know This Stuff
+* It’s My Job To Know This Stuff **[Restricted: Depends on Agreement with the Prince, Sheriff, Primogen or any high ranking member choosen]**
 * The One That Got Away
 
-**The Blue Velvet** (Page 266)
-* Est. 1972
+**The Blue Velvet** (Page 266) **[Replaced by the Homebrew Loresheet: The Heart]**
+* ~~Est. 1972~~ Est.2010
 * Who’s Who
 * Standing Gig
 * VIP Club
@@ -487,8 +513,8 @@
 * One of Us
 * Prodigal Child
 
-**The Cobweb** (Page 270) - *[Restriction: Malkavian only]*
-* A Break in the Static
+**The Cobweb** (Page 270) - *[Restriction: Malkavian only]* *[❗This loresheet is progressive - It requires all the level to be bought progressively. You need the first level to get the second, you need the second level to get the third and so on❗]* *[This Loresheet grants you access to the Cobweb channel]*
+* A Break in the Static 
 * Shared Condition
 * Across the Web
 * Pluck the Strands
@@ -501,7 +527,7 @@
 * Newly Made Initiate
 * Jewel in the Garden
 
-**Cult of Shalim** (Page 272) - *[Restriction: Cult of Shalim members only]*
+**Cult of Shalim** (Page 272) - *[Restriction: Cult of Shalim members only]* *[❗You gain the Dark Secret Flaw (•) when taking this loresheet❗]*
 * Dark Whispers
 * Cult Initiate
 * Power of Faith
@@ -522,19 +548,14 @@
 * No Records Found
 * Friend on the Inside
 
-**Kevin Jackson** (Page 277)
-* New Blood
-* Recent Graduate
-* Up and Comer
-* Adjutant
-* The Prince’s Lieutenant
+**~~Kevin Jackson** (Page 277)~~ 🚫 Banned 🚫
 
 **Kindred Iconography** (Page 278)
 * Iconographer
 * The Writing on the Wall
-* Trendsetter
+* Trendsetter **[Restricted: The bonus are not for Social Combat]**
 * Graffiti Artist
-* Giorgio Who?
+* Giorgio Who? **[Restricted: The bonus are not for Social Combat]**
 
 **The Labyrinth** (Page 279)
 * Tunnel Access
@@ -564,8 +585,8 @@
 * VIP
 * A Beaubien Original
 
-**Revenant Family: Ducheski** (Page 283) - *[Restriction: Tremere only]*
-* Nourishing Blood
+**Revenant Family: Ducheski** (Page 283) - *[Restriction: Tremere only]* *[❗Unless stated otherwise, purchasing any level of this loresheet for the first time provides the player with Retainer (•), representing the revenant. A Ducheski revenant is a ghoul built as a Weak Mortal that always has access to Auspex 1 and Blood Sorcery 1. This Revenant is NOT to be used like a normal Retainer, nor it needs a sheet. It's function as a Retainer is described in the powers of this Loresheet. They do NOT perform the same duties as a normal Retainer.❗]*
+* Nourishing Blood *[This basically works as a single dot of Herd that doesn't provide a resonance. Overfeeding, Frenzy and other unsavorful situation might make you lose this power or the Loresheet entirely.]*
 * Personal Library
 * Research Team
 * Ritual Assistant
@@ -580,7 +601,7 @@
 
 **Talley** (Page 286)
 * Recognize the Signs
-* Secret Communications
+* Secret Communications **[Restricted/Banned against PCs]**
 * Tangled Strings
 * Trained Killer
 * Personal Defender
@@ -596,19 +617,9 @@
 
 ## Chicago Folios Loresheets
 
-**Archons** (Page 158)
-* Undercover
-* Watcher in the Dark
-* Red Phone
-* Color of Authority
-* Justicar’s Blood
+**~~Archons** (Page 158)~~ 🚫 Banned 🚫
 
-**The Convention of Chicago** (Page 159)
-* Rabble Rouser
-* Convention Attendee
-* Troubleshooter
-* Formal Delegate
-* Mover and Shaker
+**~~The Convention of Chicago** (Page 159)~~ 🚫 Banned 🚫
 
 **Goblin Roads** (Page 161)
 * Night Rider
@@ -617,12 +628,7 @@
 * Weird Ally
 * One with the Weird
 
-**Justicar Lucinde** (Page 162)
-* Snake Charmer
-* Patient Hunter
-* Legend Killer
-* Lucinde’s Revenge
-* Alastor
+**~~Justicar Lucinde** (Page 162)~~ 🚫 Banned 🚫
 
 **Khalid Al-Rashid** (Page 163)
 * Safe Haven
@@ -640,37 +646,28 @@
 
 **Malkavian Family** (Page 165) - *[Restriction: Malkavian only]*
 * Family Secrets
-* Sibling Bond
-* Tangled Web
+* Sibling Bond *[❗This power might require to be in Coterie with the other Malkavian, as otherwise is pretty hard to keep track of those dots.❗]*
+* ~~Tangled Web~~ 🚫 Banned 🚫 [Same as the Cobweb equivalent power - Just take that instead]
 * A Little Peace and Quiet
 * Favorite Childe
 
-**Occult Artifacts** (Page 166) - *[Restriction: Banu Haqim or Tremere only]*
+**Occult Artifacts** (Page 166) - *[Restriction: Banu Haqim or Tremere only]* *[❗This loresheet can only be acquired in game and through quests and storyline. It can not be bought at Character creation.❗]*
 * Rowan Ring
 * Cloak of Abalone
 * Powder of Rigidity
 * Monocle of Clarity
 * Tapestry of Blood
 
-**The Pony Express** (Page 167 or Live from the Succubus Club Page 163)
+**The Pony Express** (Page 167 or Live from the Succubus Club Page 163) *[❗This loresheet is what is used in game for the Rumor Mill. Effective bonuses might vary and will be agreed with the Staff❗]*
 * Access to the Network
 * Station Agent
 * Driver
 * World Tour
 * Passenger Service
 
-**Sheriff Damien** (Page 168)
-* Fan Club
-* Patroller
-* Postcards From the Road
-* Loyal Hound
+**~~Sheriff Damien** (Page 168)~~ 🚫 Banned 🚫
 
-**The Wolf Pack** (Page 169)
-* Prospect
-* Member
-* White Line Nightmare
-* Dread Riders
-* Gives no...
+**~~The Wolf Pack** (Page 169)~~ 🚫 Banned 🚫
 
 ---
 
@@ -698,7 +695,7 @@
 * Superstar
 
 **Juggler** (Page 227)
-* For the Cause
+* For the Cause - *[❗One reroll is intended as one "willpower reroll" - in this case, free of the willpower cost.❗]*
 * Guns to a Knife Fight
 * Rabble Rouser
 * Coordination is Key
@@ -711,12 +708,7 @@
 * Objects of Desire
 * Dr. Mortius’s Haven
 
-**Mark Decker** (Page 229) - *[Restriction: 5-dot power is Gangrel only]*
-* Good Graces
-* Tyrant’s Recognition
-* One Strike
-* The Prince’s Trust
-* Childe of Mark Decker
+**~~Mark Decker** (Page 229)~~ 🚫 Banned 🚫
 
 **Maxwell** (Page 230)
 * Tactician
@@ -732,27 +724,17 @@
 * Church of Isis
 * Usla’s Talismans
 
-**Modius** (Page 233)
-* Followers
-* Windy City Ally
-* Keys to the Mansion
-* Since 1913
-* Pauper Dynasty
+**~~Modius** (Page 233)~~ 🚫 Banned 🚫
 
 ---
 
 ## Cults of the Blood Gods / Players Guide Loresheets
 
-**Calling the Family Reunion** (Cults of the Blood Gods Page 228) - *[Restriction: Hecata only]*
-* The Kids’ Table
-* Updating the Rolodex
-* Hiding the Bodies **[Restricted/Banned against PCs: Grants Boons]**
-* Dealmaker
-* Spiritual Assault
+**~~Calling the Family Reunion** (Cults of the Blood Gods Page 228)~~ 🚫 Banned 🚫
 
 **Child of the Angel Michael** (Cults of the Blood Gods Page 229) - *[Restriction: Nosferatu cannot take this]*
 * The Great and the Good
-* Outer Beauty
+* Outer Beauty - *[❗This Loresheets provides 4 dots of "Looks Merit" as long as they directly affect the appearance unconditionally.]*
 * Hedonistic Pleasure
 * Michael’s Calling
 * Wiping Away the Stains
@@ -766,10 +748,10 @@
 
 **The Promise of 1528** (Cults of the Blood Gods Page 231)
 * Legal Scholar
-* Scrap of Information **[Restricted/Banned against PCs: Grants Boons]**
-* Tick Tock
+* Scrap of Information **[Restricted/Banned against PCs]**
+* Tick Tock **[Restricted/Banned against PCs]**
 * Faulty Memory
-* Signatory
+* ~~Signatory~~ 🚫 Banned 🚫
 
 ---
 
@@ -793,7 +775,7 @@
 * Close Examination
 * Clothed in Power
 * Dream Appearance
-* Figure-in-Waiting
+* ~~Figure-in-Waiting~~ 🚫 Banned 🚫
 * The Beauty Within
 
 **Meneleans** (Page 106)
@@ -842,12 +824,7 @@
 * Cult Breaker
 * Red Truths
 
-**Plagues of Gehenna** (Page 91)
-* Blister Marks
-* Autoclave
-* Fire in the Blood
-* Firebreak
-* Plague Sample
+**~~Plagues of Gehenna** (Page 91)~~ 🚫 Banned 🚫
 
 **Praepositor** (Page 92) - *[Restriction: Tremere only]*
 * Chastise the Wayward
@@ -865,16 +842,16 @@
 
 ---
 
-## Trails of Ash and Bone Loresheets
+## Trails of Ash and Bone Loresheets 
 
 **The Ruby Throat** (Page 170)
 * Rubbing Shoulders
 * What’s in your Sleeves
-* Chicken Dinner
+* ~~Chicken Dinner~~ 🚫 Banned 🚫
 * High Roller
 * Dead Man’s Hand
 
-**Relics of the Veil** (Page 172)
+**Relics of the Veil** (Page 172) - *[❗This loresheet can only be acquired in game and through quests and storyline. It can not be bought at Character creation.❗]*
 * Torn Shroud
 * Burning Effigy
 * The Gaunt Robe
@@ -889,11 +866,11 @@
 * Arcane Authority
 * Cryptic Politics
 * On The Square
-* The Chantry
-* Mr. President
+* ~~The Chantry~~ 🚫 Banned 🚫
+* ~~Mr. President~~ 🚫 Banned 🚫
 
 **The Boston Camarilla** (Pages 84-87)
-* Comrades in Arms
+* Comrades in Arms - **[Restricted: The bonus are not for Social Combat]**
 * Sic Semper Tyranis
 * Heart is Where the Home Is
 * Levers and Pulleys
@@ -922,7 +899,7 @@
 * Experienced Diablerist
 * Huntsman’s Dossier
 * Huntsman’s Steed
-* Leader of the Hunt
+~~* Leader of the Hunt~~ 🚫 Banned 🚫
 
 **London under London** (Page 234) - *[Restriction: Nosferatu only]*
 * Tube Safety
@@ -940,7 +917,7 @@
 
 **Oskar Anasov** (Page 236)
 * Messaging Service
-* Personal Introduction
+* Personal Introduction - **[Restricted/Banned against PCs]**
 * Safe Passage
 * Mentor
 * Landlord Council
@@ -956,19 +933,10 @@
 * A Wolf in the Fold
 * The Shepherd
 
-**Minneapolis** (Issue 2, page 32)
-* The Nod Lot
-* The Artist Formerly Known as..
-* The Revolution
-* The River Rats
-* The Minneapolis Six
+**~~Minneapolis** (Issue 2, page 32)~~ 🚫 Banned 🚫
 
-**St. Paul** (Issue 2, page 33)
-* Dirty Boot
-* The Caves
-* Criminal History
-* Courtier
-* Dual Citizenship
+**~~St. Paul** (Issue 2, page 33)~~ 🚫 Banned 🚫
+
 
 **The Mortician's Army** (Issue 9, page 32)
 * Mortician's Hammer
@@ -998,7 +966,7 @@
 **Vienna Zero** (page 180) - *[Restriction: Blood Sorcery Users only]* **[Heavily Moderated]**
 * Inside Knowledge
 * Off the Back of a Truck
-* Instrument of Power **[Banned]**
+* ~~Instrument of Power~~ 🚫 Banned 🚫
 * The Very Last Copy
 * Deep Clearance
 
@@ -1018,36 +986,70 @@
 ## Gehenna War Loresheets
 
 **Beckett** (Page 157)
-* *(Powers not provided in document)*
+* Bloody Ancestry
+* Dream Interpreter
+* Persk of Youth
+* Ancestor Cult's Favor
+* Face to Face
 
 **The Eternal Arena** (Page 158)
-* *(Powers not provided in document)*
+* [Errata missing]
+* Bring It On
+* Combat Analysis
+* Talented Manager
+* Die Hard
 
 **Tegyrius the Vizier** (Page 159) - *[Restriction: 4-dot power is Banu Haqim only]*
-* *(Powers not provided in document)*
+* The Art of Negotiation
+* The Pen is Mightier
+* Hear My Words - **[Restricted: The bonus are not for Social Combat]**
+* Perception is Power
+* A Matter of Honor
 
 ---
 
 ## In Memoriam Loresheets
 
 **Birth of the Anarch Free States** (Page 149)
-* *(Powers not provided in document)*
+* Fake Revolutionary
+* Connections
+* Original Rebel
+* ~~Hero of the Revolution~~ 🚫 Banned 🚫
+* ~~Legacy of the Revolution~~ 🚫 Banned 🚫
 
 **Childe of the Revolution** (Page 150)
-* *(Powers not provided in document)*
+* Rousing Speech
+* Under the Guillotine
+* Bal des Victimes
+* Friend of Beaumont
+* Bohemian Affinities
 
 **The Order of Repentants** (Page 152)
-* *(Powers not provided in document)*
+* Sponsorship
+* Surface Empathy
+* Flagellation
+* Superior Focus
+* Benevolence
 
 **The Red Lady** (Page 153)
-* *(Powers not provided in document)*
+* You Gotta Know Somebody
+* Person of Interest
+* A Pretty Pet
+* A Trusted Friend
+* Red Haze
+
+**The Vanderbilt Ventrue** (In Memoriam Page 154) - *[Restriction: Ventrue only]*
+* Well-connected
+* Financial Problem-solving
+* Someone of Worth
+* In the Know
+* Ancient Pact
 
 ---
 
 ## Live from the Succubus Club Loresheets
 
-**Succubus Club Copycat** (Page 162) **[Banned]**
-* *(Powers not provided in document)*
+**~~Succubus Club Copycat** (Page 162)~~ 🚫 Banned 🚫
 
 **The Pony Express** (Page 163 or Chicago Folios Page 167)
 * Access to the Network
@@ -1060,16 +1062,18 @@
 * Bucket
 * Six in the Morning
 * Ride or Die
-* Highway Harbringer
+* ~~Highway Harbringer~~ 🚫 Banned 🚫
 * Midnight Express
 
 **Temple of Boom Contract** (Page 166 or Free download on World of Darkness)
 * Chocolate Drop
 * I Got Connections
 * This is Fine
-* Maharaja/Maharani
-* If Not Now, When? **[Restricted/Banned against PCs: Grants Boons]**
+* Maharaja/Maharani - 🔒Limited to 1 Character 
+* If Not Now, When?
 
+
+  
 ---
 
 ## Miscellaneous Loresheets
@@ -1095,12 +1099,7 @@
 * Comrades in Arms
 * Dangerous Secrets
 
-**The Parthenon Troupe** (Free download on World of Darkness)
-* Silent Actor
-* It Speaks
-* No Longer In The Shadows
-* Diva
-* Impresario
+~~**The Parthenon Troupe**~~ 🚫 Banned 🚫
 
 **Temple of Boom Contract** (Free download on World of Darkness or Live from the Succubus Club Page 166)
 * Chocolate Drop
@@ -1174,7 +1173,7 @@
 * Members Only
 * Temple of Boom
 * This is Fine
-* Undisputed Baron of the Valley
+* ~~Undisputed Baron of the Valley~~ 🚫 Banned 🚫
 
 **X** 
 * The Sound of Music
