@@ -238,10 +238,10 @@
 * Controlling the Beast
 * Medusa’s Gaze
 
-**Descendants of the Baron / The Nation of Blood Errata / Nasyon San An** (Cults of the Blood Gods Page 222 or Players Guide Page 229) - *[Restriction: Hecata only]*
+**Descendants of the Baron / The Nation of Blood Errata / Nasyon San An** (~~Cults of the Blood Gods Page 222~~ or Players Guide Page 229) - *[Restriction: Hecata only]* *[❗This loresheet has been completely overhauled in Players Guide, so that's it the version that we use.❗]*
 * CSI Shit
-* Exquisite Corpse
-* Hollow Inside
+* Pound of Flesh
+* Treat Yourself
 * My Setite Friend - **[Restricted/Banned against PCs]**
 * ~~The Silk Hat~~ 🚫 Banned 🚫
 
