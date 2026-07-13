@@ -10,7 +10,7 @@
 * **Location:** #Notre-Dame-de-Grace - Our Lady of Grace Catholic Church
 * **Chasse:** ●●●
 * **Lien:** ●●●
-* **Portillon:** ●●●
+* **Portillon:** ●●●●
 * ↪ **Firestation:**
 
 ## 📍 Location Details
