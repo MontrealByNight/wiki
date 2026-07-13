@@ -25,7 +25,7 @@ This directory serves as the master reference for all territories in the chronic
     * **Coordinates**: `45.4720, -73.6200`
 * **Our Lady of Grace Catholic Church**: A modest stone parish church with a simple steeple rising above the surrounding neighborhood. Its exterior is light grey, with arched stained glass windows and heavy wooden doors. Inside, the long nave is lined with wooden pews leading to a raised altar beneath a vaulted ceiling.
     * **Coordinates**: `45.4500, -73.6328`
-    * **Domain Traits**: Owned by ⚜️Maison Des Lys Violets Coterie | Domain ●●●, Chasse ●●●, Lien ●●●, Portillon ●●● (Special: ↪ Firestation ●●).
+    * **Domain Traits**: Owned by ⚜️Maison Des Lys Violets Coterie | Domain ●●●, Chasse ●●●, Lien ●●●, Portillon ●●●● (Special: ↪ Firestation ●●).
 
 ### Montreal West
 * **Devil's Hill**: A prominent, elevated area known for its panoramic views of the surrounding neighborhood. The hill is surrounded by a mix of dense trees and open spaces, offering a natural, somewhat rugged terrain. It’s a quiet location, often frequented by those seeking solitude or a scenic place to relax.
