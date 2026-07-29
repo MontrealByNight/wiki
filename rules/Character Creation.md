@@ -2,7 +2,7 @@
 
 ## Editable PDF Sheet
 
-First and foremost, we will need you to fill an editable PDF sheet. We use a custom PDF created for us by the amazing [MrGone](https://mrgone.rocksolidshells.com/index.html).&#x20;
+First and foremost, we will need you to fill an editable PDF sheet. We use a custom PDF created for us by the amazing [MrGone](https://mrgone.rocksolidshells.com/index.html).
 
 {% file src="../.gitbook/assets/Montreal by Night sheet.pdf" %}
 
@@ -12,9 +12,7 @@ Remember to fill all the important details in the sheet, especially the convicti
 
 ## Character Creation
 
-Following the Rulebook Character creation, with slight edits regarding the age of the Characters.
-
-
+We follow the Rulebook Character creation, the recap is at page 136 of the Corebook.
 
 ## Attributes
 
@@ -34,17 +32,17 @@ Add free specialties to Academics, Craft, Performance, and Science Skills if the
 
 ## Disciplines
 
-Choose 2 disciplines of your in-clan pool. Take 2 points in one, 1 point in another.&#x20;
+Choose 2 disciplines of your in-clan pool. Take 2 points in one, 1 point in another.
 
-Caitiffs choose 2 discipline and do the same spread.&#x20;
+Caitiffs choose 2 discipline and do the same spread.
 
 Thin-Blood characters have no intrinsic Discipline.
 
 ## Predator Type
 
-Choose one of the Predator Types available.&#x20;
+Choose one of the Predator Types available.
 
-Human players that receive the embrace in game will be able to get a predator type over the course of one or more timeskip. The same is for players who want to play a really freshly embraced fledgling, they might create the sheet without the Predator Type and acquire it in game with the same time restrictions as an in game embrace. \
+Human players that receive the embrace in game will be able to get a predator type over the course of one or more timeskip. The same is for players who want to play a really freshly embraced fledgling, they might create the sheet without the Predator Type and acquire it in game with the same time restrictions as an in game embrace.\
 Thin blood characters can take the discipline dot if they have a discipline affinity.
 
 The predator types that give Oblivion and Blood Sorcery only give them if the character already has the Discipline in clan.
@@ -57,21 +55,17 @@ This is valid for all the PTs that include Oblivion and BS and valid for all the
 
 ## Conviction and touchstones
 
-Choose between 1-3 convictions and associated touchstones.
-
-We allow characters to have items as touchstone, with a few rules around them:
-
-* No more than 1 touchstone can be an item.
-* If the touchstone is an item, it needs to **always** be on the person. Otherwise, the character receives stains as if a touchstone was damaged.
+* Choose between 1-3 convictions and associated touchstones.
+* We allow items to be touchstones. No more than 1 touchstone can be an item, and at least one touchstone needs to be a mortal.
+* If the touchstone is an item, it needs to always be on the person. Otherwise, the character receives stains as if the touchstone was damaged every time the touchstone is not with them.
 * If the touchstone is lost, even if only temporarily, the character takes the same stains as if the touchstone was destroyed.
+* Weapons are not good touchstone, as they get damaged every time they are used, and you take stains every time you have to be without your weapon (for example, Elysium might not allow weapon to be brought inside)
+* If your character is part of a specific cult, they need to have at least one conviction that is related to that cult.
 
-Characters can be touchstone as long as they are humans that do not know about the world of darkness.
+Player Characters can be touchstone as long as they are humans that do not know about the world of darkness. The moment a human (player character or not) gets to witness the atrocities of the world of darkness, they can no longer be a touchstone.
 
-The moment a human (player character or not) gets to witness the atrocities and the curse of Caine, they can no longer be a touchstone.
-
-If a kindred with a human touchstone realises that the touchstone has been "contaminated" by the World of Darkness (or if it became a ghoul or a kindred), then the touchstone is destroyed and they take the correct amount of stains.
-
-The touchstone must be replaced within a few nights (an ooc month) or the conviction will be lost.
+If a kindred with a human touchstone realises that the touchstone has been "contaminated" by the world of darkness (or if it became a ghoul or a kindred), the the touchstone is destroyed and they take the correct amount of stains.\
+The touchstone must then be replaced within a few nights or the conviction will be lost.
 
 ## Add the chronicle tenets
 
@@ -91,10 +85,17 @@ The chronicle tenets _can_ be willingly broken by the character.
 
 * Every character has 7 points to distribuite between Merits, Backgrounds and Loresheets.
 * There is an hard cap of 2 different loresheet at character creation. A bloodline or a 'Descendant of' loresheet are not included in this limit. More loresheets will be available within the game.
-* For backgrounds and loresheets, there is a soft caps of 3 at CC. There are some exceptions where a an higher level of a loresheet can be taken it at CC, but is really uncommon and it's at ST discreption.&#x20;
+* For backgrounds and loresheets, there is a soft caps of 3 at CC. There are some exceptions where a an higher level of a loresheet can be taken it at CC, but is really uncommon and it's at ST discreption.
 * Also, while we usually approve loresheets at the third dot at CC, we do not approve more than one LS at that level.
 * Ancillae characters have more loose restrictions, but they are still in place.
 * Every character has 2 points of flaws. You can have more flaws than 2, but they won't give you any bonus or extra merit points.
+
+- Every character has 7 points to distribuite between Merits, Backgrounds and Loresheets.
+- There is an hard cap of 2 different loresheet at character creation. A bloodline or a 'descendant of' loresheet are not included in this limit. More loresheet can be acquired with play, but it's important to keep in mind that every additional loresheet becomes harder to acquire.
+- For backgrounds and loresheets, there is a soft caps of 3 at CC. There are some exceptions where a an higher level of a loresheet can be taken it at CC, but is really uncommon and it's at ST discreption.&#x20;
+- Also, while we usually approve loresheets at the third dot at CC, we do not approve more than one LS at that level.
+- Ancillae characters have more loose restrictions, but they are still in place.
+- Every character has 2 points of flaws. You can have more flaws than 2, but they won't give you any bonus or extra merit points.
 
 ## Age
 
@@ -108,13 +109,13 @@ The chronicle tenets _can_ be willingly broken by the character.
 * They receive:
 * 15 experience point, to spend on top of the sheet when everything has already been added.
 
-#### Ancillae&#x20;
+#### Ancillae
 
-* Embraced between 1780 and 1940. Their total age might not be over 300 years.&#x20;
-* Their generation can be as lower as 10th and they have a starting blood potency of 2 (except for thin blood characters, which will still be 14/16th gen with a blood potency of 0).&#x20;
-* The background story needs to be extremely detailed.&#x20;
-* A player can only create an Ancillae character after they've played in the server and received experience for at least 8 weeks. It is expected that they know the game and the lore at a good level before playing a character of this kind.&#x20;
-* _**Concepts and sheets will be heavily scrutinised and the staff can outright veto an ancillae character if they don't think it fits the thematics properly.**_&#x20;
+* Embraced between 1780 and 1940. Their total age might not be over 300 years.
+* Their generation can be as lower as 10th and they have a starting blood potency of 2 (except for thin blood characters, which will still be 14/16th gen with a blood potency of 0).
+* The background story needs to be extremely detailed.
+* A player can only create an Ancillae character after they've played in the server and received experience for at least 8 weeks. It is expected that they know the game and the lore at a good level before playing a character of this kind.
+* _**Concepts and sheets will be heavily scrutinised and the staff can outright veto an ancillae character if they don't think it fits the thematics properly.**_
 * Additionally, they receive:
 * 35 experience point, to spend on top of the sheet when everything else has already been added
 * 2 extra advantage points
@@ -123,8 +124,21 @@ The chronicle tenets _can_ be willingly broken by the character.
 * They lose 1 dot of humanity from the starting pool
 * Ancillae characters can choose between Focused or Strategic discipline spread.
 
-> - _Focused_: Put 3 dots into a clan discipline, 1 dot into another clan discipline and the last 1 dot into any discipline. (with the usual limitations). Caitiff characters will have those 3 as their starting disciplines.
-> - _Strategic_: Put 2 dots into 2 clan disciplines, 1 dot into the third clan discipline and then 1 dot into any discipline (with the usual limitations).
+- Embraced between 1780 and 1940. Their total age might not be over 300 years.&#x20;
+- Their generation can be as lower as 10th and they have a starting blood potency of 2 (except for thin blood characters, which will still be 14/16th gen with a blood potency of 0).&#x20;
+- The background story needs to be extremely detailed.&#x20;
+- A player can only create an Ancillae character after they've played in the server and received experience for at least 8 weeks. It is expected that they know the game and the lore at a good level before playing a character of this kind.&#x20;
+- _**Concepts and sheets will be heavily scrutinised and the staff can outright veto an ancillae character if they don't think it fits the thematic properly.**_&#x20;
+- Additionally, they receive:
+- 35 experience point, to spend on top of the sheet when everything else has already been added
+- 2 extra advantage points
+- 2 extra flaw points
+- At least one Archaic Flaw (Page 180) to be included in the 4 starting dots of flaws
+- They lose 1 dot of humanity from the starting pool
+- Ancillae characters can choose between Focused or Strategic discipline spread.
+
+> * _Focused_: Put 3 dots into a clan discipline, 1 dot into another clan discipline and the last 1 dot into any discipline. (with the usual limitations). Caitiff characters will have those 3 as their starting disciplines.
+> * _Strategic_: Put 2 dots into 2 clan disciplines, 1 dot into the third clan discipline and then 1 dot into any discipline (with the usual limitations).
 
 ## Human Player Characters
 
@@ -133,13 +147,13 @@ The chronicle tenets _can_ be willingly broken by the character.
 * 5 extra advantage points, to be spent in advantages. Those 5 points of extra backgrounds will need to be reintegrated with experience if and when they are embraced.
 * They can not be embraced for at least 1 ooc month after their character creation.
 
-A character can be created as a ghoul, but their domitor needs to be an active player.&#x20;
+A character can be created as a ghoul, but their domitor needs to be an active player.
 
 If a kindred character takes a player as a ghoul, they need to spend experience equal to having a 2 dots retainer (6 experience).
 
 It's important to remember when creating such a character, that the game is mostly intended towards kindred characters.
 
-Humans have an hard time adapting to the whims of the creatures of the night and one needs to be particularly special (or useful) to be intertwined with the story of supernatural beings. And very often, a kindred keeps a ghoul for years if not decades.&#x20;
+Humans have an hard time adapting to the whims of the creatures of the night and one needs to be particularly special (or useful) to be intertwined with the story of supernatural beings. And very often, a kindred keeps a ghoul for years if not decades.
 
 Obtaining an embrace might not even be possible at all.
 
@@ -190,4 +204,3 @@ There is a one month grace period in which one can make small amends to a sheet 
 **If you lose your Inconnu exp log, i will not be digging an endless amount of tickets to restore it. If you lose your exp log, your new total will be 0/0 and you basically start over.**
 
 This includes all the exp related milestones, like character retiring experience.
-
