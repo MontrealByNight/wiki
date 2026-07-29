@@ -196,42 +196,6 @@ Owning different labs could help with brewing multiple formulae at once if using
 
 <table><thead><tr><th width="117">Formula Level</th><th width="184">Time needed</th><th>Details</th></tr></thead><tbody><tr><td>1 - 2</td><td>A round or a scene.</td><td>You can brew as many as you can in a night, assuming you are not busy brewing higher powers.</td></tr><tr><td>3</td><td>A full night.</td><td>You can't brew more at the same time unless your herd allows [Calcinatio] or have multiple labs [Fixatio].</td></tr><tr><td>4</td><td>Only during time skip.</td><td>You have 2 "slots" and so you can craft 2 level 4 formula during time skip. This count as a project.</td></tr><tr><td>5</td><td>Only during time skip.</td><td>It takes both "slots"</td></tr></tbody></table>
 
-* The Dominate power "Terminal Decree" cannot be used against PCs
-* The Dominate power "Tabula Rasa" is banned
-* The Presence power "Lingering kiss" requires explicit consent to be used on PCs.
-* The Protean power "Serpent's kiss" is considered Ministry only and must be teached by a Ministry as if it was an amalgam.
-* The Oblivion Ceremony "Maw of Ahriman" has the Oblivion Power "Arms of Ahriman" as prerequisite.
-* The merit "Side Hustler" is banned until further notice.
-* The merit "Semblance of the Metuselah" is banned.
-* The merit "Soothed Beast" is banned.
-* The merit "False Love" is banned.
-* The merit "Pack Diablerie" is banned.
-* The Thin-blood Flaw "Sun faded" is banned.
-* The "Low clan" and "High clan" Loresheets are banned.
-* Vicissitude can permanently alter someone's look merits without needing to lose the physical dot. However, the experience need to acquire the merit(s) must be paid.
-* Allies have an automatic dot of reliability that doesn't need to be purchased with experience
-* Haven and Haven merits can be off-balanced with Haven flaws, to a certain degree. Characters with the _'Decay'_ clan bane cannot make use of this alternate rule.
-* Ritual Chaining is banned. They are too strong for this setting and extremely hard to achieve unless one powerplays.
-* The ritual "Tiamat Glistens" is necessary to attune to a Furcus. This ritual can also be learnt as a Ceremony.
-* The ritual "Compel the Inanimate" and the formula "Mask off" are approved, but pending review and playtesting. We feel like those powers do need a closer examination and to be seen in play, before deciding if they are 'too much'.
-* The ritual "Stone of the True Form" is banned. It completely destroys multiple powers, disciplines, clans and whatnot.
-* The Loresheet "Vienna Zero" is to be heavily moderated and the third dot is banned.
-* The flaw "Banned from..." is banned.
-* The "Descendant of Dracula Loresheet" (from _In Memoriam_) is replaced by our homebrew.
-* The "Tithe Collector" Predator type doesnt fit our setting and so it's banned.
-* The Presence powers "Melpominee" and "Thrown Voice" are to be considered amalgams, and the requisite is to have any dot in the "Stories of the Daughters" Loresheet.
-* The merit "Enduring Fame" doesn't fit our chronicle and it's banned.
-* The merit "Ley Line Leech" does not fit a stationary chronicle and it's banned.
-* The merit "Persistent Blush" Has tgo be considered once per month/story/timeskip.
-* The Flaw "Land Locked" does not fit a stationary chronicle and it's banned.
-* The Loresheet "Succubus Club Copycat" is banned.
-* All the powers, ritual, ceremonies from Fall of London are very incomplete and their systems don't make much for a game and so they are banned. (Ritual of transferring the Soul - Unseen Underground - Web of Hunger - Eyes of Beasts - Ventriloquism - The sun eclypses everything- Vermin Vision - Clear the Field) with the exception of 'The Knowing Stone'.
-
-## A note regarding Loresheets and boons
-
-There are many loresheet powers that alter the level of the boons provided or owed. Those do not work in an enviroinment where a player almost always interact with another player, and so the boons are the result of roleplay, rather than project or social rolls against NPCs.\
-As such, every power that modifies the level of boons or grant boons is to be considered banned or heavily restricted and not usable against other PCs.
-
 ## Restricted, banned or changed Disciplines and Advantages
 
 ### Banned Advantages
