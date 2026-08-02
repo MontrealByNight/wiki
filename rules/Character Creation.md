@@ -84,18 +84,11 @@ The chronicle tenets _can_ be willingly broken by the character.
 ## Merits, flaws and backgrounds.
 
 * Every character has 7 points to distribuite between Merits, Backgrounds and Loresheets.
-* There is an hard cap of 2 different loresheet at character creation. A bloodline or a 'Descendant of' loresheet are not included in this limit. More loresheets will be available within the game.
-* For backgrounds and loresheets, there is a soft caps of 3 at CC. There are some exceptions where a an higher level of a loresheet can be taken it at CC, but is really uncommon and it's at ST discreption.
+* There is an hard cap of 2 different loresheet at character creation. A bloodline or a 'descendant of' loresheet are not included in this limit. More loresheet can be acquired with play, but it's important to keep in mind that every additional loresheet becomes harder to acquire.
+* For backgrounds and loresheets, there is a soft caps of 3 at CC. There are some exceptions where a an higher level of a loresheet can be taken it at CC, but is really uncommon and it's at ST discreption.&#x20;
 * Also, while we usually approve loresheets at the third dot at CC, we do not approve more than one LS at that level.
 * Ancillae characters have more loose restrictions, but they are still in place.
 * Every character has 2 points of flaws. You can have more flaws than 2, but they won't give you any bonus or extra merit points.
-
-- Every character has 7 points to distribuite between Merits, Backgrounds and Loresheets.
-- There is an hard cap of 2 different loresheet at character creation. A bloodline or a 'descendant of' loresheet are not included in this limit. More loresheet can be acquired with play, but it's important to keep in mind that every additional loresheet becomes harder to acquire.
-- For backgrounds and loresheets, there is a soft caps of 3 at CC. There are some exceptions where a an higher level of a loresheet can be taken it at CC, but is really uncommon and it's at ST discreption.&#x20;
-- Also, while we usually approve loresheets at the third dot at CC, we do not approve more than one LS at that level.
-- Ancillae characters have more loose restrictions, but they are still in place.
-- Every character has 2 points of flaws. You can have more flaws than 2, but they won't give you any bonus or extra merit points.
 
 ## Age
 
@@ -124,21 +117,8 @@ The chronicle tenets _can_ be willingly broken by the character.
 * They lose 1 dot of humanity from the starting pool
 * Ancillae characters can choose between Focused or Strategic discipline spread.
 
-- Embraced between 1780 and 1940. Their total age might not be over 300 years.&#x20;
-- Their generation can be as lower as 10th and they have a starting blood potency of 2 (except for thin blood characters, which will still be 14/16th gen with a blood potency of 0).&#x20;
-- The background story needs to be extremely detailed.&#x20;
-- A player can only create an Ancillae character after they've played in the server and received experience for at least 8 weeks. It is expected that they know the game and the lore at a good level before playing a character of this kind.&#x20;
-- _**Concepts and sheets will be heavily scrutinised and the staff can outright veto an ancillae character if they don't think it fits the thematic properly.**_&#x20;
-- Additionally, they receive:
-- 35 experience point, to spend on top of the sheet when everything else has already been added
-- 2 extra advantage points
-- 2 extra flaw points
-- At least one Archaic Flaw (Page 180) to be included in the 4 starting dots of flaws
-- They lose 1 dot of humanity from the starting pool
-- Ancillae characters can choose between Focused or Strategic discipline spread.
-
-> * _Focused_: Put 3 dots into a clan discipline, 1 dot into another clan discipline and the last 1 dot into any discipline. (with the usual limitations). Caitiff characters will have those 3 as their starting disciplines.
-> * _Strategic_: Put 2 dots into 2 clan disciplines, 1 dot into the third clan discipline and then 1 dot into any discipline (with the usual limitations).
+> - _Focused_: Put 3 dots into a clan discipline, 1 dot into another clan discipline and the last 1 dot into any discipline. (with the usual limitations). Caitiff characters will have those 3 as their starting disciplines.
+> - _Strategic_: Put 2 dots into 2 clan disciplines, 1 dot into the third clan discipline and then 1 dot into any discipline (with the usual limitations).
 
 ## Human Player Characters
 
