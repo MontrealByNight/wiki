@@ -4,11 +4,13 @@
 
 First and foremost, we will need you to fill an editable PDF sheet. We use a custom PDF created for us by the amazing [MrGone](https://mrgone.rocksolidshells.com/index.html).
 
-{% file src="../.gitbook/assets/Montreal by Night sheet.pdf" %}
+{% file src="../.gitbook/assets/Montreal by Night sheet  .pdf" %}
 
 Any time there is an update on the sheet, it needs to be reflected and you will need to submit an updated file.
 
 Remember to fill all the important details in the sheet, especially the conviction, the tenets and all the value related to blood potency and generation.
+
+There is a one month grace period in which one can make small amendments to a sheet or change completely their character, after character creation.
 
 ## Character Creation
 
@@ -53,13 +55,17 @@ For example, a Hecata can take bagger and obtain a dot in Oblivion, a Brujah wil
 
 This is valid for all the PTs that include Oblivion and BS and valid for all the clans that have them as their normal spread (even bloodlines).
 
+We require characters to be more than competent in their selected predator type. While the average DCs are pretty low, complications do arise quite often, and not being able to hunt is very problematic for a kindred.&#x20;
+
+Usually, Characters need to have at least 7-8 dice in their preferred hunting style, at least double the required DC.
+
 ## Conviction and touchstones
 
 * Choose between 1-3 convictions and associated touchstones.
 * We allow items to be touchstones. No more than 1 touchstone can be an item, and at least one touchstone needs to be a mortal.
-* If the touchstone is an item, it needs to always be on the person. Otherwise, the character receives stains as if the touchstone was damaged every time the touchstone is not with them.
+* If the touchstone is an item, **it needs to always be on the person**. Otherwise, the character receives stains as if the touchstone was damaged every time the touchstone is not with them.&#x20;
 * If the touchstone is lost, even if only temporarily, the character takes the same stains as if the touchstone was destroyed.
-* Weapons are not good touchstone, as they get damaged every time they are used, and you take stains every time you have to be without your weapon (for example, Elysium might not allow weapon to be brought inside)
+* Weapons are not good touchstone, as they get damaged every time they are used, and you take stains every time you have to be without your weapon (for example, Elysium might not allow weapon to be brought inside).
 * If your character is part of a specific cult, they need to have at least one conviction that is related to that cult.
 
 Player Characters can be touchstone as long as they are humans that do not know about the world of darkness. The moment a human (player character or not) gets to witness the atrocities of the world of darkness, they can no longer be a touchstone.
@@ -69,26 +75,39 @@ The touchstone must then be replaced within a few nights or the conviction will 
 
 ## Add the chronicle tenets
 
+{% hint style="warning" %}
 * Do not kill if not for self defence
 * Do not enslave or torture
+* Always protect the Masquerade
+{% endhint %}
 
 In addition, there are chronicle tenets associated to the sect one's belong to:
 
+{% hint style="info" %}
 * Camarilla: Follow the tradition
 * Anarchs: Never betray the Movement
 * Hecata: The family is above everything
 * Independent: Do not bow to the will of the sects
+{% endhint %}
+
+Higher levels of humanity impose new chronicle tenets on the characters as follow:
+
+{% hint style="success" %}
+* Humanity 8: do not kill, have monstrous intentions or fall to the beast
+* Humanity 9: do not harm, if not for self defense
+{% endhint %}
 
 The chronicle tenets _can_ be willingly broken by the character.
 
 ## Merits, flaws and backgrounds.
 
 * Every character has 7 points to distribuite between Merits, Backgrounds and Loresheets.
-* There is an hard cap of 2 different loresheet at character creation. A bloodline or a 'descendant of' loresheet are not included in this limit. More loresheet can be acquired with play, but it's important to keep in mind that every additional loresheet becomes harder to acquire.
-* For backgrounds and loresheets, there is a soft caps of 3 at CC. There are some exceptions where a an higher level of a loresheet can be taken it at CC, but is really uncommon and it's at ST discreption.&#x20;
-* Also, while we usually approve loresheets at the third dot at CC, we do not approve more than one LS at that level.
+* There is an hard cap of 2 different Loresheets at character creation. A bloodline or a 'descendant of' Loresheet are not included in this limit. More Loresheets can be acquired with play, but it's important to keep in mind that every additional Loresheets becomes harder to acquire.
+* For backgrounds and Loresheets, there is a soft caps of 3 at CC. There are some exceptions where a an higher level of a loresheet can be taken it at CC, but is really uncommon and it's at ST discreption.&#x20;
+* Also, while we usually approve Loresheets at the third dot at CC, we do not approve more than one LS at that level.
 * Ancillae characters have more loose restrictions, but they are still in place.
 * Every character has 2 points of flaws. You can have more flaws than 2, but they won't give you any bonus or extra merit points.
+* It's very hard that we allow Characters to start with an Influence at 3, so multiple influences at that level are not allowed at Character Creation.
 
 ## Age
 
@@ -117,8 +136,10 @@ The chronicle tenets _can_ be willingly broken by the character.
 * They lose 1 dot of humanity from the starting pool
 * Ancillae characters can choose between Focused or Strategic discipline spread.
 
-> - _Focused_: Put 3 dots into a clan discipline, 1 dot into another clan discipline and the last 1 dot into any discipline. (with the usual limitations). Caitiff characters will have those 3 as their starting disciplines.
-> - _Strategic_: Put 2 dots into 2 clan disciplines, 1 dot into the third clan discipline and then 1 dot into any discipline (with the usual limitations).
+{% hint style="info" %}
+- _Focused_: Put 3 dots into a clan discipline, 1 dot into another clan discipline and the last 1 dot into any discipline. (with the usual limitations). Caitiff characters will have those 3 as their starting disciplines.
+- _Strategic_: Put 2 dots into 2 clan disciplines, 1 dot into the third clan discipline and then 1 dot into any discipline (with the usual limitations).
+{% endhint %}
 
 ## Human Player Characters
 
@@ -127,9 +148,9 @@ The chronicle tenets _can_ be willingly broken by the character.
 * 5 extra advantage points, to be spent in advantages. Those 5 points of extra backgrounds will need to be reintegrated with experience if and when they are embraced.
 * They can not be embraced for at least 1 ooc month after their character creation.
 
-A character can be created as a ghoul, but their domitor needs to be an active player.
+A character can be created as a Ghoul, but their Domitor needs to be an active player.
 
-If a kindred character takes a player as a ghoul, they need to spend experience equal to having a 2 dots retainer (6 experience).
+If a kindred character takes a player as a Ghoul, they need to spend experience equal to having a 2 dot retainer (6 experience).
 
 It's important to remember when creating such a character, that the game is mostly intended towards kindred characters.
 
@@ -153,18 +174,13 @@ In any case, it's something that needs to be discussed in a ticket with the staf
 
 Blush of life allows you to perform and even enjoy sexual intercourse as low as humanity 6 \[the whole scale is lowered by 2 humanity levels].
 
-Higher levels of humanity impose new chronicle tenets on the characters as follow:
-
-> * Humanity 8: do not kill or have monstrous intentions
-> * Humanity 9: do not harm, if not for self defense
-
-Humanity 10 is unattainable, unless when retiring a character.
+**Humanity 10 is unattainable, unless when retiring a character.**
 
 ## Experience
 
 Each week, there are multiple ways to earn experience points for your character
 
-* 1 Experience point for waking up the character and posting at least 3 different emotes in a week. Remember, this is a post based game, so those posts need to be of enough lenght to qualify for your experience
+* 1 Experience point for waking up the character and posting at least 3 different emotes in a week. Remember, this is a post based game, so those posts need to be of enough length to qualify for your experience.
 * 1 Experience point for interacting with another character.
 * 1 Experience point for progressing personal or someone else's story. Reaching a desire, helping someone else to reach theirs, working on a project, meeting new people... Most times, you will get this point if you play a full scene or more.
 * 1 Experience point for participating in STs led scenes. This could be an investigation, a combat, a story, anything.
@@ -175,12 +191,12 @@ In addition, for other rewards:
 
 * 1-3 Experience points can be assigned by the STs if the character is involved in quests, important or dangerous scenes
 
-Retiring a Character will award half of their earnt experience point (up to 50 - this number can change) towards the creation of a new character.
+Retiring a Character will award half of their earnt experience point (up to 50) towards the creation of a new character.
 
-If a character dies, between 75% and 100% of their earnt experience points can go towards the creation of a new character, depending on the cause of their death.
+If a character dies, between 75% and 100% of their earnt experience points can go towards the creation of a new character, depending on the cause of their death (still capped at 50). &#x20;
 
-There is a one month grace period in which one can make small amends to a sheet or change completely their character, after character creation.
+In the case of a Fledgling or a Neonate character created with big amount of exp, limits on the expenditure might be applied by the staff: it's unrealistic to see a fledgling with 50 experience points in their disciplines on their first nights.
 
-**If you lose your Inconnu exp log, i will not be digging an endless amount of tickets to restore it. If you lose your exp log, your new total will be 0/0 and you basically start over.**
+**If you lose your Inconnu exp log, I will not be digging in an endless amount of tickets to restore it. If you lose your exp log, your new total will be 0/0 and you basically start over.**
 
 This includes all the exp related milestones, like character retiring experience.
