@@ -20,7 +20,7 @@ Age limitation: No fledgling.
 
 Homebrew Loresheet: Descendant of Dracula
 
-<figure><img src="../.gitbook/assets/dracula.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dracula.png" alt=""><figcaption></figcaption></figure>
 
 ## Sorcerer Ministry
 
@@ -42,5 +42,5 @@ Age limitation: Ancillae only
 
 Homebrew Loresheet: Descendant of Kemintiri&#x20;
 
-<figure><img src="../.gitbook/assets/kemintirii.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/kemintirii.png" alt=""><figcaption></figcaption></figure>
 
