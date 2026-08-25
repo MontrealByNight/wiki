@@ -104,10 +104,14 @@ The chronicle tenets _can_ be willingly broken by the character.
 * Every character has 7 points to distribuite between Merits, Backgrounds and Loresheets.
 * There is an hard cap of 2 different Loresheets at character creation. A bloodline or a 'descendant of' Loresheet are not included in this limit. More Loresheets can be acquired with play, but it's important to keep in mind that every additional Loresheets becomes harder to acquire.
 * For backgrounds and Loresheets, there is a soft caps of 3 at CC. There are some exceptions where a an higher level of a loresheet can be taken it at CC, but is really uncommon and it's at ST discreption.&#x20;
-* Also, while we usually approve Loresheets at the third dot at CC, we do not approve more than one LS at that level.
+* Also, while we usually approve Loresheets at the third dot at CC, we do not approve more than one LS at that level. Please refer to the extended section about [Loresheets](https://montreal-by-night.gitbook.io/mtrwiki/rules/loresheets).
 * Ancillae characters have more loose restrictions, but they are still in place.
 * Every character has 2 points of flaws. You can have more flaws than 2, but they won't give you any bonus or extra merit points.
 * It's very hard that we allow Characters to start with an Influence at 3, so multiple influences at that level are not allowed at Character Creation.
+* Allies have an automatic dot of reliability that doesn't need to be purchased with experience
+* Haven and Haven merits can be off-balanced with Haven flaws, to a certain degree. Characters with the _'Decay'_ clan bane cannot make use of this alternate rule.
+
+
 
 ## Age
 
@@ -200,3 +204,33 @@ In the case of a Fledgling or a Neonate character created with big amount of exp
 **If you lose your Inconnu exp log, I will not be digging in an endless amount of tickets to restore it. If you lose your exp log, your new total will be 0/0 and you basically start over.**
 
 This includes all the exp related milestones, like character retiring experience.
+
+## Restricted Clans, Sects and Cults
+
+Our aim is to have more opportunities available to everyone to pick from, but at the same time, it does happen that sometime the story or the lore do not allow some concept to be played within this chronicle. As such, also some extremely overpopulated clans might be locked or capped, depending on the server life and population. No one likes a court where the majority is only one clan.
+
+* We strongly discourage Indies, especially fledglings and neonates. We have found that they are very hard to include in plots and with the overall game and they do not thrive in this environment. The contested area are _not_ up for grab so easily.
+* Hecata are considered a Clan that can join any sect. They maintain their own Tenet.
+* Cults (of all types) are heavily monitored. If their numbers become too high we might limit them at Character Creation.
+
+Moreover, some clans have their affiliation set in stone in the lore and within the server metaplot.
+
+That means that is impossible for certain clans to be a part of a different sect from the default one.
+
+* Tzimisce and Ministry are Anarchs only. This include the variants such as Koldun Tzimisce and Sorcerer Ministry.
+* Lasombra and Banu Haqim are Camarilla only.
+
+There is no going around this rule and this decision, for the time being. This is subject to change, depending how the story goes within the server.
+
+Maybe in the future, a group of player will be able to detach themselves from their original sect and create a faction on the other side.
+
+Also, those changes might happen in character, a character is allowed to change their sects during gameplay.
+
+It doesn't mean that it will be easy and without a proper preparation and a long planning, it would put the character(s) in extreme danger. **Do this at your own risk**.
+
+## Misc. Restrictions
+
+* Thinblood are very, very rarely embraced into the Hecata. As such, this concept would be rejected.
+* Thinblood can have access to Oblivion and Blood Sorcery through "_Discipline Affinity_" - Any character sheet with this will be heavily scrutinised as is really hard for such a specimen to thrive.
+* Caitiff neonates and fledglings cannot have access to Oblivion or Blood Sorcery at CC.
+* Plague doctors and all associated rituals (Viral Haruspex, Egregore Consultation, etc etc) are banned. They don't fit the chronicles and the rules are vague at best, so we decided those wouldn't be options available to players.
