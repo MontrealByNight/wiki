@@ -54,7 +54,7 @@
         var SNAP_PRECISION = 4; // 4 decimal places (0.0001)
 
         var map = L.map('map', { center: [45.53, -73.60], zoom: 11 });
-        var darkTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { maxZoom: 19 }).addTo(map);
+        var darkTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_4kwe_1_7f05808b21ede8140c2e7a6e', { maxZoom: 19 }).addTo(map);
 
         var drawnItems = new L.FeatureGroup();
         map.addLayer(drawnItems);
