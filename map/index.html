@@ -31,11 +31,11 @@
         <script src="data/polygons.js"></script>
 
     <script>
-        // 1. Define your Themes (Basemaps)
-        var darkTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+// 1. Define your Themes (Basemaps)
+        var darkTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_4kwe_1_7f05808b21ede8140c2e7a6e', {
             attribution: '&copy; CARTO', subdomains: 'abcd', maxZoom: 19
         });
-        var lightTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        var lightTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_4kwe_1_7f05808b21ede8140c2e7a6e', {
             attribution: '&copy; CARTO', subdomains: 'abcd', maxZoom: 19
         });
         var satelliteTheme = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
