@@ -1,47 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Montreal Map Editor (ST ONLY)</title>
+    <title>Montreal By Night Map</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
-    
     <style>
-        body { margin: 0; padding: 0; background: #1a1a1a; color: white; font-family: sans-serif; display: flex; flex-direction: column; height: 100vh; }
-        #map { flex-grow: 1; width: 100%; border-bottom: 2px solid #444; }
-        #output-panel { height: 280px; background: #2b2b2b; padding: 15px; display: flex; flex-direction: column; }
-        .toolbar { display: flex; gap: 15px; align-items: center; margin-bottom: 10px; }
-        select { background: #444; color: white; border: 1px solid #777; padding: 8px; font-size: 16px; border-radius: 4px; cursor: pointer; }
-        textarea { flex-grow: 1; background: #000; color: #00ff00; border: 1px solid #555; padding: 10px; font-family: monospace; font-size: 13px; resize: none; }
-        h3 { margin: 0; color: #e67e22; }
-        p { margin: 0; font-size: 0.9em; color: #aaa; }
+        body { margin: 0; padding: 0; background: #1a1a1a; font-family: sans-serif; }
+        #map { width: 100vw; height: 100vh; }
+        
+        /* Custom Dark Mode Popups */
         .leaflet-popup-content-wrapper { background: #2b2b2b; color: #e0e0e0; border: 1px solid #444; border-radius: 6px; }
         .leaflet-popup-tip { background: #2b2b2b; border: 1px solid #444; }
+        .leaflet-popup-content b { color: #e67e22; font-size: 1.1em; }
+        .leaflet-popup-content img { border-radius: 4px; margin-top: 8px; margin-bottom: 8px; }
+        .leaflet-popup-content a { color: #5dade2; text-decoration: none; }
+        .leaflet-popup-content a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
 
     <div id="map"></div>
-
-    <div id="output-panel">
-        <div class="toolbar">
-            <h3>Code Generator</h3>
-            <p>Use the Draw toolbar to edit. Click <b>Save</b> to snap and generate code.</p>
-            <select id="fileSelector" onchange="updateCodeBox()">
-                <option value="polygons">polygons.js</option>
-                <option value="camarilla">camarilla.js</option>
-                <option value="anarch">anarch.js</option>
-                <option value="contested">contested.js</option>
-                <option value="markdown">➡️ Markdown Helper</option>
-            </select>
-        </div>
-        <textarea id="codeBox" readonly></textarea>
-    </div>
 
     <script src="data/camarilla.js"></script>
     <script src="data/anarch.js"></script>
@@ -49,182 +31,186 @@
     <script src="data/polygons.js"></script>
 
     <script>
-        // --- 1. GLOBAL VARIABLES & SETUP ---
-        var generatedCodes = { polygons: "", camarilla: "", anarch: "", contested: "", markdown: "" };
-        var SNAP_PRECISION = 4; // 4 decimal places (0.0001)
+        // 1. Define your Themes (Basemaps)
+        var darkTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_4kwe_1_7f05808b21ede8140c2e7a6e', {
+            attribution: '&copy; CARTO', subdomains: 'abcd', maxZoom: 19
+        });
+        var lightTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_4kwe_1_7f05808b21ede8140c2e7a6e', {
+            attribution: '&copy; CARTO', subdomains: 'abcd', maxZoom: 19
+        });
+        var satelliteTheme = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri', maxZoom: 19
+        });
 
-        var map = L.map('map', { center: [45.53, -73.60], zoom: 11 });
-        var darkTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_4kwe_1_7f05808b21ede8140c2e7a6e', { maxZoom: 19 }).addTo(map);
+        // 2. Initialize the Map
+        var map = L.map('map', {
+            center: [45.53, -73.60],
+            zoom: 11,
+            layers: [darkTheme] // Sets Dark Theme as the default on load
+        });
 
-        var drawnItems = new L.FeatureGroup();
-        map.addLayer(drawnItems);
+        // 3. Create the Empty Overlay Groups (These are the checkboxes!)
+        var territoryLayer = L.layerGroup().addTo(map);
+        var camarillaLayer = L.layerGroup().addTo(map);
+        var anarchLayer = L.layerGroup().addTo(map);
+        var contestedLayer = L.layerGroup().addTo(map);
 
-        // --- 2. HELPER FUNCTIONS ---
+        // 4. Define Colors
         function getColor(type) {
-            if (type === 'Camarilla') return '#e67e22'; 
-            if (type === 'Anarch') return '#206694';    
-            if (type === 'Contested' || type === 'Hecata') return '#992d22'; 
-            return '#546e7a'; 
+            if (type === 'Camarilla') return '#e67e22'; // Orange
+            if (type === 'Anarch') return '#206694';    // Blue
+            if (type === 'Contested' || type === 'Hecata') return '#992d22'; // Dark Red
+            return '#546e7a'; // Grey
         }
+
+        // 5. Draw Polygons into the Territory Layer
+        if (typeof mapPolygons !== 'undefined') {
+            mapPolygons.forEach(function(poly) {
+                var zoneColor = getColor(poly.type);
+                
+                // Build the popup content
+                var popupContent = "<b>" + poly.name + "</b><br><i>" + poly.type + " Territory</i>";
+                if (poly.desc) {
+                    popupContent += "<br><br>" + poly.desc; // Adds the description if it exists
+                }
+
+                L.polygon(poly.coords, {
+                    color: zoneColor, weight: 2, fillColor: zoneColor, fillOpacity: 0.15
+                })
+                .bindPopup(popupContent)
+                .addTo(territoryLayer);
+            });
+        }
+
+        // 6. Define Custom Emoji Icons using L.divIcon
+        var iconSize = [30, 30]; 
+        var iconAnchor = [15, 15]; 
 
         function createEmojiIcon(emoji) {
             return L.divIcon({
                 html: '<div style="font-size: 24px; text-align: center; line-height: 30px;">' + emoji + '</div>',
-                className: '', iconSize: [30, 30], iconAnchor: [15, 15]
+                className: '', 
+                iconSize: iconSize,
+                iconAnchor: iconAnchor
             });
         }
-        var icons = { 'Camarilla': createEmojiIcon('🦇'), 'Anarch': createEmojiIcon('🔥'), 'Hecata': createEmojiIcon('💀'), 'Contested': createEmojiIcon('⚔️') };
-        var defaultIcon = createEmojiIcon('📍');
 
-        // Deep Snapping Function for Polygons
-        function snapLatLng(ll) {
-            return L.latLng(
-                parseFloat(ll.lat.toFixed(SNAP_PRECISION)),
-                parseFloat(ll.lng.toFixed(SNAP_PRECISION))
-            );
-        }
+        var icons = {
+            'Camarilla': createEmojiIcon('🟠'), 
+            'Anarch': createEmojiIcon('🟣'), 
+            'Hecata': createEmojiIcon('👻'), 
+            'Contested': createEmojiIcon('🔴')  
+        };
+        var defaultIcon = createEmojiIcon('📍'); 
 
-        function snapLayer(layer) {
-            if (layer instanceof L.Marker || layer instanceof L.CircleMarker) {
-                layer.setLatLng(snapLatLng(layer.getLatLng()));
-            } else if (layer instanceof L.Polygon || layer instanceof L.Polyline) {
-                const deepSnap = (arr) => arr.map(item => Array.isArray(item) ? deepSnap(item) : snapLatLng(item));
-                layer.setLatLngs(deepSnap(layer.getLatLngs()));
-            }
-        }
+        // 7. Automated Markdown Fetcher and Pin Drawer (With Auto-Coordinates!)
+        async function fetchDescriptionsAndDraw(dataArray, targetLayer, rawMarkdownUrl) {
+            if (typeof dataArray === 'undefined' || dataArray.length === 0) return;
 
-        // --- 3. DATA LOADING ---
-        async function fetchMarkdownPins(dataArray, url) {
-            if (!dataArray || dataArray.length === 0) return;
+            let markdownText = "";
             try {
-                const response = await fetch(url);
-                const text = await response.text();
+                // Download the raw text
+                const response = await fetch(rawMarkdownUrl);
+                markdownText = await response.text();
+            } catch (error) {
+                console.error("Could not load Markdown file:", error);
+                return;
+            }
+
+            dataArray.forEach(function(loc) {
+                var markerIcon = loc.emoji ? createEmojiIcon(loc.emoji) : (icons[loc.type] || defaultIcon);
                 
-                dataArray.forEach(function(loc) {
-                    var search = "**" + loc.name + "**";
-                    var startIndex = text.indexOf(search);
+                // Find this location in the markdown text
+                var searchString = "* **" + loc.name + "**";
+                var startIndex = markdownText.indexOf(searchString);
+
+                if (startIndex !== -1) {
+                    var textAfterStart = markdownText.substring(startIndex + searchString.length);
+                    
+                    // --- THE NEW STOPPER ---
+                    // Stops reading at the next location (\n* **), a new heading (\n##), or a divider (\n---)
+                    var stopRegex = /\n(?:\*\s\*\*|##|---)/;
+                    var stopMatch = textAfterStart.match(stopRegex);
+                    
+                    var rawBlock = stopMatch ? textAfterStart.substring(0, stopMatch.index) : textAfterStart;
+
+                    // 1. EXTRACT COORDINATES
+                    var coordsMatch = rawBlock.match(/\*\*Coordinates\*\*:\s*`\s*([-\d.]+)\s*,\s*([-\d.]+)\s*`/);
                     var pinLat, pinLng;
 
-                    if (startIndex !== -1) {
-                        var rawBlock = text.substring(startIndex).split(/\n(?:\s*\*\s\*\*|##|---)/)[0];
-                        var coordsMatch = rawBlock.match(/\*\*Coordinates\*\*:\s*`?\s*([-\d.]+)\s*,\s*([-\d.]+)\s*`?/);
-                        if (coordsMatch) {
-                            pinLat = parseFloat(coordsMatch[1]);
-                            pinLng = parseFloat(coordsMatch[2]);
-                        }
+                    if (coordsMatch) {
+                        pinLat = parseFloat(coordsMatch[1]);
+                        pinLng = parseFloat(coordsMatch[2]);
+                    } else if (loc.lat && loc.lng) {
+                        pinLat = loc.lat;
+                        pinLng = loc.lng;
                     }
 
+                    // 2. EXTRACT EMOJI FROM MARKDOWN
+                    var parsedEmoji = null;
+                    // Looks for "**Currently Owned By [emoji]" or "**Currently Owned By The [emoji]"
+                    var ownerMatch = rawBlock.match(/\*\*Currently Owned [Bb]y (?:[Tt]he )?(.*?)\s/);
+                    if (ownerMatch && ownerMatch[1]) {
+                        parsedEmoji = ownerMatch[1].trim();
+                    }
+
+                    // Determine Final Icon (Prioritizes hardcoded JS, then Markdown, then default faction icon)
+                    var finalEmoji = loc.emoji || parsedEmoji;
+                    markerIcon = finalEmoji ? createEmojiIcon(finalEmoji) : (icons[loc.type] || defaultIcon);
+
+                    // 3. CLEAN UP HTML
+                    rawBlock = rawBlock.replace(/\n\s*\*\s\*\*Coordinates\*\*.*?(?=\n|$)/g, ''); // Hide coordinates from popup
+
+                    var descriptionHTML = rawBlock
+                        .replace(/^:\s*/, '') // Remove leading colon
+                        .replace(/\n\s*\*\s\*\*(.*?)\*\*:/g, '<br><b>$1:</b>') 
+                        .replace(/\n\s*\*\s↪\s\*\*(.*?)\*\*:/g, '<br>↳ <b>$1:</b>') 
+                        .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>') 
+                        .replace(/\n/g, '<br>'); 
+
+                    // 4. DRAW THE PIN
                     if (pinLat && pinLng) {
-                        var layer = L.marker([pinLat, pinLng], { icon: loc.emoji ? createEmojiIcon(loc.emoji) : (icons[loc.type] || defaultIcon) });
-                        layer.featureData = loc; // Attach metadata
-                        layer.bindPopup(`<b>${loc.name}</b><br>${loc.type}`);
-                        drawnItems.addLayer(layer);
+                        L.marker([pinLat, pinLng], { icon: markerIcon })
+                        .bindPopup("<b>" + loc.name + "</b><br><br>" + descriptionHTML, { maxWidth: 400, minWidth: 250 })
+                        .addTo(targetLayer);
+                    } else {
+                        console.warn("Skipped '" + loc.name + "' - No coordinates found.");
                     }
-                });
-            } catch (err) { console.error("Failed to load markdown:", err); }
-        }
-
-        async function initializeMapData() {
-            // Load Polygons
-            if (typeof mapPolygons !== 'undefined') {
-                mapPolygons.forEach(function(poly) {
-                    var layer = L.polygon(poly.coords, { color: getColor(poly.type), weight: 2, fillOpacity: 0.15 });
-                    layer.featureData = poly; // Attach metadata
-                    layer.bindPopup(`<b>${poly.name}</b><br>${poly.type}`);
-                    drawnItems.addLayer(layer);
-                });
-            }
-
-            // Load Pins
-            await Promise.all([
-                fetchMarkdownPins(typeof data_camarilla !== 'undefined' ? data_camarilla : [], "https://raw.githubusercontent.com/montrealbynight/wiki/main/locations/Camarilla%20Locations.md"),
-                fetchMarkdownPins(typeof data_anarch !== 'undefined' ? data_anarch : [], "https://raw.githubusercontent.com/montrealbynight/wiki/main/locations/Anarch%20Locations.md"),
-                fetchMarkdownPins(typeof data_contested !== 'undefined' ? data_contested : [], "https://raw.githubusercontent.com/montrealbynight/wiki/main/locations/Contested%20Locations.md")
-            ]);
-
-            generateCode(); // Initial code generation
-        }
-
-        // --- 4. DRAWING CONTROLS & EVENTS ---
-        var drawControl = new L.Control.Draw({
-            edit: { featureGroup: drawnItems, remove: true },
-            draw: { polyline: false, circle: false, circlemarker: false, rectangle: true, marker: true, polygon: true }
-        });
-        map.addControl(drawControl);
-
-        map.on(L.Draw.Event.CREATED, function (e) {
-            var layer = e.layer;
-            snapLayer(layer); // Snap immediately
-
-            if (layer instanceof L.Marker) {
-                layer.featureData = { name: "NEW LOCATION", type: "Camarilla" };
-            } else if (layer instanceof L.Polygon || layer instanceof L.Rectangle) {
-                layer.featureData = { name: "NEW ZONE", type: "Contested" };
-                layer.setStyle({ color: getColor("Contested") });
-            }
-            
-            drawnItems.addLayer(layer);
-            generateCode();
-        });
-
-        map.on(L.Draw.Event.EDITED, function (e) {
-            e.layers.eachLayer(function(layer) {
-                snapLayer(layer); // Snap everything that was edited
-            });
-            generateCode();
-        });
-
-        map.on(L.Draw.Event.DELETED, function () {
-            generateCode();
-        });
-
-        // --- 5. CODE GENERATION ---
-        function generateCode() {
-            var outPolys = [], outCam = [], outAnarch = [], outCont = [], outMarkdown = [];
-
-            drawnItems.eachLayer(function(layer) {
-                var data = layer.featureData || {};
-                var name = data.name || "UNNAMED";
-                var type = data.type || "Other";
-
-                if (layer instanceof L.Polygon || layer instanceof L.Rectangle) {
-                    var latlngs = layer.getLatLngs()[0]; // Extract primary ring
-                    // Ensure it is a flat array of LatLngs
-                    if (Array.isArray(latlngs) && Array.isArray(latlngs[0])) latlngs = latlngs[0];
-
-                    var coords = latlngs.map(ll => `[${ll.lat.toFixed(SNAP_PRECISION)}, ${ll.lng.toFixed(SNAP_PRECISION)}]`);
-                    outPolys.push(`  {\n    "name": "${name}", "type": "${type}",\n    "coords": [\n      ${coords.join(",\n      ")}\n    ]\n  }`);
-                } 
-                else if (layer instanceof L.Marker) {
-                    var ll = layer.getLatLng();
-                    var emojiStr = data.emoji ? `, "emoji": "${data.emoji}"` : "";
-                    var objStr = `  { "name": "${name}", "type": "${type}"${emojiStr} }`;
-
-                    if (type === 'Camarilla') outCam.push(objStr);
-                    else if (type === 'Anarch') outAnarch.push(objStr);
-                    else outCont.push(objStr);
-
-                    outMarkdown.push(`* **Coordinates**: \`${ll.lat.toFixed(SNAP_PRECISION)}, ${ll.lng.toFixed(SNAP_PRECISION)}\`  `);
+                } else {
+                    console.warn("Skipped '" + loc.name + "' - Could not find a matching name in the Markdown file.");
                 }
             });
-
-            generatedCodes.polygons = "var mapPolygons = [\n" + outPolys.join(",\n") + "\n];";
-            generatedCodes.camarilla = "var data_camarilla = [\n" + outCam.join(",\n") + "\n];";
-            generatedCodes.anarch = "var data_anarch = [\n" + outAnarch.join(",\n") + "\n];";
-            generatedCodes.contested = "var data_contested = [\n" + outCont.join(",\n") + "\n];";
-            generatedCodes.markdown = "/* Coordinates for Markdown files */\n\n" + outMarkdown.join("\n");
-
-            updateCodeBox();
         }
 
-        function updateCodeBox() {
-            var sel = document.getElementById("fileSelector").value;
-            document.getElementById("codeBox").value = generatedCodes[sel] || "";
-        }
+        // 8. EXECUTE ALL FACTIONS
+        // Camarilla
+        var camarillaUrl = "https://raw.githubusercontent.com/montrealbynight/wiki/main/locations/Camarilla%20Locations.md";
+        fetchDescriptionsAndDraw(typeof data_camarilla !== 'undefined' ? data_camarilla : [], camarillaLayer, camarillaUrl);
 
-        // --- 6. BOOT IT UP ---
-        initializeMapData();
+        // Anarch
+        var anarchUrl = "https://raw.githubusercontent.com/montrealbynight/wiki/main/locations/Anarch%20Locations.md";
+        fetchDescriptionsAndDraw(typeof data_anarch !== 'undefined' ? data_anarch : [], anarchLayer, anarchUrl);
 
+        // Contested
+        var contestedUrl = "https://raw.githubusercontent.com/montrealbynight/wiki/main/locations/Contested%20Locations.md";
+        fetchDescriptionsAndDraw(typeof data_contested !== 'undefined' ? data_contested : [], contestedLayer, contestedUrl);
+
+
+        // 9. Create the Unified Menu
+        var baseMaps = {
+            "Dark Theme": darkTheme,
+            "Light Theme": lightTheme,
+            "Satellite View": satelliteTheme
+        };
+
+        var overlayMaps = {
+            "Territories": territoryLayer,
+            "Camarilla Pins": camarillaLayer,
+            "Anarch Pins": anarchLayer,
+            "Contested/Other Pins": contestedLayer
+        };
+
+        L.control.layers(baseMaps, overlayMaps, { position: 'topright' }).addTo(map);
     </script>
 </body>
 </html>
