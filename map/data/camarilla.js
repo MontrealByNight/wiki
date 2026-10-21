@@ -1,14 +1,14 @@
 var data_camarilla = [
   // --- Beaconsfield ---
   { "name": "Lakeshore Road", "type": "Camarilla" },
-  { "name": "Beaconsfield Yacht Club", "type": "Camarilla", "emoji": "🚢" },
+  { "name": "Beaconsfield Yacht Club", "type": "Camarilla" },
   { "name": "Beacon Hill Park", "type": "Camarilla" },
 
   // --- Notre Dame de Grace (NDG) ---
   { "name": "Trinity Memorial Church", "type": "Camarilla" },
   { "name": "Villa Maria High School", "type": "Camarilla" },
   { "name": "Bistro le Bourbon", "type": "Camarilla" },
-  { "name": "Our Lady of Grace", "type": "Camarilla", "emoji": "⚜️" },
+  { "name": "Our Lady of Grace", "type": "Camarilla" },
 
   // --- Montreal West ---
   { "name": "Devil's Hill", "type": "Camarilla" },
