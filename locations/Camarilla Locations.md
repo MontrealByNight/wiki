@@ -56,6 +56,12 @@
   * **Grim Reaper DC**: 2
   * **Bagger DC**: 2
   * **Graverobber DC**: 3
+  * **Currently Owned by 🏥 The Night Shift Coterie**
+    * **Domain:** ●●
+    * **Chasse:** (●●)
+      * ↪ Hospital ●●
+    * **Lien:** ●●
+    * **Portillon:** ●●
 
 ***
 
