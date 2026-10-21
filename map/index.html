@@ -28,10 +28,10 @@
     <script src="data/camarilla.js"></script>
     <script src="data/anarch.js"></script>
     <script src="data/contested.js"></script>
-        <script src="data/polygons.js"></script>
+    <script src="data/polygons.js"></script>
 
     <script>
-// 1. Define your Themes (Basemaps)
+        // 1. Define your Themes (Basemaps)
         var darkTheme = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_4kwe_1_7f05808b21ede8140c2e7a6e', {
             attribution: '&copy; CARTO', subdomains: 'abcd', maxZoom: 19
         });
@@ -146,7 +146,19 @@
                         pinLng = loc.lng;
                     }
 
-                    // 2. CLEAN UP HTML
+                    // 2. EXTRACT EMOJI FROM MARKDOWN
+                    var parsedEmoji = null;
+                    // Looks for "**Currently Owned By [emoji]" or "**Currently Owned By The [emoji]"
+                    var ownerMatch = rawBlock.match(/\*\*Currently Owned [Bb]y (?:[Tt]he )?(.*?)\s/);
+                    if (ownerMatch && ownerMatch[1]) {
+                        parsedEmoji = ownerMatch[1].trim();
+                    }
+
+                    // Determine Final Icon (Prioritizes hardcoded JS, then Markdown, then default faction icon)
+                    var finalEmoji = loc.emoji || parsedEmoji;
+                    markerIcon = finalEmoji ? createEmojiIcon(finalEmoji) : (icons[loc.type] || defaultIcon);
+
+                    // 3. CLEAN UP HTML
                     rawBlock = rawBlock.replace(/\n\s*\*\s\*\*Coordinates\*\*.*?(?=\n|$)/g, ''); // Hide coordinates from popup
 
                     var descriptionHTML = rawBlock
@@ -156,7 +168,7 @@
                         .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>') 
                         .replace(/\n/g, '<br>'); 
 
-                    // 3. DRAW THE PIN
+                    // 4. DRAW THE PIN
                     if (pinLat && pinLng) {
                         L.marker([pinLat, pinLng], { icon: markerIcon })
                         .bindPopup("<b>" + loc.name + "</b><br><br>" + descriptionHTML, { maxWidth: 400, minWidth: 250 })
@@ -200,3 +212,5 @@
 
         L.control.layers(baseMaps, overlayMaps, { position: 'topright' }).addTo(map);
     </script>
+</body>
+</html>
