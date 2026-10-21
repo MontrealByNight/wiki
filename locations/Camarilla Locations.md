@@ -8,9 +8,8 @@
   * **Coordinates**: `45.4344, -73.9032`
   * **Sandman DC**: 4
   * **Cleaver DC**: 4
-*   **Beaconsfield Yacht Club**: A private club located along the shores of Lake Saint-Louis, offering facilities for sailing and other water-based activities. The club is a hub for local boating enthusiasts, with docks, storage areas for boats, and a clubhouse that offers both casual and formal spaces for members. The surrounding area includes scenic views of the lake and is a place for recreation and social gatherings, particularly during the warmer months.
-
-
+* **Beaconsfield Yacht Club**: A private club located along the shores of Lake Saint-Louis, offering facilities for sailing and other water-based activities. The club is a hub for local boating enthusiasts, with docks, storage areas for boats, and a clubhouse that offers both casual and formal spaces for members. The surrounding area includes scenic views of the lake and is a place for recreation and social gatherings, particularly during the warmer months.
+  * **Coordinates**: `45.4266, -73.8357`
 * **Beacon Hill Park**: A well-maintained public park offering a quiet retreat for the residents of Beaconsfield. The park features open green spaces, shaded areas under large trees, and walking paths. It's a popular spot for picnics, outdoor sports, and leisurely strolls. The park's calm atmosphere makes it a peaceful location for both relaxation and recreation.
   * **Coordinates**: `45.4365, -73.8443`
 
