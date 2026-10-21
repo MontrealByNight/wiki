@@ -41,6 +41,7 @@ This directory serves as the master reference for all territories in the chronic
 * **Verdun Hospital**: A large, modern healthcare facility located in the borough of LaSalle. The hospital complex includes multiple buildings, with a main structure that features a mix of contemporary and functional design. Inside, the hospital is equipped with various medical departments, providing a wide range of services.
   * **Coordinates**: `45.4583, -73.5661`
   * **Hunting**: **Grim Reaper** DC 2, **Bagger** DC 2, **Graverobber** DC 3.
+  * **Domain Traits:** Owned by 🏥 The Night Shift Coterie | Domain: ●●, Chasse: (●●) (Special: ↪ Hospital ●●), Lien: ●●, Portillon: ●●.
 
 ### Ile Bizard
 
