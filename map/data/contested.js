@@ -10,7 +10,7 @@ var data_contested = [
   { "name": "Place Jacques-Cartier", "type": "Contested" },
   { "name": "Dorchester Square", "type": "Contested" },
   { "name": "Nacarat Bar", "type": "Contested" },
-  { "name": "The Labyrinth of Old Montreal’s Alleys", "type": "Contested", "emoji": "🎤" },
+  { "name": "The Labyrinth of Old Montreal’s Alleys", "type": "Contested" },
   { "name": "Notre-Dame Basilica", "type": "Contested" },
   { "name": "The Clock Tower and Promenade", "type": "Contested" },
   { "name": "Bonsecours Market", "type": "Contested" },
@@ -26,7 +26,7 @@ var data_contested = [
   { "name": "Church of the Madonna della Difesa", "type": "Contested" },
   { "name": "Nestor's Bar", "type": "Contested" },
   { "name": "Little Italy Market (Jean-Talon Market)", "type": "Contested" },
-  { "name": "Evans Funeral House", "type": "Hecata" },
+  { "name": "Evans Funeral House", "type": "Contested" },
   { "name": "Rialto Theatre", "type": "Contested" },
 
   // --- Ahuntsic Cartierville ---
