@@ -16,13 +16,13 @@ var data_anarch = [
   { "name": "Hôpital Vétérinaire", "type": "Anarch" },
   { "name": "Refinery Overlook", "type": "Anarch" },
   { "name": "Rue Notre-Dame Industrial Strip", "type": "Anarch" },
-  { "name": "Waterfront Rail Yard", "type": "Anarch", "emoji": "♻️" },
+  { "name": "Waterfront Rail Yard", "type": "Anarch" },
 
   // --- Mercier Hochelaga Maisonneuve ---
   { "name": "Montréal Biodome", "type": "Anarch" },
   { "name": "Le Repos Saint-François", "type": "Anarch" },
   { "name": "Charron Island", "type": "Anarch" },
-  { "name": "Marché Maisonneuve", "type": "Anarch", "emoji": "🐺" },
+  { "name": "Marché Maisonneuve", "type": "Anarch" },
 
   // --- Riviere des Prairies ---
   { "name": "Bois-de-l'Anjou Nature Park", "type": "Anarch" },
