@@ -10,8 +10,8 @@
 * **Location:** #Notre-Dame-de-Grace - Our Lady of Grace Catholic Church
 * **Chasse:** ●●●
 * **Lien:** ●●●
-* **Portillon:** ●●●●
-* ↪ **Firestation:**
+* **Portillon:** (●●●)●
+* ↪ **Firestation: ●●●**
 
 ## 📍 Location Details
 
@@ -59,10 +59,11 @@ The coterie maintains two havens.
 
 ## 👥 Members
 
-* Emily
 * Seraphine
 * Cassandra
 * Ashley
+
+
 
 ## 🤝 Pooled Backgrounds
 

@@ -27,3 +27,7 @@
   * [⚜️Maison Des Lys Violets](coteries/maison-des-lys-violets.md)
   * [🐺The Wolfhounds](coteries/the-wolfhounds.md)
   * [♻️Ordinance 16 49](coteries/ordinance-16-49.md)
+  * [🏥The Night Shift](coteries/the-night-shift.md)
+  * [Copy of ♻️Ordinance 16 49](coteries/ordinance-16-49-1.md)
+  * [Copy of ♻️Ordinance 16 49](coteries/ordinance-16-49-2.md)
+  * [Copy of ♻️Ordinance 16 49](coteries/ordinance-16-49-3.md)

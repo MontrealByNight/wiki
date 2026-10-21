@@ -41,7 +41,7 @@ The coterie maintains one haven.
 
 * Davy
 * Ms. B
-* Fabian
+* Gale
 
 ## 🤝 Pooled Backgrounds
 

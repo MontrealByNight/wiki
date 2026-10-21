@@ -37,7 +37,7 @@
 
 ## 👥 Members
 
-* Seamus
+* Mason
 * Laney
 * Marta
 
@@ -46,5 +46,4 @@
 **Contacts:**
 
 * **Criminal Arms Dealer:** ●●● (Hector Jurez - Laney)
-* **Criminal (Corrupt Manager):** ●●● (Leon Hurst, Med Research Co. - Seamus)
 * **Criminal Subcontractor:** ●●● (Big Timmy - Marta)
