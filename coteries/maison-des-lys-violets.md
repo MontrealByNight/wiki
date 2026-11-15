@@ -11,12 +11,12 @@
 * **Chasse:** ●●●
 * **Lien:** ●●●
 * **Portillon:** (●●●)●
-* ↪ **Firestation: ●●●**
+  * ↪ **Firestation:** ●●●
 
 ## 📍 Location Details
 
 * **Primary HQ:** Our Lady of Grace Catholic Church
-* **Coordinates:** `45.4500, -73.6328`
+* **Coordinates:** `45.4735, -73.6148`
 * **Description:** A gray stone parish with arched stained glass and a simple steeple.
 
 ## 🏚️ Havens
@@ -62,8 +62,6 @@ The coterie maintains two havens.
 * Seraphine
 * Cassandra
 * Ashley
-
-
 
 ## 🤝 Pooled Backgrounds
 
