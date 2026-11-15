@@ -19,14 +19,14 @@ This directory serves as the master reference for all territories in the chronic
 ### Notre Dame de Grace (NDG)
 
 * **Trinity Memorial Church**: The historic and imposing 93-year-old gray limestone church on Sherbrooke Street West was dedicated as a memorial to soldiers who died in World War I. After a fire in 2023, the interior was consumed in flames while the exterior remained mostly unscathed. It now belongs to a fund to repurpose the church as a public service hub. The building is being brought back to life, offering a safe space for people to gather, join work meetings, and general events. The sacristy is now a kitchen, though it is intermittently closed for maintenance.
-  * **Coordinates**: `45.4735, -73.6148`
+  * **Coordinates**: `45.4748, -73.6076`
 * **Villa Maria High School**: A private, prestigious high school known for its strong academic reputation and traditional architecture. The campus includes a mix of historical buildings and modern facilities, with well-maintained gardens and athletic fields.
   * **Coordinates**: `45.4795, -73.6163`
 * **Bistro le Bourbon**: A cozy and casual bistro known for its laid-back atmosphere and French-inspired menu. The interior is decorated with warm, rustic touches, including wooden tables, soft lighting, and vintage-style décor.
   * **Coordinates**: `45.4720, -73.6200`
 * **Our Lady of Grace Catholic Church**: A modest stone parish church with a simple steeple rising above the surrounding neighborhood. Its exterior is light grey, with arched stained glass windows and heavy wooden doors. Inside, the long nave is lined with wooden pews leading to a raised altar beneath a vaulted ceiling.
-  * **Coordinates**: `45.4500, -73.6328`
-  * **Domain Traits**: Owned by ⚜️Maison Des Lys Violets Coterie | Domain ●●●, Chasse ●●●, Lien ●●●, Portillon ●●●● (Special: ↪ Firestation ●●).
+  * **Coordinates**: `45.4735, -73.6148`
+  * **Domain Traits**: Owned by ⚜️Maison Des Lys Violets Coterie | Domain ●●●, Chasse ●●●, Lien ●●●, Portillon (●●●)● (Special: ↪ Firestation ●●●).
 
 ### Montreal West
 
@@ -34,12 +34,12 @@ This directory serves as the master reference for all territories in the chronic
   * **Coordinates**: `45.4493, -73.6482`
   * **Hunting**: **Alleycat** DC 3, **Trapdoor** DC 3, **Pursuer** DC 3.
 * **Montreal West Train Station**: A small, historic train station marked by classic architecture, with a waiting area that retains its vintage charm. It’s a functional space, with a small platform and nearby park for travelers to pass the time.
-  * **Coordinates**: `45.4542, -73.6422`
+  * **Coordinates**: `45.4533, -73.6425`
 * **Boulevard Newman**: The primary commercial artery of LaSalle, this wide, bustling avenue is lined with strip malls, big-box retailers, and fast-food chains. Unlike pedestrian-heavy café streets, Newman is defined by transient car traffic and sprawling parking lots, providing a distinctly utilitarian suburban hunting ground.
   * **Coordinates**: `45.4313, -73.6353`
   * **Hunting**: **Montero** DC 3, **Extortionist** DC 3.
 * **Verdun Hospital**: A large, modern healthcare facility located in the borough of LaSalle. The hospital complex includes multiple buildings, with a main structure that features a mix of contemporary and functional design. Inside, the hospital is equipped with various medical departments, providing a wide range of services.
-  * **Coordinates**: `45.4583, -73.5661`
+  * **Coordinates**: `45.4475, -73.5707`
   * **Hunting**: **Grim Reaper** DC 2, **Bagger** DC 2, **Graverobber** DC 3.
   * **Domain Traits:** Owned by 🏥 The Night Shift Coterie | Domain: ●●, Chasse: (●●) (Special: ↪ Hospital ●●), Lien: ●●, Portillon: ●●.
 
@@ -144,7 +144,7 @@ This directory serves as the master reference for all territories in the chronic
 * **Marché Maisonneuve**: A large public market housed in a beaux-arts building with brick columns and arched windows.
   * **Coordinates**: `45.5505, -73.5461`
   * **Hunting**: **Alleycat** DC 2.
-* **Domain Traits**: Owned by 🐺The Wolfhounds Coterie | Domain ●, Chasse ●, Lien ● (●●), Portillon ●.
+  * **Domain Traits**: Owned by 🐺The Wolfhounds Coterie | Domain ●, Chasse ●, Lien ●(●●) (Special: ↪ Market Place ●●), Portillon ●.
 
 ### Riviere des Prairies
 
@@ -221,7 +221,7 @@ This directory serves as the master reference for all territories in the chronic
   * **Coordinates**: `45.5093, -73.5517`
 * **The Velvet Speakeasy**: A true "speakeasy" style club located in the cavernous stone basement of the Auberge Saint-Gabriel. Accessible via a confusing, narrow tunnel lit by candles. The interior features stone walls, plush velvet furniture, and a dark, fashion-forward atmosphere.
   * **Coordinates**: `45.5074, -73.5540`
-  * \*\*Hunting: **Siren** DC 3.
+  * **Hunting**: **Siren** DC 3.
 
 ### Mont Royal Plateau
 
