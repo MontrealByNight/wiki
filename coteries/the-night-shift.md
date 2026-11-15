@@ -9,7 +9,7 @@
 * **Domain:** ●●
 * **Location:** #Montreal-West - Verdun Hospital
 * **Chasse:** (●●)
-  * ↪ Hospita&#x6C;**:** ●●
+  * ↪ **Hospital:** ●●
 * **Lien:** ●●
 * **Portillon:** ●●
 
@@ -26,24 +26,21 @@
 
 The coterie maintains one haven.
 
-### 1. name tbd
+### 1. The Break Room
 
-**Location:** #Montreal-West - Verdun Hospital
+**Location:** #Montreal-West - Verdun Hospital\
+**Haven Rating:** ●●●
 
-&#x20;**Haven Rating:** ●●●
-
-* ↪ Luxur&#x79;**:** ●
-
-
+* ↪ **Luxury:** ●
 
 ## 💎 Coterie Advantages
 
-* **Bolt Holes**: ●
+* **Bolt Holes:** ●
 
 **Clan Merits:**
 
-* &#x20;**Call To Purpose:** ●●
-* **All Access**: ●
+* **Call To Purpose:** ●●
+* **All Access:** ●
 
 ## 👥 Members
 
@@ -54,4 +51,3 @@ The coterie maintains one haven.
 ## 🤝 Pooled Backgrounds
 
 * **Allies:** ●● (Overworked medical staff)
-
