@@ -7,15 +7,15 @@
 ## 🏰 Domain Traits
 
 * **Domain:** ●
-* **Location:** Marché Maisonneuve (Mercier Hochelaga Maisonneuve)
+* **Location:** #Mercier-Hochelaga-Maisonneuve - Marché Maisonneuve
 * **Chasse:** ●
 * **Lien:** ●(●●)
-* ↪ **Market Place:** ●● **Portillon:** ●
+  * ↪ **Market Place:** ●●
+* **Portillon:** ●
 
 ## 📍 Location Details
 
-**Primary HQ:** Marché Maisonneuve
-
+* **Primary HQ:** Marché Maisonneuve
 * **Coordinates:** `45.5505, -73.5461`
 * **Description:** A beaux-arts public market building featuring brick columns and arched windows.
 * **Hunting:** Alleycat DC 2.
@@ -32,8 +32,8 @@
 
 **Clan Merits:**
 
-* <:Brujah:1134621764660510842> **Boot and Rally** (Brujah): ●
-* <:Ventrue:1134621798365921342> **Pack Tactics** (Gangrel): ●●●
+* **Boot and Rally** (Brujah): ●
+* **Pack Tactics** (Gangrel): ●●●
 
 ## 👥 Members
 
