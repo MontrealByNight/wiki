@@ -11,6 +11,7 @@ You can find [here](https://montrealbynight.github.io/wiki/map/) a link to the m
 ![Camarilla](../.gitbook/assets/Camarilla.png) Camarilla Coteries
 
 * ⚜️: [Maison Des Lys Violets Coterie](../coteries/maison-des-lys-violets.md)
+* 🏥: [The Night Shift Coterie](../coteries/the-night-shift.md)
 
 ![Anarch](../.gitbook/assets/Anarch.png) Anarchs Coteries
 
