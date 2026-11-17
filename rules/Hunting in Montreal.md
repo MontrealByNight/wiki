@@ -149,7 +149,7 @@ Locations:
 ## Blood Leech
 
 Blood leech can hunt anywhere at DC 5. A bestial failure or a messy crit will have very heavy implication for the character.\
-&#xNAN;_&#x59;ou can not use this hunting pool to find the blood of a kindred to learn a new discipline._
+**You can not use this hunting pool to find the blood of a kindred to learn a new discipline.**
 
 * Strength + Brawl (beating an opponent)
 * Persuasion + Manipulation (seducing a victim)
