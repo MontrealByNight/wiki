@@ -188,7 +188,7 @@ Locations:
   * DC 3
 * ![Anarch](../.gitbook/assets/Anarch.png) #Montreal-Nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 3
-* ![Indie](../.gitbook/assets/Indie.png) #The-Old-Port - Place Jacques-Cartier: contains a lot of dark spots, few alleys away from the more touristic attractions.
+* ![Indie](../.gitbook/assets/Indie.png) #The-Old-Port - Place Jacques-Cartier: A lively, historic square stretching down toward the river, lined with cobblestone paths and bordered by stone façades under the glow of old-fashioned streetlights. Shadows pool between the buildings, creating hidden nooks amidst the centuries-old architecture.
   * DC 4
 
 ## Farmer
