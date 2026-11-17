@@ -16,4 +16,4 @@ This is our exclusive Bloodline for Koldunic Tzimisce. This effectively replaces
 
 This is our esclusive Bloodline for Ministry Sorcerer.
 
-![Descendant of Dracula](../../.gitbook/assets/kemintirii.png)
+![Descendant of Kemintiri](../../.gitbook/assets/kemintirii.png)

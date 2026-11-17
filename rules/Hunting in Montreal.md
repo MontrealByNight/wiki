@@ -188,7 +188,7 @@ Locations:
   * DC 3
 * ![Anarch](../.gitbook/assets/Anarch.png) #Montreal-Nord - Emmanuel church: the low income and gentrified neighbourhood of the Emmanuel church has an high number of families scattered in the area.
   * DC 3
-* ![Indie](../.gitbook/assets/Indie.png) #The-Old-Port - The Labyrinth alleys. The old port contains a lot of dark spots, few alleys away from the more turistic attactions. - Place Jacques-Cartier contains a lot of dark spots, few alleys away from the more turistic attactions.
+* ![Indie](../.gitbook/assets/Indie.png) #The-Old-Port - Place Jacques-Cartier: contains a lot of dark spots, few alleys away from the more touristic attractions.
   * DC 4
 
 ## Farmer
@@ -218,7 +218,7 @@ Locations:
 * ![Camarilla](../.gitbook/assets/Camarilla.png) #Montreal-West: Verdun hospital: a small hospital near the river.
   * DC 3
 * ![Anarch](../.gitbook/assets/Anarch.png) #Mercier-Hocelaga-Maissonneuve Le Repos Saint-François d'Assise: A major graveyard located just slight north of citè Jardin
-  * DC 3
+  * DC 2
 * ![Indie](../.gitbook/assets/Indie.png) #Mont-Royal-Plateau - Mount Royal Cemetery: The biggest graveyard at the heart of the city. Mostly old burials, but some parts are still actively being used
   * DC 2
 
@@ -287,7 +287,7 @@ This Kindred feeds exclusively from the transient population. From the Truckers,
 Locations:
 
 * ![Camarilla](../.gitbook/assets/Camarilla.png) #Elliot-Trudeau-International-airport: The main international airport and the surrounding area are always full of people in transit
-  * DC 3
+  * DC 2
 * ![Anarch](../.gitbook/assets/Anarch.png) #Mercier-Hochelaga-Maisonneuve Charron Island: A small pier on the island is the host of many turistic tracts and some commercial boats might stop there as well
   * DC 3
 * ![Indie](../.gitbook/assets/Indie.png) #Mont-Royal-Plateau The Mount Royal, the main attraction of the city, is a place ripe of tourists of all kind.
