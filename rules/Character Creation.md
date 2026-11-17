@@ -104,7 +104,7 @@ The chronicle tenets _can_ be willingly broken by the character.
 * Every character has 7 points to distribuite between Merits, Backgrounds and Loresheets.
 * There is an hard cap of 2 different Loresheets at character creation. A bloodline or a 'descendant of' Loresheet are not included in this limit. More Loresheets can be acquired with play, but it's important to keep in mind that every additional Loresheets becomes harder to acquire.
 * For backgrounds and Loresheets, there is a soft caps of 3 at CC. There are some exceptions where a an higher level of a loresheet can be taken it at CC, but is really uncommon and it's at ST discreption.&#x20;
-* Also, while we usually approve Loresheets at the third dot at CC, we do not approve more than one LS at that level. Please refer to the extended section about [Loresheets](https://montreal-by-night.gitbook.io/mtrwiki/rules/loresheets).
+* Also, while we usually approve Loresheets at the third dot at CC, we do not approve more than one LS at that level. Please refer to the extended section about [Loresheets](https://montreal-by-night.gitbook.io/mtrwiki/rules/discipline-and-advantages/loresheets).
 * Ancillae characters have more loose restrictions, but they are still in place.
 * Every character has 2 points of flaws. You can have more flaws than 2, but they won't give you any bonus or extra merit points.
 * It's very hard that we allow Characters to start with an Influence at 3, so multiple influences at that level are not allowed at Character Creation.
