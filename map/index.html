@@ -128,8 +128,8 @@
                     var textAfterStart = markdownText.substring(startIndex + searchString.length);
                     
                     // --- THE NEW STOPPER ---
-                    // Stops reading at the next location (\n* **), a new heading (\n##), or a divider (\n---)
-                    var stopRegex = /\n(?:\*\s\*\*|##|---)/;
+                    // Stops reading at the next location (\n* **), a new heading (\n##), or a divider (\n--- or \n***)
+                    var stopRegex = /\n(?:\*\s\*\*|##|---|\*\*\*)/;
                     var stopMatch = textAfterStart.match(stopRegex);
                     
                     var rawBlock = stopMatch ? textAfterStart.substring(0, stopMatch.index) : textAfterStart;
