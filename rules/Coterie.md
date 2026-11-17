@@ -31,11 +31,11 @@ Each coterie member can "pool" together their backgrounds with the coterie, so t
 >
 > And vice versa, Abel can use the 3 dots contact of his coterie mate. This still consume the dots as normal, so be carefull and plan those expenditures with your coterie mates.
 
-Some backgrounds can be pooled, but they almost never do not stack directly.
+Some backgrounds can be pooled, but they almost never stack directly.
 
 Having two different players with 2 dots each in `Influence [Criminal world]` does not mean that they can pool it together to have 4 dots of `Influence [Criminal world]`.
 
-Even if those background can be accessed by the whole coterie, they do stack and create higher levels.
+Even if those backgrounds can be accessed by the whole coterie, they do not stack and create higher levels.
 
 The exception is for the haven. Two players having a 1 dot haven might forfeit that to get a bigger, shared haven that's worth 2 dots.
 

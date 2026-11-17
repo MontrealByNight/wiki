@@ -396,6 +396,7 @@
 * One of Hesha's Works
 * Something Esha Wants
 * Museum of the Faithful
+* Blood Cult
 * Hear the Blood Sing
 
 **The Church of Set** (Page 193) - *[Restriction: Church of Set members only]*
